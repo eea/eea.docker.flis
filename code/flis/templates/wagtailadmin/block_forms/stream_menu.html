@@ -1,0 +1,19 @@
+{% load static %}
+<div class="stream-menu {% if state == 'closed' %}stream-menu-closed{% endif %}" id="{{ menu_id }}">
+    <a href="#" class="toggle"><span>Insert block</span></a>
+    <div class="stream-menu-inner">
+        <ul>
+            {% for child_block in child_blocks %}
+                <li>
+
+                  <button type="button" class="button action-add-block-{{ child_block.name }} {% if not child_block.meta.image %}icon icon-{{ child_block.meta.icon }}{% endif %}">
+                    {% if child_block.meta.image %}
+                      <img src="{% static child_block.meta.image %}" />
+                    {% endif %}
+                    <span>{{ child_block.label }}</span>
+                  </button>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

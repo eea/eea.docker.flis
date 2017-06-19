@@ -1,0 +1,28 @@
+{% load wagtailcore_tags %}
+<div class="layout--dark">
+  <div class="block">
+    <h2 class="block__title">ASSESMENTS OF USES</h2>
+    <div class="block__content">
+      <div class="row">
+        {% for assesment in assesments %}
+          <div class="col-xs-12 col-sm-4"><div class="box">
+            <a href="{% pageurl assesment %}" title="{{ assesment.title }}" class="doc-item">
+              <div class="doc-item__icon">
+                <i class="icon icon--docs"></i>
+              </div>
+              <div class="doc-item__date">{{ assesment.start_date }}</div>
+              <h3 class="doc-item__title">{{ assesment.title|truncatewords:9 }}</h3>
+              <div class="doc-item__description">{{ assesment.lead_author|truncatewords:17 }}</div>
+              <div class="doc-item__footer">
+                {% if assesment.geographical_scope %}<span class="label">{{ assesment.geographical_scope.title }}</span>{% endif %}
+                {% for country in assesment.countries.all %}<span class="label">{{ country.name }}</span>{% endfor %}
+                {% if assesment.environmental_themes.all.0 %}<span class="label">{{ assesment.environmental_themes.all.0.title }}</span>{% endif %}
+              </div>
+            </a>
+          </div></div>
+        {% endfor %}
+      </div>
+      {% include_block self.read_more_link with style="light" %}
+    </div>
+  </div>
+</div>

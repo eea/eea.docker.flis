@@ -1,0 +1,45 @@
+{% extends 'pages/static_page.html' %}
+{% load static wagtailcore_tags page_tags %}
+
+{% block content %}
+  <div class="layout--default-narrow pt-50">
+  <div class="block">
+    <h2 class="block__title">{{ self.title }}</h2>
+
+    <nav class="nav-horizontal">
+      <b>Filter:</b>
+      <a class="nav-horizontal__link nav-horizontal__link--orange {% if not request.GET.type_of_signal %}is-active{% endif %}" href="{% pageurl self %}">
+        All
+      </a>
+      {% for type_of_signal in types_of_signals %}
+      <a class="nav-horizontal__link nav-horizontal__link--lime {% if request.GET.type_of_signal == type_of_signal.slug %}is-active{% endif %}" href="?type_of_signal={{ type_of_signal.slug }}">
+        {{ type_of_signal.title }}
+      </a>
+      {% endfor %}
+    </nav><br/>
+
+    <div class="block__content">
+      <div class="row">
+        {% for signal in signals %}
+          {% include 'flis_horison_scanning/partials/_signal_item.html' %}
+        {% endfor %}
+      </div>
+
+      {% if signals.has_previous or signals.has_next %}
+      <div class="pagination">
+        {% if signals.has_previous %}
+          <a class="pagination__item" href="?page={{ signals.previous_page_number }}{% if request.GET.type_of_signal %}&type_of_signal={{ request.GET.type_of_signal }}{% endif %}"><i class="icon icon--arrow-left"></i></a>
+        {% endif %}
+        {% for page_num in signals.paginator.page_range %}
+          <a class="pagination__item {% if page_num == signals.number %}pagination__item--active{% endif %}" href="?page={{ page_num }}{% if request.GET.type_of_signal %}&type_of_signal={{ request.GET.type_of_signal }}{% endif %}">{{ page_num }}</a>
+        {% endfor %}
+        {% if signals.has_next %}
+          <a class="pagination__item" href="?page={{ signals.next_page_number }}{% if request.GET.type_of_signal %}&type_of_signal={{ request.GET.type_of_signal }}{% endif %}"><i class="icon icon--arrow-right"></i></a>
+        {% endif %}
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+{% endblock %}

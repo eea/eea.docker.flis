@@ -1,0 +1,202 @@
+{% extends 'pages/static_page.html' %}
+{% load static wagtailcore_tags page_tags wagtailimages_tags %}
+
+{% block header %}
+  {% if self.cover_image %}
+    {% page_header self.title self.type_of_signal 'sunset' 'red' self.cover_image %}
+  {% else %}
+    <div class="container">
+      <h1 class="text-center">{{ self.title }}</h1>
+    </div>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  <div class="layout--white">
+  <div class="block">
+    <div class="block__content">
+      <div class="row">
+          <div class="col-xs-12">
+            <div class="box">
+              <div class="change-item">
+                <div class="text-left">
+
+                  {% if self.short_title %}
+                    <div class="field field--inline">
+                      <div class="field__label">Short title:</div> <div class="field__value">{{ self.short_title }}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.type_of_signal %}
+                    <div class="field field--inline">
+                      <div class="field__label">Type of signal:</div> <div class="field__value">{{ self.type_of_signal }}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.geographical_scope %}
+                    <div class="field field--inline">
+                      <div class="field__label">Geographical scope:</div> <div class="field__value">{{ self.geographical_scope }}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.description %}
+                    <div class="field">
+                      <div class="field__label">Description:</div> <div class="field__value">{{ self.description|richtext }}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.images.all %}
+                    <div class="images-gallery">
+                      <div class="row">
+                        {% for image in self.images.all %}
+                          <div class="col-xs-12 col-sm-6 col-md-4 images-gallery__item">
+                              {% image image.image original as temp_image %}
+                              <a data-featherlight="{{ temp_image.url }}" class="swipebox" title="{{ image.caption }}" href="{{ temp_image.url }}">
+                                {% image image.image width-400 as temp_image %}
+                                <img class="img-responsive" src="{{ temp_image.url }}">
+                              </a>
+                              <div class="narrow-container text-center">
+                                <b>{% if image.caption %}{{ image.caption }}{% else %}{{ image.image.title }}{% endif %}</b>
+                                <div>{{ image.image.copyright }}</div>
+                              </div>
+                          </div>
+                          {% if forloop.counter|divide:3 == 1 %}</div><div class="row">{% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.origin_of_signal %}
+                    <div class="field field--inline">
+                      <div class="field__label">Origin of signal:</div> <div class="field__value">{{ self.origin_of_signal }}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.time_horizon %}
+                    <div class="field field--inline">
+                      <div class="field__label">Time horizon:</div> <div class="field__value">{{ self.time_horizon }}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.overall_impact %}
+                    <div class="field field--inline">
+                      <div class="field__label">Overall impact:</div> <div class="field__value">{{ self.overall_impact }}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.impact_description %}
+                    <div class="field">
+                      <div class="field__label">Impact on the European environment:</div> <div class="field__value">{{ self.impact_description|richtext }}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.implications %}
+                    <div class="paragraph paragraphs-without-margins">
+                      <div class="field__label">Implications for environmental policy in Europe:</div> <div class="field__value">{{ self.implications|richtext }}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.indicators.all %}
+                    <div class="field">
+                      <div class="field__label">Indicator:</div> <div class="field__value">{% for indicator in self.indicators.all %}{{ indicators }}{% endfor %}</div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.signal_sources.all %}
+                    <div class="field">
+                      <div class="field__label">Sources:</div>
+                      <div class="field__value">
+                        <ul class="mt-0 list-unstyled">
+                        {% for source in self.signal_sources.all %}
+                          <li class="paragraphs-without-margins">{{ source.source|richtext }}</li>
+                        {% endfor %}
+                        </ul>
+                      </div>
+                    </div>
+                  {% endif %}
+
+                  {% if self.eea_indicators.all %}
+                    <div class="field">
+                      <div class="field__label">Related Indicators:</div>
+                      <div class="field__value">
+                        <ul>
+                        {% for eea_indicator in self.eea_indicators.all %}
+                          <li><a href="{{ eea_indicator.url }}">{{ eea_indicator.title }}</a></li>
+                        {% endfor %}
+                        </ul>
+                      </div>
+                    </div>
+                  {% endif %}
+
+                {% if self.strategies.all %}
+                    <div class="field">
+                      <div class="field__label">EU strategies relevant to the signal:</div>
+                      <div class="field__value">
+                        <ul>
+                        {% for strategy in self.strategies.all %}
+                          <li>{{ strategy.title }}</li>
+                        {% endfor %}
+                        </ul>
+                      </div>
+                    </div>
+                  {% endif %}
+
+                {% if self.date_of_signal_detection %}
+                  <div class="field field--inline">
+                    <div class="field__label">Date of signal detection:</div> <div class="field__value">{{ self.date_of_signal_detection }}</div>
+                  </div>
+                {% endif %}
+
+                {% if self.date_of_signal_detection %}
+                  <div class="field field--inline">
+                    <div class="field__label">Date of last modification to the signal:</div> <div class="field__value">{{ self.date_of_last_modification }}</div>
+                  </div>
+                {% endif %}
+
+                {% if self.likelihood or self.severity %}
+                  <div class="field">
+                    <div class="field__label">Relevance of the signal:</div>
+                    <div class="field__value">
+                      <ul>
+                        {% if self.likelihood  %}<li>Likelihood: {{ self.likelihood }}</li>{% endif %}
+                        {% if self.severity  %}<li>Severity: {{ self.severity }}</li>{% endif %}
+                      </ul>
+                    </div>
+                  </div>
+                {% endif %}
+
+                {% if self.keywords.all %}
+                  <div class="field field--inline">
+                    <div class="field__label">Keywords:</div>
+                    <div class="field__value">
+                      <ul class="mt-0 list-commaseparated">
+                        {% for keyword in self.keywords.all %}
+                          <li>{{ keyword }}</li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  </div>
+                {% endif %}
+
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+  {#<link rel="stylesheet" href="{% static "vendors/swipebox/css/swipebox.min.css" %}">#}
+  <link rel="stylesheet" href="{% static "vendors/fluidbox/css/fluidbox.css" %}">
+{% endblock extra_css %}
+
+{% block extra_js %}
+{#  <script src="{% static "vendors/swipebox/js/jquery.swipebox.min.js" %}"></script>#}
+  <script src="{% static "vendors/fluidbox/js/jquery.fluidbox.js" %}"></script>
+  <script>
+    $('.swipebox').fluidbox();
+  </script>
+{% endblock extra_js %}

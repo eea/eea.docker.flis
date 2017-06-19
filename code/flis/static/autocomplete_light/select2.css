@@ -1,0 +1,128 @@
+.select2-container {
+    min-width: 20em;
+}
+
+ul li.select2-selection__choice,
+ul li.select2-search {
+    /* Cancel out django's style */
+    list-style-type: none;
+}
+
+
+/**
+ * Tweaking select2 to match the look of Wagtail selects.
+ */
+.select2-container .select2-selection--single {
+    height: 48px;
+}
+
+.select2-container .select2-selection--multiple {
+    min-height: 48px;
+}
+
+.select2-container--default {
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection {
+    border:0;
+    border-radius: 0;
+    background: none;
+}
+
+.select2-container--default .select2-selection .select2-selection__rendered {
+    line-height: 48px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 100%;
+    font-family: Open Sans,Arial,sans-serif;
+    border: 1px solid #e6e6e6;
+    padding: 0 1.2em;
+    background-color: #fafafa;
+    -webkit-appearance: none;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 300;
+    outline: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    height: 48px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    min-height: 48px;
+    height: auto;
+
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: 0;
+}
+
+.select2-container--default .select2-selection .select2-selection__clear {
+    z-index: 1000;
+    color: #D9D9D9;
+    background: #fafafa;
+    border-left: 1px solid #e6e6e6;
+    width: 60px;
+    height: 99%;
+    margin-right: -20px;
+    text-align: center;
+    font-size: 40px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.select2-dropdown {
+    padding: 5px;
+    background-color: white;
+    border-color: #e6e6e6;
+    border-radius: 6px;
+}
+
+.select2-results {
+    padding: 5px;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border-color: #54d0d0;
+    background-color: #f4fcfc;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border-radius: 2px;
+    background-color: #43b1b0;
+    padding-right: 0.5em;
+    padding: 0 0.5em;
+    color: #fff;
+    line-height: 41px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff;
+}
+
+.taggit_select2 .select2-selection__choice {
+    position: relative;
+    margin-right: 30px !important;
+}
+
+.taggit_select2 .select2-selection__choice:before {
+    font-family: wagtail;
+    display: inline-block;
+    color: #fff;
+    content: 'u';
+    padding-right: 0.5em;
+}
+
+.taggit_select2 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    position: absolute;
+    right: -20px;
+    z-index: 1;
+    color: #d9d9d9;
+    font-size: 24px;
+    font-weight: bold;
+}

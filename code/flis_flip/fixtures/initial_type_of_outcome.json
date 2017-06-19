@@ -1,0 +1,92 @@
+[
+{
+  "model": "flis_flip.typeofoutcome",
+  "pk": 1,
+  "fields": {
+    "title": "Key messages",
+    "blossom": true,
+    "doc_type": "all",
+    "sort_id": 1
+  }
+},
+{
+  "model": "flis_flip.typeofoutcome",
+  "pk": 2,
+  "fields": {
+    "title": "Governance practice (governance, institutional set up, regular mechanisms and processes, actors, culture, level of political support)",
+    "blossom": true,
+    "doc_type": "all",
+    "sort_id": 2
+  }
+},
+{
+  "model": "flis_flip.typeofoutcome",
+  "pk": 3,
+  "fields": {
+    "title": "Methods and methodologies in the forward-looking activities",
+    "blossom": true,
+    "doc_type": "assessment",
+    "sort_id": 3
+  }
+},
+{
+  "model": "flis_flip.typeofoutcome",
+  "pk": 4,
+  "fields": {
+    "title": "Communication approaches",
+    "blossom": false,
+    "doc_type": "all",
+    "sort_id": 4
+  }
+},
+{
+  "model": "flis_flip.typeofoutcome",
+  "pk": 5,
+  "fields": {
+    "title": "Successes in use of forward-looking information in policy making",
+    "blossom": false,
+    "doc_type": "all",
+    "sort_id": 5
+  }
+},
+{
+  "model": "flis_flip.typeofoutcome",
+  "pk": 6,
+  "fields": {
+    "title": "Barriers in use of forward-looking information in policymaking",
+    "blossom": false,
+    "doc_type": "all",
+    "sort_id": 6
+  }
+},
+{
+  "model": "flis_flip.typeofoutcome",
+  "pk": 7,
+  "fields": {
+    "title": "SWOT diagram",
+    "blossom": false,
+    "doc_type": "all",
+    "sort_id": 7
+  }
+},
+{
+  "model": "flis_flip.typeofoutcome",
+  "pk": 8,
+  "fields": {
+    "title": "Interviews and other participatory approaches",
+    "blossom": false,
+    "doc_type": "assessment",
+    "sort_id": 8
+  }
+},
+{
+  "model": "flis_flip.typeofoutcome",
+  "pk": 9,
+  "fields": {
+    "title": "Report",
+    "blossom": false,
+    "doc_type": "all",
+    "sort_id": null
+  }
+}
+]

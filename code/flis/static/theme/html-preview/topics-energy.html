@@ -1,0 +1,290 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HTML prototype</title>
+    <meta name="description" content="Bootsmacss page's HTML prototype">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+  </head>
+
+  <body>
+<div class="wrapper container-fluid">
+  <header class="layout--header">
+    <div class="layout--header__logo">
+      <a href="index.html" class="logo" title="Home"></a>
+    </div>
+    <div class="layout--header__menu">
+      <input class="layout--header__menu-input" id="dropdown-toggle" type="checkbox" name="dropdown" />
+      <label class="layout--header__menu-label hidden-md hidden-lg" for="dropdown-toggle" title="Toggle menu">
+        <i class="icon icon--menu"></i>
+      </label>
+      <nav class="nav-horizontal">
+        <a class="nav-horizontal__link nav-horizontal__link--orange" href="topics.html">FLIS Topics</a>
+        <div class="nav-horizontal__submenu">
+          <div class="nav-horizontal__arrow"><i class="icon icon--vector"></i></div>
+          <a class="nav-horizontal__link nav-horizontal__link--black" id="topics-resources" href="topics-resources.html">Resources Nexus</a>
+          <a class="nav-horizontal__link nav-horizontal__link--lime" id="topics-food" href="topics-food.html">Food</a>
+          <a class="nav-horizontal__link nav-horizontal__link--orange" id="topics-energy" href="topics-energy.html">Energy</a>
+          <a class="nav-horizontal__link nav-horizontal__link--aqua" id="topics-water" href="topics-water.html">Water</a>
+        </div>
+        <a class="nav-horizontal__link nav-horizontal__link--right" href="#">FlIS platform</a>
+      </nav>
+    </div>
+    <div class="layout--header__user">
+      <div class="dropdown hidden-md hidden-lg">
+        <input class="dropdown__input" id="menu-toggle" type="checkbox" name="dropdown" />
+        <label class="dropdown__label" for="menu-toggle"  title="Toggle user menu">
+          <i class="icon icon--user"></i>
+        </label>
+        <div class="dropdown__inner">
+          <nav class="dropdown__nav">
+            <a href="#" class="nav-vertical__link">Login</a>
+            <a href="#" class="nav-vertical__link">Administration</a>
+            <a href="#" class="nav-vertical__link">Search</a>
+          </nav>
+        </div>
+      </div>
+      <nav class="nav-vertical visible-md visible-lg">
+        <a href="#" class="nav-vertical__link">Login</a>
+        <a href="#" class="nav-vertical__link">Administration</a>
+        <a href="#" class="nav-vertical__link">Search</a>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<main class="wrapper container-fluid">
+  <div class="cover cover--orange">
+    <div class="cover__image-container">
+      <img src="../images/jpg/TOPICS_ENERGY.jpg" alt="" class="cover__image">
+    </div>
+    <div class="cover__box">
+      <div class="cover__text">
+        <div class="cover__pretitle">FLIS topics</div>
+        <h2 class="cover__title">Energy<br />story</h2>
+        <i class="cover__icon icon icon--lighting"></i>
+        <div class="cover__description">The EU countries are on track to make renewable energies 20% of final energy consumption by 2020 and have set a new target of 27% by 2030. In the European...</div>
+      </div>
+      <a href="#" class="btn">Find out more</a>
+    </div>
+  </div>
+
+  <div class="layout--white">
+    <div class="block block--title-decoration">
+      <h2 class="block__title">Table of contents</h2>
+      <div class="block__content">
+        <a href="topics-energy-story.html" class="dictionary-item dictionary-item--variation">
+          <div class="dictionary-item__letter">1</div>
+          <h3 class="dictionary-item__title">The European Union Energy System</h3>
+          <div class="dictionary-item__description">
+            <p>Understanding supply: Where does your energy come from?</p>
+            <p>Understanding demand: how is energy used?</p>
+          </div>
+        </a>
+
+        <a href="topics-energy-story.html" class="dictionary-item dictionary-item--variation">
+          <div class="dictionary-item__letter">2</div>
+          <h3 class="dictionary-item__title">The European Union Energy System</h3>
+          <div class="dictionary-item__description">
+            <div class="dictionary-item__description">
+              <p>GMT 7 Population growth and a rise in economic inputs will lead to an increase in energy demand</p>
+              <p>GMT 4 Technology for energies: will it help us move towards a low carbon future or facilitate the continued use of fossil fuels?</p>
+              <p>GMT 2 What role will cities play in the future of energy?</p>
+              <p>GMT 9 The increasing impact of climate change on human health, the environment and ecosystems</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="topics-energy-story.html" class="dictionary-item dictionary-item--variation">
+          <div class="dictionary-item__letter">3</div>
+          <h3 class="dictionary-item__title">Current EU food consumption and the environment</h3>
+          <div class="dictionary-item__description">
+            <p>GMT 7 Population growth and a rise in economic inputs will lead to an increase in energy demand</p>
+            <p>GMT 4 Technology for energies: will it help us move towards a low carbon future or facilitate the continued use of fossil fuels?</p>
+            <p>GMT 2 What role will cities play in the future of energy?</p>
+            <p>GMT 9 The increasing impact of climate change on human health, the environment and ecosystems</p>
+          </div>
+        </a>
+
+        <div class="text-center">
+          <a href="#" class="btn">Download as PDF</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-switch">
+    <div class="page-switch__prev">
+    </div>
+    <div class="page-switch__current">
+      <div class="page-switch__label">Current:</div>
+      Table of Contents
+    </div>
+    <div class="page-switch__next">
+      <div class="page-switch__label">Next:</div>
+      <a href="#" class="page-switch__link">The European Union Energy System</a>
+    </div>
+  </div>
+
+  <div class="layout--default">
+    <div class="block">
+      <h2 class="block__title">Related stories</h2>
+      <div class="block__content">
+        <a href="#" class="topics-item topics-item--black topics-item--big">
+          <img src="../images/jpg/topics.jpg" alt="" class="topics-item__image" />
+          <div class="topics-item__hexagon"></div>
+          <h3 class="topics-item__title">Resources nexus</h3>
+        </a>
+        <a href="#" class="topics-item topics-item--orange topics-item--big">
+          <img src="../images/jpg/TOPICS_ENERGY.jpg" alt="" class="topics-item__image" />
+          <div class="topics-item__hexagon"></div>
+          <h3 class="topics-item__title">Energy</h3>
+        </a>
+        <a href="#" class="topics-item topics-item--aqua topics-item--big">
+          <img src="../images/jpg/TOPIC_WATER.jpg" alt="" class="topics-item__image" />
+          <div class="topics-item__hexagon"></div>
+          <h3 class="topics-item__title">Water</h3>
+        </a>
+        <div class="clearfix"></div>
+        <div class="text-center">
+          <a href="#" class="btn">All of stories</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="designs designs--topics-energy"></div>
+
+<footer class="layout--footer">
+  <div class="wrapper container-fluid text-center">
+    <div class="row">
+      <div class="col-xs-12 col-sm-7"><div class="box">
+        <div class="block">
+          <h2 class="block__title">Subscribe</h2>
+          <div class="block__content">
+            <form>
+              <div class="row">
+                <div class="col-xs-6 col-lg-7"><div class="box">
+                  <div class="form-item">
+                    <input name="textInput" type="text" placeholder="e-mail">
+                  </div>
+                </div></div>
+                <div class="col-xs-6 col-lg-4 col-lg-offset-1"><div class="box">
+                  <input type="submit" class="btn btn--block" value="Subscribe">
+                </div></div>
+              </div>
+            </form>
+          </div>
+        </div></div>
+        <div class="row">
+          <div class="col-xs-12 col-lg-5"><div class="box">
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Flis topics</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Water</a>
+                  <a class="nav-vertical__link" href="#">Food</a>
+                  <a class="nav-vertical__link" href="#">Energy</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Foresight dictionary</h2></a>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Horison Scanning</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Drivers of change</a>
+                  <a class="nav-vertical__link" href="#">Reports</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Products & Reports</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Lorem ipsum</a>
+                </nav>
+              </div>
+            </div>
+
+          </div></div>
+          <div class="col-xs-12 col-lg-7"><div class="box">
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Flis community</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Who we are</a>
+                  <a class="nav-vertical__link" href="#">What we do</a>
+                  <a class="nav-vertical__link" href="#">How we work</a>
+                  <a class="nav-vertical__link" href="#">Stakeholders</a>
+                  <a class="nav-vertical__link" href="#">Links to other institutions</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Uses of Foresight in Policy Making   </h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Added value of foresight</a>
+                  <a class="nav-vertical__link" href="#">Foresight in Policy Cycle</a>
+                  <a class="nav-vertical__link" href="#">Assessments of uses</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Methods & Methodologies</h2></a>
+            </div>
+
+          </div></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-1"><div class="box">
+        <div class="layout--contact-block">
+          <div class="block">
+            <h2 class="block__title">Contact us</h2>
+            <div class="block__content">
+              <p>Nunc sit amet dolor lobortis, sodales diam sed, facilisis mauris. Aenean in commodo mauris.</p>
+              <form>
+                <div class="form-item">
+                  <input name="name" type="text" placeholder="Name">
+                </div>
+                <div class="form-item">
+                  <input name="email" type="email" placeholder="E-mail">
+                </div>
+                <div class="form-item">
+                  <textarea name="message" rows="5" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center">
+                  <input type="submit" class="btn" value="Send message">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+  </div>
+</footer>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script>
+      // Add class to active primary navigation item
+      var url = window.location.pathname;
+      var filename = url.substring(url.lastIndexOf('/')+1).slice(0, -5);
+      document.getElementById(filename).className += " is-active";
+    </script>
+  </body>
+</html>

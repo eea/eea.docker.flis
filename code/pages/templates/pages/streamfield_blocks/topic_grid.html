@@ -1,0 +1,19 @@
+{% load wagtailimages_tags wagtailcore_tags page_tags %}
+{% if request.path == '/' and user.is_authenticated or request.path != '/' %}
+<div class="layout--default">
+  <div class="block">
+    <h2 class="block__title">{{ self.block_heading }}</h2>
+    <div class="block__content">
+      {% for topic in self.items %}
+      <a href="{% if topic.live %}{% pageurl topic %}{% else %}#{% endif %}" class="topics-item {% if topic.header_color %}topics-item--{{ topic.header_color }}{% endif %} {% if self.larger_images %}topics-item--big{% endif %}">
+        {% image topic.header_image fill-650x365 as tmp_image %}
+        <img src="{{ tmp_image.url }}" alt="" class="topics-item__image">
+        <div class="topics-item__hexagon"></div>
+        <h3 class="topics-item__title">{{ topic.title|strip_word:'Story' }}</h3>
+      </a>
+      {% endfor %}
+      {% include_block self.read_more_button %}
+    </div>
+  </div>
+</div>
+{% endif %}

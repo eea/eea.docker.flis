@@ -1,0 +1,90 @@
+//
+// Designs display on page  - pixel perfect tests
+// --------------------------------------------------
+
+
+// Displays designs on the prototype ass full page overlay.
+// Uncomment importing of this file in app.sass to compare prepared markup and
+// stylesheets with the graphical designs. With this simple tool you can perform
+// pixel-perfect tests.
+//
+// Store designs in `designs`folder in jpg/png extensions and paste its
+// URL into modifiers there.
+//
+// Add following code at the end of the comparing html file
+// (ex. html-prototypes-sandbox/index.html):
+// <div class="designs designs--name"></div>
+
+$designs-width: 2800px
+
+
+// Component
+// --------------------------------------------------
+.designs
+  position: absolute
+  top: -10px
+  left: 50%
+  height: 9999px
+  width: $designs-width / 2
+  margin: 0 (-$designs-width/4)
+  background-position: top
+  background-size: contain
+  background-repeat: no-repeat
+  z-index: -100
+
+header,
+main,
+*[class^="layout"],
+*[class*=" layout"],
+footer
+  opacity: 0.6
+
+// Modifiers
+// --------------------------------------------------
+.designs--index
+  background-image: url('../designs/HP-1-1.jpg')
+
+.designs--topics
+  background-image: url('../designs/Topics-1.jpg')
+
+.designs--community
+  background-image: url('../designs/Community.jpg')
+
+.designs--dictionary
+  background-image: url('../designs/Dictionary.jpg')
+
+.designs--uses
+  background-image: url('../designs/Uses_of_Foresight_in_Policy_Making.jpg')
+
+.designs--horison-scanning
+  background-image: url('../designs/Horison_scanning.jpg')
+
+.designs--horison-scanning-single
+  background-image: url('../designs/Horison_scanning_single_node.jpg')
+
+.designs--methods
+  background-image: url('../designs/Methods_methodologies.jpg')
+
+.designs--topics-resources
+  background-image: url('../designs/Resources-1-1.png')
+
+.designs--topics-resources-story
+  background-image: url('../designs/Resources-1-2.png')
+
+.designs--topics-food
+  background-image: url('../designs/food-1-1.jpg')
+
+.designs--topics-food-story
+  background-image: url('../designs/food-1-2.jpg')
+
+.designs--topics-energy
+  background-image: url('../designs/Energy-1-1.png')
+
+.designs--topics-energy-story
+  background-image: url('../designs/Energy-1-2.png')
+
+.designs--topics-water
+  background-image: url('../designs/Water_1_1.jpg')
+
+.designs--topics-water-story
+  background-image: url('../designs/Water_1_2.jpg')

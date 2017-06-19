@@ -1,0 +1,30 @@
+.img-responsive
+  width: 100%
+  height: auto
+
+.font-weight-normal
+  font-weight: normal !important
+
+.pt-50
+  padding-top: 50px !important
+
+.mt-0
+  margin-top: 0 !important
+
+.text-transform-none
+  text-transform: none !important
+
+p.paragraphs-without-margins,
+.paragraphs-without-margins p
+  margin: 0 !important
+
+.list-commaseparated
+  display: inline-block
+  padding: 0
+  li
+    display: inline-block
+    &:after
+      content: ', '
+    &:last-child
+      &:after
+        content: ''

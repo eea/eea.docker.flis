@@ -1,0 +1,102 @@
+// Topics item
+//
+// Listing item of topics section
+
+// Block
+// --------------------------------------------------
+.topics-item
+  display: block
+  width: 50%
+  float: left
+  position: relative
+  overflow: hidden
+  text-align: center
+  &:last-of-type
+    margin-bottom: 50px
+  +breakpoint(tablet)
+    width: 33.33%
+
+// Elements
+// --------------------------------------------------
+.topics-item__image
+  position: absolute
+  left: 0
+  width: auto
+  height: 101%
+  transition: 100ms transform ease-in
+
+.topics-item__hexagon
+  background-color: $gray-lightest
+  margin: 86px auto 80px
+  opacity: 0.7
+  transition: 100ms transform ease-in
+  +hexagon(70px)
+
+.topics-item:hover
+  .topics-item__image,
+  .topics-item__hexagon,
+  .topics-item__title
+    transform: scale(1.02)
+
+.topics-item__title
+  position: absolute
+  left: 50%
+  top: 25%
+  height: 50%
+  width: 120px
+  margin: 0 -60px
+  display: flex
+  justify-content: center
+  text-align: center
+  flex-direction: column
+  color: #fff
+  font-family: $headings-font-family
+  font-size: 12px
+  font-weight: $font-weight-bold
+  text-transform: uppercase
+  vertical-align: middle
+  transition: 100ms transform ease-in
+
+// Modifiers
+// --------------------------------------------------
+*[class*="topics-item--"]
+  .topics-item__hexagon
+    opacity: 1
+  .topics-item__title
+    font-size: 16px
+
+.topics-item--lime
+  .topics-item__hexagon
+    background-color: $lime
+
+.topics-item--orange
+  .topics-item__hexagon
+    background-color: $orange
+
+.topics-item--purple
+  .topics-item__hexagon
+    background-color: $purple
+
+.topics-item--cherry
+  .topics-item__hexagon
+    background-color: $cherry
+
+.topics-item--red
+  .topics-item__hexagon
+    background-color: $red
+
+.topics-item--aqua
+  .topics-item__hexagon
+    background-color: $aqua
+
+.topics-item--big
+  +breakpoint(lg-desktop)
+    .topics-item__hexagon
+      margin: 142px auto 143px
+    .topics-item__image
+      width: 150%
+      margin-left: -25%
+
+.topics-item--black
+  .topics-item__hexagon
+    background-color: $gray-base

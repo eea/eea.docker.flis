@@ -1,0 +1,170 @@
+[
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 1,
+  "fields": {
+    "title": "Backcasting"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 2,
+  "fields": {
+    "title": "Environment scanning"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 3,
+  "fields": {
+    "title": "Explorative scenario"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 4,
+  "fields": {
+    "title": "Forecasting"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 5,
+  "fields": {
+    "title": "Impact assessment"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 6,
+  "fields": {
+    "title": "Normative scenario"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 7,
+  "fields": {
+    "title": "Pathways"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 8,
+  "fields": {
+    "title": "Qualitative"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 9,
+  "fields": {
+    "title": "Quantitative"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 10,
+  "fields": {
+    "title": "Roadmapping"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 11,
+  "fields": {
+    "title": "Strategy"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 12,
+  "fields": {
+    "title": "SWOT"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 13,
+  "fields": {
+    "title": "Tipping points"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 14,
+  "fields": {
+    "title": "Trends analysis"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 15,
+  "fields": {
+    "title": "Uncertainties"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 16,
+  "fields": {
+    "title": "Visions"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 17,
+  "fields": {
+    "title": "Weak signals"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 18,
+  "fields": {
+    "title": "Wild cards"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 19,
+  "fields": {
+    "title": "Wind tunneling"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 22,
+  "fields": {
+    "title": "Modelling"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 23,
+  "fields": {
+    "title": "Drivers of change analyses"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 24,
+  "fields": {
+    "title": "Delphi survey"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 25,
+  "fields": {
+    "title": "Risk assessment"
+  }
+},
+{
+  "model": "flis_flip.foresightapproach",
+  "pk": 26,
+  "fields": {
+    "title": "Other approaches"
+  }
+}
+]

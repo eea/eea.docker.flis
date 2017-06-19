@@ -1,0 +1,62 @@
+{% load wagtailcore_tags page_tags %}
+
+<div class="table-responsive">
+  <table>
+
+      {% if self.number or self.title %}
+      <caption>
+        <dl>
+          {% if self.number %}<dt>{{ self.number }}</dt>{% endif %}
+          {% if self.title %}<dd>{{ self.title }}</dd>{% endif %}
+        </dl>
+      </caption>
+      {% endif %}
+
+      {% if table_header %}
+          <thead>
+          <tr>
+              {% for column in table_header %}
+                  <th>
+                      {% if column.strip %}
+                          {% if html_renderer %}
+                              {{ column.strip|safe|linebreaksbr }}
+                          {% else %}
+                              {{ column.strip|linebreaksbr }}
+                          {% endif %}
+                      {% endif %}
+                  </th>
+              {% endfor %}
+          </tr>
+          </thead>
+      {% endif %}
+      <tbody>
+      {% for row in data %}
+          <tr>
+              {% for column in row %}
+                  {% if first_col_is_header and forloop.first %}
+                      <th>
+                          {% if column.strip %}
+                              {% if html_renderer %}
+                                  {{ column.strip|safe|linebreaksbr }}
+                              {% else %}
+                                  {{ column.strip|linebreaksbr }}
+                              {% endif %}
+                          {% endif %}
+                      </th>
+                   {% else %}
+                      <td>
+                          {% if column.strip %}
+                              {% if html_renderer %}
+                                  {{ column.strip|safe|linebreaksbr }}
+                              {% else %}
+                                  {% if forloop.counter == 1 %}<strong>{% endif %}{{ column.strip|linebreaksbr }}{% if forloop.counter == 1 %}</strong>{% endif %}
+                              {% endif %}
+                          {% endif %}
+                      </td>
+                   {% endif %}
+              {% endfor %}
+          </tr>
+      {% endfor %}
+      </tbody>
+  </table>
+</div>

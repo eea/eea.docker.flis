@@ -1,0 +1,28 @@
+// Section contact-block
+// --------------------------------------------------
+.layout--contact-block
+  padding: 90px 25px 40px
+  background-color: $red
+  color: #fff
+  text-align: center
+  z-index: 2
+  position: relative
+  .block__title
+    color: #fff
+    padding-bottom: 32px
+  .form-item
+    min-width: auto
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="search"],
+  textarea,
+  select
+    border-color: #fff
+    +placeholder(#fff)
+
+  +breakpoint(desktop)
+    margin-top: -90px

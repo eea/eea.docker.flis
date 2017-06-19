@@ -1,0 +1,57 @@
+{% load wagtailimages_tags page_tags %}
+<div class="layout--half-dark">
+  <div class="block">
+    <div class="block__content">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4"><div class="box">
+          <div class="team-item">
+            <div class="team-item__mask">
+              {% image self.first_testimonial.image width-170 as tmp_image %}
+              <img src="{{ tmp_image.url }}" alt="" class="team-item__portrait">
+            </div>
+            <div class="team-item__quotation-marks">
+              <i class="icon icon--quotation-mark-start"></i>
+              <i class="icon icon--quotation-mark-end"></i>
+            </div>
+            <div class="team-item__description">
+              {{ self.first_testimonial.text|safe }}
+            </div>
+            <div class="team-item__name">{{ self.first_testimonial.author }}</div>
+          </div>
+        </div></div>
+        <div class="col-xs-12 col-sm-4"><div class="box">
+          <div class="team-item">
+            <div class="team-item__mask">
+              {% image self.second_testimonial.image width-170 as tmp_image %}
+              <img src="{{ tmp_image.url }}" alt="" class="team-item__portrait">
+            </div>
+            <div class="team-item__quotation-marks">
+              <i class="icon icon--quotation-mark-start"></i>
+              <i class="icon icon--quotation-mark-end"></i>
+            </div>
+            <div class="team-item__description">
+              {{ self.second_testimonial.text|safe }}
+            </div>
+            <div class="team-item__name">{{ self.second_testimonial.author }}</div>
+          </div>
+        </div></div>
+        <div class="col-xs-12 col-sm-4"><div class="box">
+          <div class="team-item">
+            <div class="team-item__mask">
+              {% image self.third_testimonial.image width-170 as tmp_image %}
+              <img src="{{ tmp_image.url }}" alt="" class="team-item__portrait">
+            </div>
+            <div class="team-item__quotation-marks">
+              <i class="icon icon--quotation-mark-start"></i>
+              <i class="icon icon--quotation-mark-end"></i>
+            </div>
+            <div class="team-item__description">
+              {{ self.third_testimonial.text|safe }}
+            </div>
+            <div class="team-item__name">{{ self.third_testimonial.author }}</div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</div>

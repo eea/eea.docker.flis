@@ -1,0 +1,17 @@
+// Paragraphs
+//
+// Markup: html/paragraph.html
+//
+// Styleguide 1.2.2
+
+.paragraph
+  display: block
+  margin: 0 0 $paragraphs-margin
+  font-size: $font-size-large
+  line-height: $paragraphs-line-height
+  text-align: left
+  strong
+    font-weight: $font-weight-bold-serif
+
+*:not([class*="-item__"]) p
+  @extend .paragraph

@@ -1,0 +1,591 @@
+[
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 41,
+  "fields": {
+    "live": true,
+    "short_title": "Expanding workforces",
+    "title": "Economic and environmental impacts of expanding workforces",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-12T11:33:58.870Z",
+    "impact_type": 3,
+    "steep_category": 1,
+    "description": "Population trends directly influence economic\r\nproduction by shaping the size and age structure\r\nof the workforce. In many countries, strong\r\ngrowth in the working age population, alongside\r\nimprovements in human capital (e.g. health and\r\neducation) and investments in infrastructure and\r\ntechnology, have contributed to rapid economic\r\ngrowth in recent years (WEF, 2012).",
+    "sources": [
+      56
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 42,
+  "fields": {
+    "live": true,
+    "short_title": "employment of young workforce",
+    "title": "Employment opportunities and threats to social cohesion",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-12T11:36:36.257Z",
+    "impact_type": 1,
+    "steep_category": 4,
+    "description": "While the surge in workforce numbers offers the\r\npotential of rapid economic expansion, it also\r\ngenerates challenges. One important issue is the\r\nneed to create sufficient employment opportunities\r\nfor the young and fast-growing workforce. Failing\r\nto create such opportunities is a waste of valuable\r\nhuman resources and potentially a source of\r\nconflict.\r\nWhile the world as a whole reached a peak in its\r\nshare of young people (aged 15\u201324) around 1985\r\n(Figure 1.13), in the least developed countries this\r\npeak occurred in 2005 and is projected to remain\r\nhigh in the coming decades. By 2025, three quarters\r\nof the countries with youth bulges (particularly\r\nlarge cohorts in the 15\u201324 age bracket) will be\r\nlocated in sub-Saharan Africa, with the rest located\r\nin the Middle East and a few across Asia and the\r\nPacific Islands (Ortiz and Cummins, 2012). The\r\nlargest youth bulges are found in some of the\r\nworld's most fragile countries, which are likely to\r\nbe particularly vulnerable to civil unrest and illequipped\r\nto respond.",
+    "sources": [
+      56
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 43,
+  "fields": {
+    "live": true,
+    "short_title": "aging population burden",
+    "title": "Increasing burdens of ageing populations",
+    "geographical_scope": null,
+    "country": null,
+    "url": null,
+    "created": "2015-10-12T11:38:41.349Z",
+    "impact_type": 3,
+    "steep_category": 4,
+    "description": "\r\nIn other countries further advanced in the process\r\nof demographic transition, threats to social cohesion\r\nare more likely to arise from population ageing and\r\ndecline. While these trends may alleviate some of\r\nthe growth in demands on ecosystems, they can\r\nthreaten the social security and public health systems\r\nestablished in the context of growing working-age\r\npopulations. As old-age dependency ratios increase,\r\nthe social contract may come under strain. Public\r\nfinances could worsen as a smaller economically\r\nactive population is relied upon to provide for the\r\npensions, health care and other needs of the elderly.",
+    "sources": [
+      56
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 44,
+  "fields": {
+    "live": true,
+    "short_title": "Migration and workforces in developed regions",
+    "title": "Migration and workforces in developed regions",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-12T11:40:27.901Z",
+    "impact_type": 3,
+    "steep_category": 4,
+    "description": "In past decades, migration from developing\r\nregions has often delivered economic benefits to\r\nthe advanced economies. In addition to mitigating\r\npopulation ageing (in part by affecting fertility\r\nrates), immigration can increase the working-age\r\npopulation and offering valuable skills to the labour\r\nmarket. It is estimated, for example, that 30 % of\r\nmigrants in the OECD have tertiary education\r\n(OECD and UNDESA, 2013). Migration flows have\r\nalso brought changes in the ethnic and cultural\r\ncomplexion in the recipient countries.\r\nFor developing regions, past migration flows have\r\nbrought significant costs but also some benefits.",
+    "sources": [
+      56
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 58,
+  "fields": {
+    "live": true,
+    "short_title": "Economic development and quality of life",
+    "title": "Economic development and quality of life",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T13:22:24.014Z",
+    "impact_type": 3,
+    "steep_category": 1,
+    "description": "The huge growth in urban populations is closely\r\nbound to the fundamental rebalancing of economic\r\npower globally (GMT 6) and associated social\r\nchanges. Cities are on the forefront of economic\r\nwealth creation, as most innovation and paid\r\nemployment tends to be located in urban areas.\r\nAs illustrated in Figure 2.1 and 2.9, the extent of a\r\ncountry's urbanisation is closely correlated to its\r\neconomic output. Cities are thus playing a central\r\nrole in the emergence of the global consumer society,\r\ndriven in particular by developments in the BRIICS\r\ncountries, most notably China and India (Reusswig\r\net al., 2003).",
+    "sources": [
+      57
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 59,
+  "fields": {
+    "live": true,
+    "short_title": "Greater environmental burdens or increased resource efficiency?",
+    "title": "Greater environmental burdens or increased resource efficiency?",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T13:27:59.465Z",
+    "impact_type": 1,
+    "steep_category": 2,
+    "description": "Economic development often implies increased\r\nresource use, waste and pollutant emissions, and\r\nenvironmental degradation, although there is some\r\nevidence of decoupling of economic growth from\r\nenvironmental pressures at higher income levels\r\n(see GMT 7). The huge growth in global economic\r\noutput during recent decades has greatly increased\r\ncompetition for non-renewable resources and the\r\nburden on natural systems (GMTs 7 and 8), with\r\nwide-ranging environmental, social and economic\r\nimplications.",
+    "sources": [
+      57
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 60,
+  "fields": {
+    "live": true,
+    "short_title": "Innovative urban governance",
+    "title": "Innovative urban governance",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T13:30:05.836Z",
+    "impact_type": 3,
+    "steep_category": 1,
+    "description": "Urban governance emerges as a key issue for\r\nmanaging urban growth and for the implementation\r\nof policy actions and strategies in pursuing\r\ncompetitiveness objectives. Cities have to cope with\r\nnegative effects of urbanisation and international\r\ndivision of labour (urban sprawl and spatial\r\ndisparities, congestion and pollution, social issues\r\nand distressed areas) but they also have to produce\r\nproactive actions to improve and sustain their\r\ncompetitiveness position and foster agglomeration\r\neconomies.",
+    "sources": [
+      57
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 90,
+  "fields": {
+    "live": true,
+    "short_title": "resource efficiency ",
+    "title": "Supporting resource efficiency and the shift to a low-carbon economy",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:25:35.549Z",
+    "impact_type": 2,
+    "steep_category": 5,
+    "description": "By 2040\u20132050, nano- and biotechnologies are\r\nexpected to be pervasive, diverse and integrated\r\ninto all aspects of life (Subramanian, 2009). The\r\nNBIC cluster will bring a range of opportunities\r\nand risks for both people and the environment\r\n(Biois, 2013). One important area of opportunity\r\nis to develop products and research that increase\r\nresource efficiency and promote the shift to a\r\nlow\u2011carbon economy (UNEP, 2011). In recent\r\ndecades, environment-related applications to the\r\nEuropean Patent Office have steadily increased,\r\nwith those targeting emission mitigation and\r\nenergy showing significant growth (Figure 4.4).\r\nExamples could include the use of biotechnology\r\nto develop new environmental remediation\r\ntechniques. Nanomaterials are yielding advances\r\nin energy storage, stronger and lighter construction\r\nmaterials and new filters for water treatment and\r\nsaltwater desalinisation (UBA, 2010).",
+    "sources": [
+      89
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 92,
+  "fields": {
+    "live": true,
+    "short_title": "Impacts on economy and society",
+    "title": "Impacts on economy and society",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:31:23.744Z",
+    "impact_type": 3,
+    "steep_category": 5,
+    "description": "Employment\r\nThe new technologies are expected to bring a range\r\nof economic and social changes. Technological\r\nadvances that enable machines to perform human\r\ntasks are likely to influence inequality and unemployment. Increasing use of machines may\r\ndepress wages for some, while boosting demand for\r\nhighly skilled labour and low-skilled service-sector\r\nwork. The resulting polarisation of job opportunities\r\ncould contribute to greater earnings inequality\r\n(Autor, 2010; Goos et al., 2009).\r\nSociety and politics\r\nNew technologies could also bring new dilemmas\r\nfor society. The 'Internet of Things' and the\r\ndevelopment of nanotechnology sensors raise\r\nfurther questions about surveillance and privacy\r\n\u2014 and also about intellectual property, including\r\ncounterfeiting. The World Economic Forum warns\r\nof 'digital wildfires' for companies and markets,\r\nwhich could start with misinformation but spin\r\nout of control, with unexpected social and financial\r\nimpacts; incidents of massive data fraud or theft\r\nand rising cyber-attacks are also growing risks\r\n(WEF, 2013). The 'Internet of Things' is expected to\r\noffer a new field for cyber-attacks. Organisations\r\nmay be tempted to run their own networks, separate\r\nfrom the Internet (UK Foresight, 2013). Additive\r\nmanufacturing creates new social risks, as the\r\nsmall\u2011scale and home printing of personalised\r\ngoods from toys and electrical fittings to medicines\r\nor weapons can create threats to life, health and the\r\nenvironment (UK Foresight, 2013).\r\nA 'post-human' future?\r\nThe NBIC cluster is investigating systems that\r\ncould bring unexpected changes in how we view\r\nourselves as humans and our relationship with\r\nour machines. One growing area of ICT research is\r\naugmented reality, the addition of virtual objects\r\nand information into real scenes: if it becomes part\r\nof our daily lives, augmented reality could also\r\nfundamentally change the way we interact with our\r\nenvironment, both in leisure and work (EC, 2013a).\r\nHuman-machine interfaces are a focus of work for healthcare: along with wearable sensors, whose use\r\nis growing for medicine and sports, we may have\r\nincreasing numbers of nano-scale machines in our\r\nbodies to monitor, support and perhaps augment\r\nour health; another area of research seeks to link our\r\nbrains directly with computers.",
+    "sources": [
+      89
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 93,
+  "fields": {
+    "live": true,
+    "short_title": "Environmental risks",
+    "title": "Environmental risks",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:33:03.930Z",
+    "impact_type": 1,
+    "steep_category": 5,
+    "description": "The risks and impacts of emerging technologies are\r\ndifficult to predict: already in 2001, EEA's study on\r\nLate lessons from early warnings cautioned that: '...the\r\ngrowing innovative powers of science seem to be\r\noutstripping its ability to predict the consequences\r\nof its applications...' (EEA, 2001).",
+    "sources": [
+      89
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 94,
+  "fields": {
+    "live": true,
+    "short_title": "Policy frameworks",
+    "title": "Policy frameworks",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:34:01.001Z",
+    "impact_type": 2,
+    "steep_category": 5,
+    "description": "As much new, potentially disruptive technology\r\nis already available, preventive and proactive\r\nresponses to deal with emerging problems and\r\nchanging socio-political and environmental\r\nlandscapes should become a priority. This is\r\nunderlined in EEA's studies on Late lessons from\r\nearly warnings: they conclude that new and\r\nunknown risks need a new approach, involving:\r\nbroader application of the precautionary,\r\nprevention and polluter pays principles;\r\nimprovements in the assessment of risks associated\r\nwith new and emerging technologies, both in terms\r\nof considering systemic challenges and unknowns\r\nand also drawing on lay, local and traditional\r\nknowledge; and the strengthening of institutional\r\nstructures to deal with multiple, systemic threats\r\nand surprises (EEA, 2013).",
+    "sources": [
+      89
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 100,
+  "fields": {
+    "live": true,
+    "short_title": "Poverty alleviation in developing regions",
+    "title": "Poverty alleviation in developing regions",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T16:03:01.256Z",
+    "impact_type": 1,
+    "steep_category": 1,
+    "description": "Growth plays an important role in determining\r\nhousehold earnings and sustaining employment\r\nlevels. Furthermore, economic performance\r\nshapes the revenues available to governments and,\r\ncorrespondingly, the resources available for public\r\ninfrastructure and services such as education,\r\nhealthcare and various forms of social security.\r\nThe poverty gap \u2014 the proportion of the population\r\nliving on less than USD 1.25 a day \u2014 has fallen globally\r\nin recent decades, although the pace has varied\r\nbetween regions. The fastest reduction was in the\r\ndeveloping countries of east Asia and the Pacific, where\r\nthe proportion fell from 35% in 1981 to just 2.8% in\r\n2010. This performance contrasted sharply with the\r\ndeveloping countries of sub-Saharan Africa, where the\r\nproportion increased from 22% in 1981 to 26% in 1996,\r\nbefore falling back to 21% in 2010 (World Bank, 2015a).",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 101,
+  "fields": {
+    "live": true,
+    "short_title": "Managing environmental degradation",
+    "title": "Managing environmental degradation",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T16:03:41.488Z",
+    "impact_type": 1,
+    "steep_category": 1,
+    "description": "One major concern associated with economic\r\nexpansion is the environmental degradation that\r\noften accompanies it. Economic growth tends to bring\r\nchanges in consumption patterns, in particular in\r\nemerging countries with rapidly-growing consumer\r\nmiddle classes. Mobility increases, consumers replace\r\ndurable consumption goods rather than repair them\r\nand high-calorie food displaces low-calorie alternatives.\r\nGrowing demand for resources and emissions of\r\npollutants increase pressures on the environment.",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 102,
+  "fields": {
+    "live": true,
+    "short_title": "Economic growth and inequality",
+    "title": "Economic growth and inequality",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T16:04:29.310Z",
+    "impact_type": 3,
+    "steep_category": 1,
+    "description": "Economic growth in both developing and developed\r\nregions is also associated with social and economic\r\nharm that threatens to undermine improvements\r\nin living standards. One key concern relates to the\r\ndistribution of wealth and incomes. Although the rapid\r\ngrowth of developing regions is reducing inequality of\r\nliving standards at the global scale, the trends within\r\ncountries are often the opposite (Box 5.2).\r\nIncreased inequality has long been recognised as a\r\npotential side-effect of industrialisation, with wage\r\ndisparities widening as a portion of the population\r\nmoves from agricultural activities to more productive\r\nurban work (Kim, 2008). Later stages in structural\r\neconomic change tend to see a convergence of rural\r\nand urban wages (GMT 2). Recent analysis suggests,\r\nhowever, that the sluggish growth in many advanced\r\neconomies could augment inequality by leading to the\r\naccumulation and concentration of wealth (Piketty,\r\n2014). Technological advances may further augment\r\ninequality (GMT 4). Mitigating the inequities that can\r\narise from economic growth trends is, therefore,\r\na governance challenge at all stages of economic\r\ndevelopment.",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 103,
+  "fields": {
+    "live": true,
+    "short_title": "Moving beyond GDP",
+    "title": "Moving beyond GDP",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T16:05:21.974Z",
+    "impact_type": 1,
+    "steep_category": 1,
+    "description": "Worries about the social and environmental harm that\r\ncan arise when governments focus too narrowly on\r\neconomic growth have directed attention to the need\r\nfor better measures of human well-being and economic\r\nrobustness. Quality of life, it is argued, is shaped by\r\nnumerous factors that are at most partially related\r\nto economic output. These include health, time with\r\nfriends and family, access to resources and a pleasant\r\nliving environment, education, social equity, leisure,\r\npolitical participation, and personal and economic\r\nsecurity.",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 104,
+  "fields": {
+    "live": true,
+    "short_title": "economic and social development implications",
+    "title": "Global health trends have wide-ranging implications, including for economic and social development.",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T16:11:20.420Z",
+    "impact_type": 1,
+    "steep_category": 4,
+    "description": "The processes of globalisation are creating new threats\r\nto health and its determinants. Health issues that\r\ntranscend national boundaries include environmental\r\ndegradation, inequality and lifestyle changes, access\r\nto medicines and health knowledge, as well as new\r\nand re-emerging diseases. Global health threats are\r\nincreasingly described as a generational challenge\r\nto sustainable development, since if they are not\r\naddressed now, they will become uncontrollable\r\nthreats to the health and security of future generations\r\n(EFT, 2006). Changes in the make-up of the disease\r\nburden worldwide can put a strain on health systems,\r\ndeepen inequalities and increase poverty and health\r\ncosts (Lancet, 2013).",
+    "sources": [
+      84
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 113,
+  "fields": {
+    "live": true,
+    "short_title": "Economic risks and opportunities for developed regions",
+    "title": "Economic risks and opportunities for developed regions",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:13:06.222Z",
+    "impact_type": 3,
+    "steep_category": 1,
+    "description": "Emerging economies have competitive advantages\r\nin low-skilled, labour-intensive production and gain\r\nfurther when they build up their capital stock and\r\nincrease the quality of their products (i.e. increase\r\nproductivity). While this potentially affords Europeans\r\naccess to relatively cheap imports, it clearly creates a\r\ncompetitive challenge, potentially putting downwards\r\npressure on wages for low-skilled workers in Europe\r\nand other developed regions (Autor et al., 2012).\r\nAnd even if Europe manages to enhance its already\r\nhigh labour productivity through technological\r\ninnovation, it seems sure to lose its share in some\r\nworld markets such as agricultural products and basic\r\nmanufacturing.",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 114,
+  "fields": {
+    "live": true,
+    "short_title": "New actors and new challenges in global governance",
+    "title": "New actors and new challenges in global governance",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:13:58.732Z",
+    "impact_type": 2,
+    "steep_category": 1,
+    "description": "Until relatively recently, coordination of the\r\ninternational economy was largely handled by\r\nthe small group of structurally similar states that\r\naccounted for most global production. The financial\r\ncrisis of 2008 exposed a changing reality. Today,\r\nchoices by large emerging economies \u2014 for example\r\nrelating to the accumulation of foreign currency\r\nreserves \u2014 can have major effects on the entire global\r\neconomy.",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 127,
+  "fields": {
+    "live": true,
+    "short_title": "Loss of ecosystem services",
+    "title": "Loss of ecosystem services",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:59:25.837Z",
+    "impact_type": 1,
+    "steep_category": 2,
+    "description": "Ecosystem degradation not only diminishes the\r\ndiversity of living organisms on Earth, but also erodes\r\nnature's ability to support human societies (TEEB,\r\n2010). The diversity of living organisms and ecosystems provide people with a wide range of valuable ecosystem\r\nservices, including:\r\n\u2022 provisioning food, raw materials, medicines and\r\ngenetic resources;\r\n\u2022 regulating the environment, for example via carbon\r\nstorage and sequestration, mitigating hazards from\r\nflooding and other disasters, pollinating crops and\r\npreventing erosion;\r\n\u2022 cultural services such as providing opportunities for\r\nrecreation and ecotourism, and delivering spiritual\r\nand educational values (MEA, 2005; TEEB, 2010).\r\nThe benefits of protecting ecosystems and their\r\nassociated services often far outweigh the costs\r\n(Balmford et al., 2002; TEEB, 2010; Box 8.4). However,\r\nmarket systems seldom convey the full social and\r\neconomic values of ecosystem services. As a result,\r\nmarket prices often incentivise unsustainable and socially\r\nundesirable decision-making about resource use and\r\necosystem management.",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 128,
+  "fields": {
+    "live": true,
+    "short_title": "Costs of climate change mitigation and adaptation",
+    "title": "Costs of climate change mitigation and adaptation",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T16:00:09.356Z",
+    "impact_type": 1,
+    "steep_category": 2,
+    "description": "The issue of climate change provides a clear example of\r\nthe potential costs of ecosystem service loss. Substantial\r\nreductions in greenhouse gas emissions are needed\r\nin the decades ahead to mitigate climate change\r\n(see GMT 9). Here, the vast amounts of carbon stored in\r\nnatural ecosystems are of global importance. Currently\r\nglobal deforestation and forest degradation account for\r\nabout 12% of global CO2 emissions annually (van der\r\nWerf et al., 2009). Protecting natural habitats can ensure\r\ncontinued carbon storage if the ecosystems are managed\r\neffectively to prevent degradation. Consequently\r\nelements of an international financial mechanism to\r\nreduce greenhouse gas emissions from deforestation\r\nand forest degradation (REDD+) has been adopted by\r\nparties to the United Nations Framework Convention on\r\nClimate Change (UNFCCC, 2010).",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 129,
+  "fields": {
+    "live": true,
+    "short_title": "Unequal distribution of impacts across society",
+    "title": "Unequal distribution of impacts across society",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T16:01:29.242Z",
+    "impact_type": 1,
+    "steep_category": 2,
+    "description": "The projected degradation of ecosystems and their\r\nservices will create many challenges for poor people\r\nacross the world. Lower income groups in developing\r\ncountries rely disproportionately on the sustainability\r\nof local ecosystem services to provide for their basic\r\nneeds and afford health and security. It is estimated,\r\nfor example, that non\u2011market ecosystem goods and\r\nservices account for 89% of the total income of the\r\nrural poor in Brazil, 75% in Indonesia and 47% in India\r\n(Figure 8.6). Sustainable management of ecosystems\r\nand socio\u2011economic development are thus intertwined\r\nchallenges (Sachs et al., 2009; TEEB, 2010; UNDP, 2011).",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 130,
+  "fields": {
+    "live": true,
+    "short_title": "The importance for Europe",
+    "title": "The importance for Europe",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T16:02:34.355Z",
+    "impact_type": 1,
+    "steep_category": 2,
+    "description": "The continuing degradation of ecosystems across the\r\nworld affects Europe directly and indirectly. Diminishing\r\nglobal natural capital stocks may limit Europe's ability to\r\ndraw on natural resources elsewhere, thereby increasing\r\npressures on European ecosystems.\r\nAs the world's poor are most directly reliant on\r\nfunctioning ecosystem services, widespread ecosystem\r\ndegradation can negatively influence poverty and\r\ninequality, which may fuel conflict and instability in\r\nregions with fragile governance structures. Besides the\r\nindirect impacts this may also directly lead to increased\r\nhuman migration flows to Europe.\r\nFailing to take advantage of cost-effective\r\necosystem\u2011based solutions for climate change mitigation\r\nin other parts of the world may impose increased costs\r\non Europe. Moreover, if ecological systems reach critical\r\ntipping points (for example Amazon forest dieback) it\r\ncould result in unprecedented global environmental,\r\nsocial and economic implications.\r\nWith these concerns in mind, the EU's biodiversity\r\nstrategy includes a global focus. Specifically, Target 6\r\nprovides that: 'By 2020, the EU has stepped up its\r\ncontribution to averting global biodiversity loss.'",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 140,
+  "fields": {
+    "live": true,
+    "short_title": "Natural ecosystems and their services",
+    "title": "Natural ecosystems and their services",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-28T17:09:44.413Z",
+    "impact_type": 1,
+    "steep_category": 2,
+    "description": "Terrestrial and freshwater ecosystems are increasingly\r\nthreatened under all RCP scenarios. A large share\r\nof species is very likely to face an increased risk of\r\nextinction, with associated losses of biodiversity and\r\necosystem services, particularly in areas where climate\r\nchange acts in conjunction with other stressors such\r\nas over-exploitation, habitat destruction (GMT 8) or\r\npollution (GMT 10). Rates of climate change expected\r\nunder medium- to high\u2011emission scenarios (RCP4.5;\r\nRCP6.0; RCP8.5) pose high risks of abrupt and\r\nirreversible regional-scale changes in the composition,\r\nstructure and function of ecosystems, including vital\r\necosystems such as the Amazon forest and Arctic ecosystems. Climate change will also lead to increased\r\ncolonization by alien plant species in Europe and other\r\nworld regions. The risk of forest fires, too, will increase\r\nin almost all world regions due to warming. In some\r\nregions, including in Europe, reduced precipitation is\r\nlikely to contribute to increased tree mortality and forest\r\ndieback. Furthermore, carbon stored in the terrestrial\r\nbiosphere, in, for example, peatland and permafrost,\r\nwill be increasingly susceptible to being lost to the\r\natmosphere. This loss occurs predominantly as CH4,\r\nitself a powerful GHG, thereby further exacerbating\r\nglobal climate change (IPCC, 2014c).",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 141,
+  "fields": {
+    "live": true,
+    "short_title": "Economic activities and human well-being",
+    "title": "Economic activities and human well-being",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-28T17:10:24.542Z",
+    "impact_type": 3,
+    "steep_category": 2,
+    "description": "Many economic and leisure activities, food supply,\r\nhuman well-being and health are already affected\r\nand these impacts will intensify as climate change\r\ncontinues. Throughout the 21st century, climate\r\nchange is projected to slow the rate of economic\r\ndevelopment, erode food security and increase both\r\ninequality and the displacement of people. Risks are\r\nunevenly distributed and are greater for disadvantaged\r\npeople in countries regardless of their country's level\r\nof development, although the most severe impacts for\r\neconomic development and livelihoods are expected in\r\nlow-income developing countries, especially in Africa. In\r\nthese and other regions, climate change impacts may\r\nalso indirectly contribute to an increased risk of violence\r\n(IPCC, 2014c), and are expected to increasingly influence\r\nnational security strategies.",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 142,
+  "fields": {
+    "live": true,
+    "short_title": "continued warming increases consequences",
+    "title": "continued warming increases the likelihood for severe, pervasive and irreversible consequences in most world regions",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-28T17:14:18.577Z",
+    "impact_type": 1,
+    "steep_category": 2,
+    "description": "five integrated reasons for concern:\r\n1. Unique and threatened systems. The number of such\r\nsystems at risk of severe consequences is expected\r\nto increase already with additional warming of 1 \u00b0C.\r\nSome systems such as Arctic sea ice and coral reefs\r\nare expected to face very high risks already with an\r\nadditional warming of 2 \u00b0C.\r\n2. Extreme weather events. These include heat waves,\r\nextreme precipitation and coastal flooding, and are\r\nexpected to become more frequent with increasing\r\nwarming.\r\n3. Distribution of impacts. Climate-related risks\r\nare unevenly distributed, with higher risks for\r\ndisadvantaged people in countries at all income\r\nlevels. The risk of further increases in global\r\ninequalities is high with additional warming of 2 \u00b0C.\r\n4. Global aggregate impacts. The overall risks for\r\nthe Earth's ecosystems and global economy are\r\nmoderate with additional warming of 1\u20132 \u00b0C, but\r\naccelerate as temperatures rise further, leading to\r\nhigh risks at around 3 \u00b0C of additional warming.\r\n5. Large-scale singular events. There are increased risks\r\nof abrupt and irreversible changes that increase\r\ndisproportionally as temperatures increase. These\r\nrisks become high above 3 \u00b0C of additional warming\r\n(IPCC, 2014c).",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 153,
+  "fields": {
+    "live": true,
+    "short_title": "Biodiversity and ecosystem services - Terrestrial ecosystems",
+    "title": "Biodiversity and ecosystem services - Terrestrial ecosystems",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T13:40:51.048Z",
+    "impact_type": 3,
+    "steep_category": 2,
+    "description": "The capacity of ecosystems to provide valuable\r\nservices, such as regulating the environment,\r\nprovisioning resources and delivering\r\nnon\u2011material cultural benefits (see GMT 8) can be\r\nreduced by chronically elevated reactive nitrogen\r\ndeposition, thus causing widespread harm. In such\r\nconditions, species well adapted to nitrogenous or\r\nacidic environments are likely to thrive, displacing\r\nother plants. Susceptibility to stress such as frost\r\ndamage or disease may also be enhanced (Dise\r\net al., 2011). Over time, these factors could alter\r\nspecies composition and reduce diversity. In many\r\nEuropean ecosystems, exceeding critical loads of\r\nreactive nitrogen has been linked to reduced plant\r\nspecies richness (Bobbink et al., 2010; Dise et al.,\r\n2011). An annual deposition of 5\u201310 kg N per ha\r\nhas been estimated as a general threshold value\r\nfor adverse effects (Bobbink et al., 2010), although\r\nsuch effects may also occur over the long term at\r\neven lower levels (Clark and Tilman, 2008).",
+    "sources": [
+      152
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 154,
+  "fields": {
+    "live": true,
+    "short_title": "Biodiversity and ecosystem services - Aquatic ecosystems",
+    "title": "Biodiversity and ecosystem services - Aquatic ecosystems",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T13:42:10.466Z",
+    "impact_type": 3,
+    "steep_category": 2,
+    "description": "Many aquatic ecosystems are threatened or affected\r\nby eutrophication. Here, eutrophication refers to\r\nthe process by which water bodies acquire high\r\nnutrient concentrations (in particular phosphates\r\nand nitrates) typically followed by excessive\r\ngrowth and decay of plants (algae) in the surface\r\nwater. It may occur naturally (e.g. in deep waters) but is most often the result of pollution related\r\nto human activity, such as fertiliser runoff and\r\nsewage discharge and the atmospheric deposition of\r\nnitrogen compounds. This process has been linked\r\nto serious losses of fish stocks and other aquatic life\r\n(e.g. Jenkins et al., 2013).",
+    "sources": [
+      152
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 155,
+  "fields": {
+    "live": true,
+    "short_title": "Agriculture and food provision",
+    "title": "Agriculture and food provision",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T13:43:48.364Z",
+    "impact_type": 1,
+    "steep_category": 2,
+    "description": "Like biodiversity, global agricultural production is\r\nmainly affected by the same two types of pollution\r\nand related processes: high concentrations of\r\nground-level ozone and acidification primarily\r\ncaused by sulphur and nitrogen deposition.\r\nGround\u2011level ozone is considered the most\r\nimportant air pollutant to vegetation (UNEP, 2012),\r\non average causing larger economic damages than\r\nacidification (van Goethem et al., 2013).\r\nConcentrations of ground-level ozone are\r\nunevenly distributed. In urban areas, periods of\r\nhigh 03 levels tend to be brief because O3 reacts\r\nwith other chemical pollutants, such as nitrogen\r\noxides emitted by vehicles. In rural areas, elevated\r\nO3 levels tend to last longer because substances that\r\ndestroy O3 are less prevalent. Furthermore, ozone\r\nis strongly phytotoxic, potentially causing a wide\r\nvariety of damage to various ecosystems, most\r\nnotably decreasing crop yields.",
+    "sources": [
+      152
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 163,
+  "fields": {
+    "live": true,
+    "short_title": "Engagement and representation of interests",
+    "title": "Engagement and representation of interests",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T14:05:37.914Z",
+    "impact_type": 3,
+    "steep_category": 3,
+    "description": "The mixture of opportunities and risks is certainly\r\napparent in the increasing involvement of civil society\r\ngroups in international governance processes.\r\nUndoubtedly, such engagement can increase\r\ninclusivity, transparency and democratisation, as well\r\nas contributing to the development of networks and\r\nshared norms. NGO engagement in international\r\nnegotiations can also ensure representation for\r\nperspectives and interests that might otherwise be\r\nexcluded, and can also foster knowledge exchange\r\n(Evans, 2012; UNEP, 2012).",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 164,
+  "fields": {
+    "live": true,
+    "short_title": "Lack of coordination",
+    "title": "Lack of coordination",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T14:10:12.447Z",
+    "impact_type": 1,
+    "steep_category": 3,
+    "description": "The dispersion of authority to numerous actors\r\npursuing varied interests is already producing a\r\nprofound shortage of coordination in governance. The\r\nwork of many non-state actors is sector specific, which increases the risk that links between different policy\r\nareas will be missed (Grevi et al., 2013).\r\nWorse than a lack of coordination is direct competition\r\nbetween actors, which can result in inaction, wasteful\r\nuse of funding and complications in national and\r\ninternational policymaking. For the EU, as for other\r\nstakeholders, progress in environmental governance\r\nwill therefore mean striking the right balance between\r\ninclusiveness and effectiveness (Grevi et al., 2013).",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.impact",
+  "pk": 165,
+  "fields": {
+    "live": true,
+    "short_title": "Undermining state authority and lack of accountability",
+    "title": "Undermining state authority and lack of accountability",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T14:10:46.488Z",
+    "impact_type": 1,
+    "steep_category": 3,
+    "description": "The rise of business and civil society in governance\r\ncan have a mixed impact on democratic processes. At\r\none level, it enables a larger number of stakeholders\r\nto shape governance approaches, affording a\r\ngreater voice to grassroots organisations with a keen\r\nappreciation of local realities. At the same time,\r\nhowever, the growing role of non-state actors could\r\nwell undermine the authority of elected governments,\r\npotentially threatening democratic processes.\r\nWhile changing technologies and rules on access\r\nto information mean that government choices are\r\nincreasingly subject to the scrutiny of empowered\r\nand interconnected citizens, a shift to non-state\r\ngovernance may reduce the democratic legitimacy,\r\ntransparency and accountability of decision-making.",
+    "sources": [
+      35
+    ]
+  }
+}
+]

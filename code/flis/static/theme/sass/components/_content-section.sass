@@ -1,0 +1,47 @@
+// Example component
+//
+// This is example how to create valid component file with KSS syntax. Copy it,
+// rename and edit to create new component. Remember to add declaration for new
+// file in app.sass. Providing markup and modifiers is optional.
+// Visit http://warpspire.com/kss/syntax to learn more about KSS syntax.
+//
+//
+// Markup: html/!example.html
+//
+// default            - Default style
+// .example--modifier - Short modifier description
+//
+// Styleguide 2.example
+
+
+// Block
+// --------------------------------------------------
+.content-section
+  display: block
+  margin: 0 0 1.25em
+  font-size: $font-size-large
+  // line-height: 32px
+  strong
+    font-weight: $font-weight-bold-serif
+
+  p
+    margin-bottom: 0.5em
+    &:last-child
+      margin-bottom: 0
+
+  li
+    margin-bottom: 0.25em
+    &:last-child
+      margin-bottom: 0
+
+// Elements
+// --------------------------------------------------
+.content-section__label
+  display: inline-block
+  font-weight: bold
+  margin-bottom: 0.5em
+
+// Modifiers
+// --------------------------------------------------
+.content-section__label--inline
+  margin-bottom: 0

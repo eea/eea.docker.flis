@@ -1,0 +1,27 @@
+{% load wagtailimages_tags %}
+<div class="layout--default">
+  <div class="block">
+    <h2 class="block__title">{{ self.block_heading }}</h2>
+    <div class="block__content">
+      <div class="row">
+
+        {% for item in self.items %}
+        <div class="col-xs-12 col-sm-4">
+          <div class="box">
+            <div class="institution-item">
+              <{% if item.url %}a href="{{ item.url }}"{% else %}span{% endif %}>
+                <div class="institution-item__logo-wrapper">
+                  {% image item.logo width-200 as temp_image %}
+                  <img class="institution-item__logo" src="{{ temp_image.url }}" alt="{{ item.name }}">
+                </div>
+                <h3 class="institution-item__title">{{ item.name }}</h3>
+              </{% if item.url %}a{% else %}span{% endif %}>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+{% load wagtailimages_tags %}
+<div class="image-with-caption">
+  {% image self.image original as tmp_image %}
+  <img src="{{ tmp_image.url }}" alt="{{ self.caption }}" class="full-width">
+  <br />
+  <br />
+  {% if self.caption %}
+  <div class="narrow-container">
+    <h3>{{ self.caption }}</h3>
+  </div>
+  {% endif %}
+</div>

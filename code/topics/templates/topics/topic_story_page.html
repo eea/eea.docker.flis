@@ -1,0 +1,79 @@
+{% extends 'pages/static_page.html' %}
+{% load compress static wagtailcore_tags page_tags %}
+
+{% block top_nav %}
+  {% top_submenu parent=self.get_parent.get_parent calling_page=self.get_parent %}
+{% endblock top_nav %}
+
+{% block header %}
+  {% with parent=page.get_parent.specific %}
+    {% if parent.header_color and parent.specific.header_image %}
+      {% page_header parent.title parent.subtitle parent.header_icon parent.header_color parent.header_image 'Flis Topics' %}
+    {% endif %}
+  {% endwith %}
+{% endblock %}
+
+{% block content %}
+
+  <div class="layout--white">
+    <div class="block block--title-decoration">
+      <h2 class="block__title">{% page_index page %}. {{ page.title }}</h2>
+      <div class="block__content">
+      
+        <div class="narrow-container">
+          {% for block in page.content %}
+            {% if block.block_type == 'image_with_caption' and block.value.image_width == 'page_wide' or block.block_type == 'nexus_graph' %}
+              </div>
+            {% endif %}
+            {% include_block block %}
+            {% if block.block_type == 'image_with_caption' and block.value.image_width == 'page_wide' or block.block_type == 'nexus_graph' %}
+              <div class="narrow-container">
+            {% endif %}
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="page-switch">
+
+    <div class="page-switch__prev">
+      {% with previous=page.get_prev_live_sibling %}
+        <div class="page-switch__label">Previous:</div>
+        {% if not previous %}
+          <a href="{% pageurl page.get_parent %}" class="page-switch__link">Table of contents</a>
+        {% else %}
+          <a href="{% pageurl previous %}" class="page-switch__link">{% page_index previous %}. {{ previous.title }}</a>
+        {% endif %}
+      {% endwith %}
+    </div>
+
+    <div class="page-switch__current">
+      <div class="page-switch__label">Current:</div>
+      {% page_index page %}. {{ page.title }}
+    </div>
+
+    <div class="page-switch__next">
+      {% with next=page.get_next_live_sibling %}
+        {% if next %}
+          <div class="page-switch__label">Next:</div>
+          <a href="{% pageurl next %}" class="page-switch__link">{% page_index next %}. {{ next.title }}</a>
+        {% endif %}
+      {% endwith %}
+    </div>
+
+  </div>
+
+{% endblock content %}
+
+{% block extra_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'topics/css/nexus2.css' %}">
+{% endblock %}
+
+{% block extra_js %}
+  {% compress js %}
+    <script type="text/javascript" src="{% static 'topics/js/d3.v4.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'topics/js/nexus2.js' %}"></script>
+  {% endcompress %}
+{% endblock %}

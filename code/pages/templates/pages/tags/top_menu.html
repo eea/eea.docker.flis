@@ -1,0 +1,8 @@
+{% load page_tags wagtailcore_tags %}
+<nav class="nav-horizontal">
+    {% for menuitem in menuitems %}
+      <a class="nav-horizontal__link nav-horizontal__link--{% if menuitem.header_color %}{{ menuitem.header_color }}{% else %}{{ menuitem.color }}{% endif %}{% if menuitem.active %} is-active{% endif %}" href="{% pageurl menuitem %}">
+        {{ menuitem.title }}
+      </a>
+    {% endfor %}
+</nav>

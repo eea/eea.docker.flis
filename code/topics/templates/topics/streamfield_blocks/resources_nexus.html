@@ -1,0 +1,165 @@
+{% load wagtailcore_tags wagtailimages_tags %}
+<div class="layout--white">
+  <div class="block">
+
+    <h2 class="block__title">{{ self.block_heading }}</h2>
+
+    <div class="block__content">
+      <div class="row nexus--initial">
+
+        <div class="col-md-6 nexus__chart_wrapper nexus__chart_wrapper--initial">
+          <div class="nexus__chart">
+            <svg version="1.1" viewBox="0 0 557.5 511.86" preserveAspectRatio="none">
+              <style type="text/css">
+                .st0 {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #11B9AC;
+                }
+
+                .st1 {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #F8C546;
+                }
+
+                .st2 {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #A2BE3E;
+                }
+
+                .st3 {
+                  fill: none;
+                  stroke: #F8C546;
+                  stroke-width: 5;
+                  stroke-miterlimit: 10;
+                }
+
+                .st7 {
+                  fill: none;
+                  stroke: #A2BE3E;
+                  stroke-width: 5;
+                  stroke-linecap: round;
+                  stroke-miterlimit: 10;
+                }
+
+                .st8 {
+                  fill: none;
+                  stroke: #11B9AC;
+                  stroke-width: 5;
+                  stroke-miterlimit: 10;
+                }
+              </style>
+              <g id="Lines">
+                <g id="waterLineFirst">
+                  <rect x="278.5" y="429.68" class="st0" width="259.5" height="5"/>
+                </g>
+                <g id="waterLinesSec">
+                  <rect x="443.48" y="237.94" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -124.0563 272.1949)"
+                        class="st0" width="5" height="259.38"/>
+                </g>
+                <g id="energyLineFirst">
+                  <rect x="19" y="429.68" class="st1" width="259.5" height="5"/>
+                </g>
+                <g id="energyLineSec">
+                  <rect x="-18.5" y="365.18" transform="matrix(0.5 -0.866 0.866 0.5 -262.7966 280.1862)" class="st1"
+                        width="259.5" height="5"/>
+                </g>
+                <g id="foodLineFirst">
+                  <rect x="111" y="140.68" transform="matrix(0.5 -0.866 0.866 0.5 -3.6239 280.0865)" class="st2"
+                        width="259.5" height="5"/>
+                </g>
+                <g id="foodLineSec">
+                  <rect x="314.02" y="13.54" transform="matrix(0.8661 -0.5 0.5 0.8661 -29.2137 177.4329)" class="st2"
+                        width="5" height="259.38"/>
+                </g>
+              </g>
+              <g id="nexus__energy">
+                <g id="energyShape">
+                  <path class="st1 nexus__shapefill" d="M124.82,397.23l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16v-58.58C129.5,402.04,127.71,398.91,124.82,397.23z"/>
+                  <path class="st3 nexus__shapeborder" d="M124.82,397.23l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16v-58.58C129.5,402.04,127.71,398.91,124.82,397.23z"/>
+                </g>
+                <text transform="matrix(1 0 0 1 36.7061 440.3262)" class="nexus__chart_name">Energy</text>
+              </g>
+              <g id="nexus__food">
+                <g id="foodShape">
+                  <path class="st2 nexus__shapefill" d="M333.82,39.73l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16V47.89C338.5,44.54,336.71,41.41,333.82,39.73z"/>
+                  <path class="st7 nexus__shapeborder" d="M333.82,39.73l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16V47.89C338.5,44.54,336.71,41.41,333.82,39.73z"/>
+                </g>
+                <text transform="matrix(1 0 0 1 255.754 82.8262)" class="nexus__chart_name">FOOD</text>
+              </g>
+              <g id="nexus__water">
+                <g id="waterShape">
+                  <path class="st0 nexus__shapefill" d="M542.82,397.23l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16v-58.58C547.5,402.04,545.71,398.91,542.82,397.23z"/>
+                  <path class="st8 nexus__shapeborder" d="M542.82,397.23l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16v-58.58C547.5,402.04,545.71,398.91,542.82,397.23z"/>
+                </g>
+                <text transform="matrix(1 0 0 1 459.1934 440.3262)" class="nexus__chart_name">Water</text>
+              </g>
+              <g id="Circles">
+                <circle id="nexus__energy_to_food" class="nexus__st9 nexus__shapefill" cx="175.88" cy="255.5" r="10.5"/>
+                <circle id="nexus__food_to_water" class="nexus__st9 nexus__shapefill" cx="380.96" cy="255.5" r="10.5"/>
+                <circle id="nexus__water_to_energy" class="nexus__st9 nexus__shapefill" cx="278.11" cy="432.18"
+                        r="10.5"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-6 nexus__description_wrapper">
+          <div class="nexus__description">
+            <ul class="nexus__stories">
+              <li id="nexus__food_description">
+                <h2 class="nexus__story_name">Food</h2>
+                {{ self.food_description }}
+              </li>
+              <li id="nexus__water_description">
+                <h2 class="nexus__story_name">Water</h2>
+                {{ self.food_description }}
+              </li>
+              <li id="nexus__energy_description">
+                <h2 class="nexus__story_name">Energy</h2>
+                {{ self.energy_description }}
+              </li>
+
+              <li id="nexus__food_to_water_description">
+                <h2 class="nexus__story_name">Food &rarr; Water </h2>
+                {{ self.food_to_water_description }}
+                <h2 class="nexus__story_name">Water &rarr; Food </h2>
+                {{ self.water_to_food_description }}
+              </li>
+              <li id="nexus__water_to_energy_description">
+                <h2 class="nexus__story_name">Water &rarr; Energy </h2>
+                {{ self.water_to_energy_description }}
+                <h2 class="nexus__story_name">Energy &rarr; Water </h2>
+                {{ self.energy_to_water_description }}
+              </li>
+              <li id="nexus__energy_to_food_description">
+                <h2 class="nexus__story_name">Energy &rarr; Food </h2>
+                {{ self.energy_to_food_description }}
+                <h2 class="nexus__story_name">Food &rarr; Energy </h2>
+                {{ self.food_to_energy_description }}
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    {% include_block self.read_more_button %}
+
+
+  </div>
+</div>

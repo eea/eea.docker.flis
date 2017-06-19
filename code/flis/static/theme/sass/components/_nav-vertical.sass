@@ -1,0 +1,49 @@
+// Vertical navigation
+//
+// Standard navigation good for a sidebar menu.
+//
+// Markup: html/nav-vertical.html
+//
+// default                 - Default style
+// .nav-vertical--simple   - Styling without dashes etc
+//
+// Styleguide 2.nav-vertical
+
+
+
+// Block
+// --------------------------------------------------
+.nav-vertical
+  margin: -2px 0 0
+  text-transform: uppercase
+  font-size: 12px
+  line-height: 16px
+  letter-spacing: 0.04em
+  text-align: left
+
+// Elements
+// --------------------------------------------------
+.nav-vertical__link
+  padding: 2px 0 2px 15px
+  color: $gray-base
+  display: block
+  border-left: 2px solid $text-color
+  & + .nav-vertical__link
+    margin-top: 6px
+
+// States
+// --------------------------------------------------
+.nav-vertical__link
+  &.is-active,
+  &:hover
+    color: $gray-light
+
+
+// Modifiers
+// --------------------------------------------------
+.nav-vertical--simple
+  line-height: 14px
+  font-weight: $font-weight-bold
+  .nav-vertical__link
+    border: none
+    padding-left: 30px

@@ -1,0 +1,23 @@
+[
+{
+  "model": "flis_horison_scanning.impacttype",
+  "pk": 1,
+  "fields": {
+    "title": "Risk"
+  }
+},
+{
+  "model": "flis_horison_scanning.impacttype",
+  "pk": 2,
+  "fields": {
+    "title": "Opportunity"
+  }
+},
+{
+  "model": "flis_horison_scanning.impacttype",
+  "pk": 3,
+  "fields": {
+    "title": "Other"
+  }
+}
+]

@@ -1,0 +1,98 @@
+{% extends 'pages/static_page.html' %}
+{% load static wagtailcore_tags page_tags %}
+
+{% block content %}
+  <div class="layout--default-narrow">
+  <div class="block">
+    <h2 class="block__title">{{ self.title }}</h2>
+    <div class="block__content">
+      <div class="row">
+          <div class="col-xs-12">
+            <div class="box">
+              <div class="change-item">
+                <div class="text-left">
+                  {% if self.start_date or self.end_date %}
+                    <h3>Timing</h3>
+                  {% endif %}
+                  {% if self.start_date %}
+                    <b>Start date</b>: {{ self.start_date }}<br/>
+                  {% endif %}
+                  {% if self.end_date %}
+                    <b>End date</b>: {{ self.end_date }}<br/>
+                  {% endif %}
+
+                  {% if self.geographical_scope or self.country %}
+                    <br/><h3>Scope of the activity</h3>
+                    {% if self.geographical_scope %}
+                      <b>Geographical scope</b>: {{ self.geographical_scope }}<br/>
+                    {% endif %}
+                    {% if self.countries.all %}
+                      <b>Country</b>: {% for country in self.countries.all %}{{ country }}{% endfor %}<br/>
+                    {% endif %}
+                  {% endif %}
+
+                  {% if self.lead_author or self.other %}
+                    <br/><h3>References and contact information</h3>
+                    {% if self.lead_author %}
+                      <b>Lead author</b>: {{ self.lead_author }}<br/>
+                    {% endif %}
+
+                    {% if self.other %}
+                      <b>Other</b>: {{ self.other }}<br/>
+                    {% endif %}
+                  {% endif %}
+
+
+                  {% if self.purpose_and_target or self.additional_information %}
+                    <br/><h3>Purpose and target audience</h3>
+                    {% if self.purpose_and_target %}
+                      <b>Purpose and target</b>: {{ self.purpose_and_target }}<br/>
+                    {% endif %}
+
+                    {% if self.additional_information %}
+                      <b>Additional information</b>: {{ self.additional_information }}<br/>
+                    {% endif %}
+                  {% endif %}
+
+
+                  {% if self.phase_of_policy or self.additional_information_phase %}
+                    <br/><h3>Application of forward looking information in policy cycle</h3>
+                    {% if self.phase_of_policy %}
+                      <b>Phase of Policy</b>: {{ self.phase_of_policy }}<br/>
+                    {% endif %}
+
+                    {% if self.additional_information_phase %}
+                      <b>Additional information</b>: {{ self.additional_information_phase }}<br/>
+                    {% endif %}
+                  {% endif %}
+
+
+                  {% if self.foresight_approaches or self.stakeholder_participation or self.additional_information_stakeholder %}
+                    <br/><h3>Methods and methodology used</h3>
+                    {% if self.foresight_approaches.all %}
+                      <b>Foresight approaches</b>:
+                      <ul>
+                        {% for approach in self.foresight_approaches.all %}
+                          <li>{{ approach }}</li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+
+                    {% if self.stakeholder_participation %}
+                      <b>Stakeholder participation</b>: Yes
+                    {% endif %}
+
+                    {% if self.additional_information_stakeholder %}
+                      <b>Additional information</b>: {{ self.additional_information_stakeholder }}<br/>
+                    {% endif %}
+                  {% endif %}
+
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+// Community item
+//
+// Listing item of community section
+
+// Block
+// --------------------------------------------------
+.community-item
+  text-align: center
+  margin-bottom: 60px
+  +breakpoint(tablet)
+    margin-bottom: 40px
+
+// Elements
+// --------------------------------------------------
+.community-item__hexagon
+  background-color: #fff
+  margin: 10px auto 20px
+  color: $lime
+  line-height: 150px
+  font:
+    size: 60px
+    family: $headings-font-family
+  +hexagon(90px, true)
+  transition: 100ms transform ease-in
+  &:hover
+    transform: scale(1.05)
+
+.community-item__title
+  font-family: $headings-font-family
+  font-size: 16px
+  font-weight: $font-weight-bold
+  text-transform: uppercase
+  margin-bottom: 16px
+  color: #fff
+  text-align: center
+  &::after
+    content: ''
+    display: block
+    width: 70px
+    height: 2px
+    margin: 20px auto 0
+    background-color: #fff
+
+.community-item__description
+  margin: 0 30px
+  letter-spacing: 0.05em

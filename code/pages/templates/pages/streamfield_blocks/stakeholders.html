@@ -1,0 +1,36 @@
+{% load wagtailimages_tags %}
+<div class="layout--half-dark">
+  <div class="block">
+    <h2 class="block__title">{{ self.block_heading }}</h2>
+    <div class="block__content">
+
+      <div class="row">
+        {% for persona in self.personas %}
+          <div class="col-xs-12 col-sm-4">
+            <div class="box">
+              <div class="team-item team-item--community">
+                <div class="team-item__mask">
+                  {% image persona.image width-170 as tmp_image %}
+                  <img src="{{ tmp_image.url }}" alt="{{ persona.name }}" class="team-item__portrait">
+                </div>
+                <div class="team-item__name">
+                  {{ persona.name }}
+                  <div class="team-item__subname">{{ persona.position }}</div>
+                </div>
+                <div class="team-item__description">
+                  <div>{{ persona.excerpt }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% if forloop.counter|divisibleby:"3" and not folrloop.last %}
+            </div><div class="row">
+          {% endif %}
+        {% endfor %}
+    </div>
+    {% if self.file and self.label %}
+      <a href="{{ self.file.url }}" class="btn btn--light">{{ self.label }}</a>
+    {% endif %}
+  </div>
+  </div>
+</div>

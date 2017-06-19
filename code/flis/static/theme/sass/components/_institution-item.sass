@@ -1,0 +1,48 @@
+// Institution item
+//
+// Listing item of Other institutions section
+
+// Block
+// --------------------------------------------------
+.institution-item
+  text-align: center
+  margin-bottom: 40px
+
+// Elements
+// --------------------------------------------------
+.institution-item__logo-wrapper
+  background-color: #fff
+  margin: 47px auto 62px
+  +hexagon(100px)
+  transition: 100ms transform ease-in
+  &:hover
+    transform: scale(1.05)
+
+.institution-item__logo
+  max-width: 100px
+  position: absolute
+  top: 50%
+  text-align: center
+  transform: translate(-50%, -50%)
+
+.institution-item__title
+  position: relative
+  font-family: $font-family-sans-serif
+  font-size: 16px
+  font-weight: $font-weight-bold
+  text-transform: uppercase
+  line-height: 30px
+  margin: 0 auto 16px
+  width: 240px
+  height: 82px
+  text-align: center
+  &::after
+    content: ''
+    position: absolute
+    left: 50%
+    bottom: 0
+    display: block
+    width: 70px
+    height: 2px
+    margin: 0 -35px
+    background-color: $text-color

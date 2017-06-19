@@ -1,0 +1,367 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HTML prototype</title>
+    <meta name="description" content="Bootsmacss page's HTML prototype">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+  </head>
+
+  <body>
+<div class="wrapper container-fluid">
+  <header class="layout--header">
+    <div class="layout--header__logo">
+      <a href="index.html" class="logo" title="Home"></a>
+    </div>
+    <div class="layout--header__menu">
+      <input class="layout--header__menu-input" id="dropdown-toggle" type="checkbox" name="dropdown" />
+      <label class="layout--header__menu-label hidden-md hidden-lg" for="dropdown-toggle" title="Toggle menu">
+        <i class="icon icon--menu"></i>
+      </label>
+      <nav class="nav-horizontal">
+        <a class="nav-horizontal__link nav-horizontal__link--orange" href="topics.html">FLIS Topics</a>
+        <div class="nav-horizontal__submenu">
+          <div class="nav-horizontal__arrow"><i class="icon icon--vector"></i></div>
+          <a class="nav-horizontal__link nav-horizontal__link--black" id="topics-resources" href="topics-resources.html">Resources Nexus</a>
+          <a class="nav-horizontal__link nav-horizontal__link--lime" id="topics-food" href="topics-food.html">Food</a>
+          <a class="nav-horizontal__link nav-horizontal__link--orange" id="topics-energy" href="topics-energy.html">Energy</a>
+          <a class="nav-horizontal__link nav-horizontal__link--aqua" id="topics-water" href="topics-water.html">Water</a>
+        </div>
+        <a class="nav-horizontal__link nav-horizontal__link--right" href="#">FlIS platform</a>
+      </nav>
+    </div>
+    <div class="layout--header__user">
+      <div class="dropdown hidden-md hidden-lg">
+        <input class="dropdown__input" id="menu-toggle" type="checkbox" name="dropdown" />
+        <label class="dropdown__label" for="menu-toggle"  title="Toggle user menu">
+          <i class="icon icon--user"></i>
+        </label>
+        <div class="dropdown__inner">
+          <nav class="dropdown__nav">
+            <a href="#" class="nav-vertical__link">Login</a>
+            <a href="#" class="nav-vertical__link">Administration</a>
+            <a href="#" class="nav-vertical__link">Search</a>
+          </nav>
+        </div>
+      </div>
+      <nav class="nav-vertical visible-md visible-lg">
+        <a href="#" class="nav-vertical__link">Login</a>
+        <a href="#" class="nav-vertical__link">Administration</a>
+        <a href="#" class="nav-vertical__link">Search</a>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<main class="wrapper container-fluid">
+  <div class="cover cover--black cover--short">
+    <div class="cover__image-container">
+      <img src="../images/jpg/TOPICS_RESOURCES.jpg" alt="" class="cover__image">
+    </div>
+    <div class="cover__box">
+      <div class="cover__text">
+        <div class="cover__pretitle">FLIS topics</div>
+        <h2 class="cover__title">Resources nexus</h2>
+        <i class="cover__icon icon icon--database"></i>
+      </div>
+      <a href="#" class="btn">Find out more</a>
+    </div>
+  </div>
+
+  <div class="layout--white">
+    <div class="block block--title-decoration">
+      <h2 class="block__title">Where do we stand? Energy - water - food trends at the European level</h2>
+      <div class="block__content">
+        <div class="narrow-container">
+          <p>European environmental policy measures have proven to be particularly effective when it comes to tackling local, regional and continental environmental pressures. The EEA Environmental Indicator report 2013 1 (links) compare trends related to food, water and energy data, and highlights that, even if there are large regional differences, environmental pressures from resource use in Europe are declining:</p>
+          <ul>
+            <li><strong>Food demand and meat consumption</strong> appear relatively stable, and the average increase in cereal yields points towards increasing resource productivity.</li>
+            <li><strong>Agricultural diversity</strong> appears to be diminishing, with high-nature- value farming losing ground to more intensive farming systems or to land abandonment. Both of these trends diminish the biodiversity and amenity values of farmland. As for the current food system’s possible impacts on health and well-being, the available data (for example, on exposure to food and water contaminated with pesticides) are limited and inconclusive. The obesity incidence raises concerns about access to food of good nutritional value, but also points at systemic challenges related to lifestyles and inequalities.</li>
+            <li><strong>In the case of water, the overall abstraction rate is falling</strong> but there is considerable regional variation. Data on temporary breaches in drinking water supply are lacking, but acute water stress remains an issue in some (particularly southern European) regions, a situation likely to be exacerbated by climate change. Water quality is generally improving, but again regional problems remain, particularly in the intensively farmed regions of lowland western Europe with high nutrient and pesticide loads. In addition, emerging chemicals used in industry and domestic settings pose a considerable but insufficiently understood risk for water quality.</li>
+            <li><strong>For energy, the indicators all point at a reduction of environmental pressures:</strong> energy efficiency and the use of renewable energy sources are increasing, and emissions are declining. This is reflected in a general decrease in exceedances of exposure limits for air pollutants, a trend that also has clear health benefits. Regional variation is also considerable in this case, however, and exposure to harmful pollution levels in urban areas remains high in absolute terms and continues to impact human health. This is of concern in view of the continuing trends of urbanisation and ageing of the European population, which together increase both exposure and vulnerability.</li>
+          </ul>
+          <div class="table-responsive">
+            <table>
+              <caption>
+                <dl>
+                  <dt>Table 6.1</dt>
+                  <dd>Impacts of fossil fuel and bioenergy air emissions on ecosystems, climate and human health</dd>
+                </dl>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Pollutant</th>
+                  <th>Direct effects on ecosystems</th>
+                  <th>Effects on climate</th>
+                  <th>Direct effects on human health</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Particulate matter<br />(PM)</strong></td>
+                  <td>Can affect animals in the same way as humans. Affects plant growth and ecosystem processes. Can damage buildings. Reduced visibility.</td>
+                  <td>Net cooling or warming, depending on particle size and composition. Changed rainfall patterns.</td>
+                  <td>Cardiovascular and lung diseases, cancer, impacts on the central nervous and reproductive systems, premature mortality.</td>
+                </tr>
+                <tr>
+                  <td><strong>Ozone<br />(O<sub>3</sub>)<br />(ground level)</strong></td>
+                  <td>Damages vegetation, impairing reproduction and growth. Alters ecosystem structure, reduces biodiversity and decreases CO<sub>2</sub> uptake of plants.</td>
+                  <td>Ozone is a greenhouse gas contributing to warming of the atmosphere.</td>
+                  <td>Decreased lung function, aggravating asthma and other lung diseases, premature mortality.</td>
+                </tr>
+                <tr>
+                  <td><strong>Nitrogen oxides<br />(NO<sub>X</sub>)</strong></td>
+                  <td>Acidification and eutrophication of soil and water, changing species diversity. A precursor of O<sub>3</sub> and PM. Damage to buildings.</td>
+                  <td>Contributes to the formation of O<sub>3</sub> and PM, with associated climate effects.</td>
+                  <td>Harm to the liver, lung, spleen and blood. Aggravating lung diseases, leading to respiratory problems.</td>
+                </tr>
+                <tr>
+                  <td><strong>Sulphur oxides<br />(SO<sub>X</sub>)</strong></td>
+                  <td>Acidification of soil and surface water. Harms vegetation and species in aquatic and terrestrial systems. Contributes to PM formation. Damages buildings.</td>
+                  <td>Contributes to the formation of sulphate particles, cooling the atmosphere.</td>
+                  <td>Aggravates asthma and can reduce lung function and inflame the respiratory tract. Can cause headache, general discomfort and anxiety.</td>
+                </tr>
+                <tr>
+                  <td><strong>Carbon monoxide<br />(CO)</strong></td>
+                  <td>May affect animals in the same way as humans.</td>
+                  <td>Contributes to the formation of greenhouse gases such as CO<sub>2</sub> and 0<sub>3</sub>.</td>
+                  <td>Can lead to heart disease and damage to the nervous system and cause headaches, dizziness and fatigue.</td>
+                </tr>
+                <tr>
+                  <td><strong>Heavy metals</strong></td>
+                  <td>Most heavy metals are highly persistent and bioaccumulate in the environment (meaning their toxic effects cannot be broken down by natural processes), with highly toxic impacts on aquatic life, birds and land animals.</td>
+                  <td>No specific effects.</td>
+                  <td>Arsenic, cadmium and nickel are carcinogens. Alongside lead and mercury, they also harm multiple internal organs and systems.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-responsive">
+            <table>
+              <caption>
+                <dl>
+                  <dt>Table 6.1</dt>
+                  <dd>Impacts of fossil fuel and bioenergy air emissions on ecosystems, climate and human health (cont)</dd>
+                </dl>
+              </caption>
+              <thead>
+                <tr>
+                  <th><strong>Pollutant</strong></th>
+                  <th>Direct effects onecosystems</th>
+                  <th>Effects on climate</th>
+                  <th>Direct effects on human health</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Benzene<br />(C<sub>6</sub>H<sub>6</sub>)</strong></td>
+                  <td>Acute toxic effects on aquatic life. Bioaccumulates and causes reproductive problems and changes in appearance or behaviour. Damages and kills plants.</td>
+                  <td>Greenhouse gas causing atmospheric warming directly and by forming O3 and secondary organic aerosols.</td>
+                  <td>A human carcinogen, which can cause leukaemia and birth defects. Can affect the central nervous system, blood production and the immune system.</td>
+                </tr>
+                <tr>
+                  <td><strong>Benzo-a-pyrene<br />(BaP)</strong></td>
+                  <td>Toxic to aquatic life and birds. Bioaccumulates, especially in invertebrates.</td>
+                  <td>No specific effects.</td>
+                  <td>Carcinogenic. Other effects include irritation of the eyes, nose, throat and bronchial tubes.</td>
+                </tr>
+                <tr>
+                  <td><strong>CO<sub>2</sub></strong></td>
+                  <td>Enhances photosynthesis. No direct harm but multiple impacts on plants and fauna due to changes in conditions such as temperature, precipitation, etc.</td>
+                  <td>CO<sub>2</sub> is the most significant greenhouse gas influencing climate change.</td>
+                  <td>No direct harm but multiple impacts as a result of the influence of climate change on environmental, social and economic systems.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Taking a global perspective, however, highlights the growing reliance of the European production and consumption system on imported resources and goods. In doing so, the related environmental pressures from these systems largely affect other world regions while consumers have little knowledge and policy makers little influence.</p>
+          <p>As an example, the imports accounted for 87% of EU clothing expenditure in 2012, rising from 65% in 2005. Imports of electrical and electronic products accounted for 74% of EU consumption in 2012, up from 50% in 2007. Net imports of these products are somewhat lower but they are also increasing.</p>
+          <p>The EEA (2014) Environmental impacts from consumption in Europe report investigates the overall trends in production andconsumption systems in Europe and the related environmental pressures and presents an in-depth analysis of the following three systems: food, electrical appliances and clothing.</p>
+          <br />
+          <br />
+          <hr />
+          <ol>
+            <li>EEA (2014), Environmental impacts from consumption in Europe — Environmental impacts of production-consumption systems in Europe, Copenhagen</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-switch">
+    <div class="page-switch__prev">
+      <div class="page-switch__label">Previous:</div>
+      <a href="#" class="page-switch__link">Table of contents</a>
+    </div>
+    <div class="page-switch__current">
+      <div class="page-switch__label">Current:</div>
+      Understanding supply: Where doesyour energy come from?
+    </div>
+    <div class="page-switch__next">
+      <div class="page-switch__label">Next:</div>
+      <a href="#" class="page-switch__link">Understanding demand:how is energy used?</a>
+    </div>
+  </div>
+
+  <div class="layout--default">
+    <div class="block">
+      <h2 class="block__title">Related stories</h2>
+      <div class="block__content">
+        <a href="#" class="topics-item topics-item--black topics-item--big">
+          <img src="../images/jpg/topics.jpg" alt="" class="topics-item__image" />
+          <div class="topics-item__hexagon"></div>
+          <h3 class="topics-item__title">Resources nexus</h3>
+        </a>
+        <a href="#" class="topics-item topics-item--orange topics-item--big">
+          <img src="../images/jpg/TOPICS_ENERGY.jpg" alt="" class="topics-item__image" />
+          <div class="topics-item__hexagon"></div>
+          <h3 class="topics-item__title">Energy</h3>
+        </a>
+        <a href="#" class="topics-item topics-item--aqua topics-item--big">
+          <img src="../images/jpg/TOPIC_WATER.jpg" alt="" class="topics-item__image" />
+          <div class="topics-item__hexagon"></div>
+          <h3 class="topics-item__title">Water</h3>
+        </a>
+        <div class="clearfix"></div>
+        <div class="text-center">
+          <a href="#" class="btn">All of stories</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="designs designs--topics-resources-story"></div>
+
+<footer class="layout--footer">
+  <div class="wrapper container-fluid text-center">
+    <div class="row">
+      <div class="col-xs-12 col-sm-7"><div class="box">
+        <div class="block">
+          <h2 class="block__title">Subscribe</h2>
+          <div class="block__content">
+            <form>
+              <div class="row">
+                <div class="col-xs-6 col-lg-7"><div class="box">
+                  <div class="form-item">
+                    <input name="textInput" type="text" placeholder="e-mail">
+                  </div>
+                </div></div>
+                <div class="col-xs-6 col-lg-4 col-lg-offset-1"><div class="box">
+                  <input type="submit" class="btn btn--block" value="Subscribe">
+                </div></div>
+              </div>
+            </form>
+          </div>
+        </div></div>
+        <div class="row">
+          <div class="col-xs-12 col-lg-5"><div class="box">
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Flis topics</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Water</a>
+                  <a class="nav-vertical__link" href="#">Food</a>
+                  <a class="nav-vertical__link" href="#">Energy</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Foresight dictionary</h2></a>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Horison Scanning</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Drivers of change</a>
+                  <a class="nav-vertical__link" href="#">Reports</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Products & Reports</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Lorem ipsum</a>
+                </nav>
+              </div>
+            </div>
+
+          </div></div>
+          <div class="col-xs-12 col-lg-7"><div class="box">
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Flis community</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Who we are</a>
+                  <a class="nav-vertical__link" href="#">What we do</a>
+                  <a class="nav-vertical__link" href="#">How we work</a>
+                  <a class="nav-vertical__link" href="#">Stakeholders</a>
+                  <a class="nav-vertical__link" href="#">Links to other institutions</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Uses of Foresight in Policy Making   </h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Added value of foresight</a>
+                  <a class="nav-vertical__link" href="#">Foresight in Policy Cycle</a>
+                  <a class="nav-vertical__link" href="#">Assessments of uses</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Methods & Methodologies</h2></a>
+            </div>
+
+          </div></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-1"><div class="box">
+        <div class="layout--contact-block">
+          <div class="block">
+            <h2 class="block__title">Contact us</h2>
+            <div class="block__content">
+              <p>Nunc sit amet dolor lobortis, sodales diam sed, facilisis mauris. Aenean in commodo mauris.</p>
+              <form>
+                <div class="form-item">
+                  <input name="name" type="text" placeholder="Name">
+                </div>
+                <div class="form-item">
+                  <input name="email" type="email" placeholder="E-mail">
+                </div>
+                <div class="form-item">
+                  <textarea name="message" rows="5" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center">
+                  <input type="submit" class="btn" value="Send message">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+  </div>
+</footer>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script>
+      // Add class to active primary navigation item
+      var url = window.location.pathname;
+      var filename = url.substring(url.lastIndexOf('/')+1).slice(0, -5);
+      document.getElementById(filename).className += " is-active";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+{% load wagtailcore_tags %}
+<div class="layout--white">
+  <div class="block">
+    <h2 class="block__title">{{ self.block_heading}}</h2>
+    <div class="block__content">
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="box">
+          <div class="about-item about-item--{{ self.first_column_color }}">
+            <{% if self.first_column_page %}a href="{% pageurl self.first_column_page %}"{% else %}span{% endif %}>
+              <div class="about-item__icon"><i class="icon icon--{{ self.first_column_icon }}"></i></div>
+              <h3 class="about-item__title">{{ self.first_column_heading}}</h3>
+            </{% if self.first_column_page %}a{% else %}span{% endif %}>
+            <div class="about-item__description">
+              {{ self.first_column_text }}
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="box">
+          <div class="about-item about-item--{{ self.second_column_color }}">
+            <{% if self.second_column_page %}a href="{% pageurl self.second_column_page %}"{% else %}span{% endif %}>
+              <div class="about-item__icon"><i class="icon icon--{{ self.second_column_icon }}"></i></div>
+              <h3 class="about-item__title">{{ self.second_column_heading}}</h3>
+            </{% if self.second_column_page %}a{% else %}span{% endif %}>
+            <div class="about-item__description">
+              {{ self.second_column_text }}
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="box">
+            <div class="about-item about-item--{{ self.third_column_color }}">
+            <{% if self.third_column_page %}a href="{% pageurl self.third_column_page %}"{% else %}span{% endif %}>
+              <div class="about-item__icon"><i class="icon icon--{{ self.third_column_icon }}"></i></div>
+              <h3 class="about-item__title">{{ self.third_column_heading}}</h3>
+            </{% if self.third_column_page %}a{% else %}span{% endif %}>
+              <div class="about-item__description">
+                {{ self.third_column_text }}
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>

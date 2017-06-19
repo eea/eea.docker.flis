@@ -1,0 +1,9 @@
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script>
+      // Add class to active primary navigation item
+      var url = window.location.pathname;
+      var filename = url.substring(url.lastIndexOf('/')+1).slice(0, -5);
+      document.getElementById(filename).className += " is-active";
+    </script>
+  </body>
+</html>

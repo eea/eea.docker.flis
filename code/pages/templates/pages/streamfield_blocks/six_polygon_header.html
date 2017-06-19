@@ -1,0 +1,66 @@
+<div class="landing">
+  <input class="landing__polygon-input" id="polygon-toggle-1" type="radio" name="polygons" checked="">
+  <label title="{{ self.first_polygon_header }}" class="landing__polygon landing__polygon--1" for="polygon-toggle-1">
+    <span class="landing__polygon-inner"><i class="icon icon--{{ self.first_polygon_icon }}"></i></span>
+  </label>
+  <input class="landing__polygon-input" id="polygon-toggle-2" type="radio" name="polygons">
+  <label title="{{ self.second_polygon_header }}" class="landing__polygon landing__polygon--2" for="polygon-toggle-2">
+    <span class="landing__polygon-inner"><i class="icon icon--{{ self.second_polygon_icon }}"></i></span>
+  </label>
+  <input class="landing__polygon-input" id="polygon-toggle-3" type="radio" name="polygons">
+  <label title="{{ self.third_polygon_header }}" class="landing__polygon landing__polygon--3" for="polygon-toggle-3">
+    <span class="landing__polygon-inner"><i class="icon icon--{{ self.third_polygon_icon }}"></i></span>
+  </label>
+  <input class="landing__polygon-input" id="polygon-toggle-4" type="radio" name="polygons">
+  <label title="{{ self.fourth_polygon_header }}" class="landing__polygon landing__polygon--4" for="polygon-toggle-4">
+    <span class="landing__polygon-inner"><i class="icon icon--{{ self.fourth_polygon_icon }}"></i></span>
+  </label>
+  <input class="landing__polygon-input" id="polygon-toggle-5" type="radio" name="polygons">
+  <label title="{{ self.fifth_polygon_header }}" class="landing__polygon landing__polygon--5" for="polygon-toggle-5">
+    <span class="landing__polygon-inner"><i class="icon icon--{{ self.fifth_polygon_icon }}"></i></span>
+  </label>
+  {% if self.sixth_polygon_header and self.sixth_polygon_icon and self.sixth_polygon_text %}
+    <input class="landing__polygon-input" id="polygon-toggle-6" type="radio" name="polygons">
+    <label title="{{ self.sixth_polygon_header }}" class="landing__polygon landing__polygon--6" for="polygon-toggle-6">
+      <span class="landing__polygon-inner"><i class="icon icon--{{ self.sixth_polygon_icon }}"></i></span>
+    </label>
+  {% endif %}
+  <div class="landing__text landing__text--1">
+    <h1 class="landing__title">{{ self.first_polygon_header }}</h1>
+    <div class="landing__description">
+      {{ self.first_polygon_text }}
+    </div>
+  </div>
+  <div class="landing__text landing__text--2">
+    <h1 class="landing__title">{{ self.second_polygon_header }}</h1>
+    <div class="landing__description">
+      {{ self.second_polygon_text }}
+    </div>
+  </div>
+  <div class="landing__text landing__text--3">
+    <h1 class="landing__title">{{ self.third_polygon_header }}</h1>
+    <div class="landing__description">
+      {{ self.third_polygon_text }}
+    </div>
+  </div>
+  <div class="landing__text landing__text--4">
+    <h1 class="landing__title">{{ self.fourth_polygon_header }}</h1>
+    <div class="landing__description">
+      {{ self.fourth_polygon_text }}
+    </div>
+  </div>
+  <div class="landing__text landing__text--5">
+    <h1 class="landing__title">{{ self.fifth_polygon_header }}</h1>
+    <div class="landing__description">
+      {{ self.fifth_polygon_text }}
+    </div>
+  </div>
+  {% if self.sixth_polygon_header and self.sixth_polygon_icon and self.sixth_polygon_text %}
+  <div class="landing__text landing__text--6">
+    <h1 class="landing__title">{{ self.sixth_polygon_header }}</h1>
+    <div class="landing__description">
+      {{ self.sixth_polygon_text }}
+    </div>
+  </div>
+  {% endif %}
+</div>

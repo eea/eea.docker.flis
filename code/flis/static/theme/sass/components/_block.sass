@@ -1,0 +1,58 @@
+// Block
+//
+// Block component used for wrapping block content.
+//
+// Markup: html/block.html
+//
+// default                 - Default style
+// .block--small           - Smaller paddings
+//
+// Styleguide 2.block
+
+
+// Elements
+// --------------------------------------------------
+.block__title
+  text-align: center
+  padding-bottom: 35px
+  margin: -9px auto 0
+  max-width: 600px
+
+.block__content
+  &::after
+    content: ''
+    display: block
+    +clearfix
+
+// Modifiers
+// --------------------------------------------------
+.block--small
+  margin-bottom: 55px
+  .block__title
+    text-align: left
+    font-size: 16px
+    position: relative
+    line-height: normal
+    padding-bottom: 7px !important
+    padding-left: 15px
+    letter-spacing: 0
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      width: 2px
+      height: 20px
+      left: 0
+      top: 0
+      background-color: $text-color
+
+.block--title-decoration
+  .block__title
+    margin-bottom: 15px
+    &::after
+      content: ''
+      display: block
+      width: 70px
+      height: 2px
+      margin: 35px auto 0
+      background-color: $text-color

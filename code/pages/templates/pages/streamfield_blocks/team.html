@@ -1,0 +1,71 @@
+{% load wagtailimages_tags %}
+<div class="layout--half-dark">
+  <div class="block">
+    <h2 class="block__title">Team</h2>
+    <div class="block__content">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3">
+          <div class="box">
+            <div class="team-item team-item--community">
+              <div class="team-item__mask">
+                {% image self.first_team_member.image width-170 as tmp_image %}
+                <img src="{{ tmp_image.url }}" alt="" class="team-item__portrait">
+              </div>
+              <div class="team-item__name">{{ self.first_team_member.name }}</div>
+              <div class="team-item__description">
+                <div>{{ self.first_team_member.country }}</div>
+                <div>{{ self.first_team_member.organisation }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="box">
+            <div class="team-item team-item--community">
+              <div class="team-item__mask">
+                {% image self.second_team_member.image width-170 as tmp_image %}
+                <img src="{{ tmp_image.url }}" alt="" class="team-item__portrait">
+              </div>
+              <div class="team-item__name">{{ self.first_team_member.name }}</div>
+              <div class="team-item__description">
+                <div>{{ self.second_team_member.country }}</div>
+                <div>{{ self.second_team_member.organisation }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="box">
+            <div class="team-item team-item--community">
+              <div class="team-item__mask">
+                {% image self.third_team_member.image width-170 as tmp_image %}
+                <img src="{{ tmp_image.url }}" alt="" class="team-item__portrait">
+              </div>
+              <div class="team-item__name">{{ self.first_team_member.name }}</div>
+              <div class="team-item__description">
+                <div>{{ self.third_team_member.country }}</div>
+                <div>{{ self.third_team_member.organisation }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="box">
+            <div class="team-item team-item--community">
+              <div class="team-item__mask">
+                {% image self.fourth_team_member.image width-170 as tmp_image %}
+                <img src="{{ tmp_image.url }}" alt="" class="team-item__portrait">
+              </div>
+              <div class="team-item__name">{{ self.first_team_member.name }}</div>
+              <div class="team-item__description">
+                <div>{{ self.fourth_team_member.country }}</div>
+                <div>{{ self.fourth_team_member.organisation }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn btn--light">All members</a>
+    </div>
+  </div>
+</div>

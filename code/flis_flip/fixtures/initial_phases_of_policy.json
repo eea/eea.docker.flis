@@ -1,0 +1,30 @@
+[
+{
+  "model": "flis_flip.phasesofpolicy",
+  "pk": 1,
+  "fields": {
+    "title": "Exploratory identification of long term issues"
+  }
+},
+{
+  "model": "flis_flip.phasesofpolicy",
+  "pk": 2,
+  "fields": {
+    "title": "Agenda setting"
+  }
+},
+{
+  "model": "flis_flip.phasesofpolicy",
+  "pk": 3,
+  "fields": {
+    "title": "Policy development"
+  }
+},
+{
+  "model": "flis_flip.phasesofpolicy",
+  "pk": 4,
+  "fields": {
+    "title": "Policy implementation and assessment"
+  }
+}
+]

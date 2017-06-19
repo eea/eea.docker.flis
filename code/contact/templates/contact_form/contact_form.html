@@ -1,0 +1,16 @@
+<form method="post" action="{% url 'contact_form' %}" class="ajax-submit-form" id="contact_form">
+  {% csrf_token %}
+  {% for hidden in form.hidden_fields %}
+    {{ hidden }}
+  {% endfor %}
+  {% for field in form.visible_fields %}
+      <div class="form-item">
+          {{ field.errors }}
+          {{ field }}
+      </div>
+  {% endfor %}
+
+  <div class="text-center">
+    <input type="submit" class="btn" value="Send message">
+  </div>
+</form>

@@ -1,0 +1,22 @@
+// Section footer
+// --------------------------------------------------
+.layout--footer
+  padding: 40px 20px 42px 20px
+  background-color: #fff
+  +breakpoint(tablet)
+    padding: 40px 15px 42px 45px
+    margin-top: 100px
+  .block__title
+    padding-bottom: 25px
+  .col-xs-7 .block__title
+    text-align: left
+  +breakpoint(phone, phone)
+    .block__title
+      text-align: center
+      padding-left: 0
+      &::before
+        content: none
+    .nav-vertical--simple
+      text-align: center
+      .nav-vertical__link
+        padding-left: 0

@@ -1,0 +1,31 @@
+{% extends 'pages/static_page.html' %}
+{% load static wagtailcore_tags page_tags %}
+
+{% block top_nav %}
+  {% top_submenu parent=self.get_parent calling_page=self %}
+{% endblock top_nav %}
+
+{% block header %}
+  {% if page.header_color and page.header_image %}
+    {% page_header page.title page.subtitle page.header_icon page.header_color page.header_image 'Flis Topics' %}
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  <div class="layout--white">
+    <div class="block block--title-decoration">
+      <h2 class="block__title">Table of contents</h2>
+      <div class="block__content">
+
+        {% for story in page.get_children.live.specific %}
+          <a href="{% pageurl story %}" class="dictionary-item dictionary-item--variation">
+            <div class="dictionary-item__letter">{{ forloop.counter }}</div>
+            <h3 class="dictionary-item__title">{{ story.title}}</h3>
+            {% if story.teaser %}<div class="dictionary-item__description">{{ story.teaser|richtext }}</div>{% endif %}
+          </a>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+{% endblock %}

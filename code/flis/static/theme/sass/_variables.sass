@@ -1,0 +1,108 @@
+//
+// Bootstrap variables
+// --------------------------------------------------
+
+//== Colors
+//
+//## Global colors declaration. See base/_colors.sass to edit the stleguide demo.
+
+//** Color declarations
+$gray-base: #212332
+$gray-light: #d8d8d8
+$gray-lighter: #f5f6f8
+$gray-lightest: #e4e6eb
+$almost-white: #f1f2f5
+
+$blue: #0e99da
+$lime: #a2be3e
+$orange: #f8c546
+$purple: #533571
+$cherry: #b72353
+$red: #f44e50
+$aqua: #11b9ac
+
+//** Primary brand colors assigment
+$brand-primary: $lime
+$brand-primary-light: lighten($lime, 15%)
+
+//** Settings for some of the most global styles.
+$body-bg:          $almost-white
+$text-color:       $gray-base
+$link-color:       $blue
+$link-hover-color: lighten($link-color, 15%)
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-serif: "Roboto Slab", Georgia, "Times New Roman", Times, serif
+$font-family-sans-serif: "Maven Pro", Helvetica, Arial, sans-serif
+// $font-family-sans-condensed: "Roboto Condensed", Helvetica, Arial, sans-serif
+$headings-font-family: "Montserrat", Helvetica, Arial, sans-serif
+$font-family-base: $font-family-sans-serif
+
+$font-size-base: 14px
+$font-size-large: 16px
+$font-size-small: 14px
+$font-size-xsmall: 12px
+
+$font-size-h1: 50px
+$font-size-h2: 24px
+$font-size-h3: 18px
+$font-size-h4: 16px
+
+$line-height-computed: 28px
+$paragraphs-line-height: 150%
+$paragraphs-margin: 0.75em
+
+$font-weight-thin: 200
+$font-weight: 400
+$font-weight-semibold: 500
+$font-weight-bold: 700
+$font-weight-black: 900
+$font-weight-bold-serif: 700
+
+$headings-font-weight: 400
+
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+$screen-xs-min:              0
+// Small screen / tablet
+$screen-sm-min:              48em
+// Medium screen / desktop
+$screen-md-min:              62em
+// Large screen / wide desktop
+$screen-lg-min:              75em
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1)
+$screen-sm-max:              ($screen-md-min - 1)
+$screen-md-max:              ($screen-lg-min - 1)
+
+
+//== Flexbox variable overrides
+//
+//## https://github.com/hugeinc/flexboxgrid-sass#use
+
+// Set the gutter between columns.
+$gutter-width: 1rem
+// Set a margin for the container sides.
+$outer-margin: 1.5rem
+// Apply breakpoints configuration to Flexbox
+$breakpoints: sm $screen-sm-min 46rem, md $screen-md-min 61rem, lg $screen-lg-min 71rem
+$flexboxgrid-max-width: 1260px
+
+
+//== FormHack variable overrides
+//
+//## http://formhack.io/
+
+// Font
+$fh-font-family: inherit
+$fh-font-size: inherit
+$fh-font-color: inherit

@@ -1,0 +1,17 @@
+{% load page_tags wagtailcore_tags %}
+
+<div class="col-xs-12 col-lg-5">
+  <div class="box">
+    {% for menuitem in menuitems.left %}
+      {% include 'pages/tags/_bottom_menu_item.html' %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="col-xs-12 col-lg-7">
+  <div class="box">
+    {% for menuitem in menuitems.right %}
+      {% include 'pages/tags/_bottom_menu_item.html' %}
+    {% endfor %}
+  </div>
+</div>

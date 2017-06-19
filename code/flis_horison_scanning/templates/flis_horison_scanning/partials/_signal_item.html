@@ -1,0 +1,27 @@
+{% load wagtailcore_tags wagtailimages_tags %}
+<a class="col-xs-12 col-sm-6 col-md-4" href="{% pageurl signal %}">
+  <div class="box">
+    <div class="change-item">
+      <div class="change-item__icon"><i class="icon icon--refresh"></i></div>
+      {% if signal.cover_image %}
+        {% image signal.cover_image fill-370x208 as tmp_image %}
+        <img src="{{ tmp_image.url }}" alt="{{ self.caption }}" class="full-width">
+      {% else %}
+        <img src=" http://placehold.it/370x208" alt="" class="change-item__image">
+      {% endif %}
+      <div class="change-item__text">
+        <header class="change-item__title">
+          <h3 class="">{{ signal.short_title }}</h3>
+          <div class="font-weight-normal text-transform-none">{{ signal.type_of_signal }}</div>
+        </header>
+        <div class="change-item__description">
+          {{ signal.headline }}
+        </div>
+        <div class="change-item__footer">
+          {% if signal.steep_category %}<span class="label">{{ signal.steep_category.title }}</span>{% endif %}
+          {% if signal.geographical_scope %}<span class="label">{{ signal.geographical_scope.title }}</span>{% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</a>

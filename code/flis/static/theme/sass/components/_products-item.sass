@@ -1,0 +1,74 @@
+// Products item
+//
+// Listing item of products section
+
+// Block
+// --------------------------------------------------
+.products-item
+  height: 120px
+  padding: 0 0 0 90px
+  margin: 0 0 42px
+  box-sizing: border-box
+  float: left
+  position: relative
+  color: $text-color
+  +breakpoint(desktop)
+    width: 50%
+    padding: 0 10px 0 110px
+  &:hover
+    color: $text-color
+
+// Elements
+// --------------------------------------------------
+.products-item__hexagon-container
+  position: absolute
+  left: 0
+  top: 10px
+  +breakpoint(desktop)
+    left: 10px
+
+.products-item__hexagon
+  width: 70px
+  height: 80px
+  background-color: $gray-lightest
+  color: #fff
+  font-size: 26px
+  line-height: 80px
+  text-align: center
+  +hexagon-clip-path
+
+.products-item__meta
+  margin-bottom: 12px
+  font-size: 15px
+
+.products-item__title
+  font-size: 18px
+  line-height: 24px
+  font-weight: $font-weight
+  font-family: $font-family-sans-serif
+  margin: 0
+  +max-rows(3)
+.products-item:hover .products-item__title
+  text-decoration: underline
+
+// Modifiers
+// --------------------------------------------------
+.products-item--orange
+  .products-item__hexagon
+    background-color: $orange
+
+.products-item--aqua
+  .products-item__hexagon
+    background-color: $aqua
+
+.products-item--lime
+  .products-item__hexagon
+    background-color: $lime
+
+.products-item--red
+  .products-item__hexagon
+    background-color: $red
+
+.products-item--cherry
+  .products-item__hexagon
+    background-color: $cherry

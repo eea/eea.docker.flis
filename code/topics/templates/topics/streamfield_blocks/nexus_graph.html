@@ -1,0 +1,140 @@
+{% load wagtailcore_tags wagtailimages_tags %}
+<div class="layout--white">
+  <div class="block">
+
+    <h2 class="block__title">{{ self.block_heading }}</h2>
+
+    <div class="block__content">
+      <div class="row nexus__graph nexus--initial">
+        <div class="col-md-6 nexus__chart_wrapper nexus__chart_wrapper--initial">
+          <div class="nexus__chart">
+            <svg version="1.1" viewBox="0 0 557.5 511.86" preserveAspectRatio="none">
+              <g class="nexus__lines">
+                <g class="nexus__right_to_left_line">
+                  <rect x="278.5" y="429.68" class="nexus__st0" width="259.5" height="5"/>
+                </g>
+                <g class="nexus__right_to_top_line">
+                  <rect x="443.48" y="237.94" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -124.0563 272.1949)"
+                        class="nexus__st0" width="5" height="259.38"/>
+                </g>
+                <g class="nexus__left_to_right_line">
+                  <rect x="19" y="429.68" class="nexus__st1" width="259.5" height="5"/>
+                </g>
+                <g class="nexus__left_to_top_line">
+                  <rect x="-18.5" y="365.18" transform="matrix(0.5 -0.866 0.866 0.5 -262.7966 280.1862)" class="nexus__st1"
+                        width="259.5" height="5"/>
+                </g>
+                <g class="nexus__top_to_left_line">
+                  <rect x="111" y="140.68" transform="matrix(0.5 -0.866 0.866 0.5 -3.6239 280.0865)" class="nexus__st2"
+                        width="259.5" height="5"/>
+                </g>
+                <g class="nexus__top_to_right_line">
+                  <rect x="314.02" y="13.54" transform="matrix(0.8661 -0.5 0.5 0.8661 -29.2137 177.4329)" class="nexus__st2"
+                        width="5" height="259.38"/>
+                </g>
+              </g>
+              <g class="nexus__left {% if self.left_description %}nexus__clickable{% endif %}" data-target=".nexus__left_description">
+                <g class="nexus__leftshape">
+                  <path class="nexus__st1 nexus__shapefill" d="M124.82,397.23l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16v-58.58C129.5,402.04,127.71,398.91,124.82,397.23z"/>
+                  <path class="nexus__st3 nexus__shapeborder" d="M124.82,397.23l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16v-58.58C129.5,402.04,127.71,398.91,124.82,397.23z"/>
+                </g>
+                <text transform="matrix(1 0 0 1 36.7061 440.3262)" class="nexus__chart_name">{{ self.left_title }}</text>
+              </g>
+              <g class="nexus__top {% if self.top_description %}nexus__clickable{% endif %}" data-target=".nexus__top_description">
+                <g class="nexus__topshape">
+                  <path class="nexus__shapefill" d="M333.82,39.73l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16V47.89C338.5,44.54,336.71,41.41,333.82,39.73z"/>
+                  <path class="nexus__st7 nexus__shapeborder" d="M333.82,39.73l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16V47.89C338.5,44.54,336.71,41.41,333.82,39.73z"/>
+                </g>
+                <text transform="matrix(1 0 0 1 255.754 82.8262)" class="nexus__chart_name">{{ self.top_title }}</text>
+              </g>
+              <g class="nexus__right {% if self.right_description %}nexus__clickable{% endif %}" data-target=".nexus__right_description">
+                <g class="nexus__rightshape">
+                  <path class="nexus__st0 nexus__shapefill" d="M542.82,397.23l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16v-58.58C547.5,402.04,545.71,398.91,542.82,397.23z"/>
+                  <path class="nexus__st8 nexus__shapeborder" d="M542.82,397.23l-50.39-29.29c-1.42-0.83-3.04-1.26-4.68-1.26c-1.64,0-3.26,0.44-4.68,1.26l-50.39,29.29
+				c-2.89,1.68-4.68,4.8-4.68,8.16v58.58c0,3.36,1.79,6.48,4.68,8.16l50.39,29.29c1.42,0.83,3.04,1.26,4.68,1.26
+				c1.64,0,3.26-0.44,4.68-1.26l50.39-29.29c2.89-1.68,4.68-4.8,4.68-8.16v-58.58C547.5,402.04,545.71,398.91,542.82,397.23z"/>
+                </g>
+                <text transform="matrix(1 0 0 1 459.1934 440.3262)" class="nexus__chart_name">{{ self.right_title }}</text>
+              </g>
+              <g class="nexus__circles">
+                {% if self.left_to_top_description or self.top_to_left_description %}<circle data-target=".nexus__left_to_top_description" class="nexus__st9 nexus__shapefill nexus__left_to_top nexus__clickable" cx="175.88" cy="255.5" r="10.5"/>{% endif %}
+                {% if self.top_to_right_description or self.right_to_top_description %}<circle data-target=".nexus__top_to_right_description" class="nexus__st9 nexus__shapefill nexus__top_to_right nexus__clickable" cx="380.96" cy="255.5" r="10.5"/>{% endif %}
+                {% if self.right_to_left_description or self.left_to_right_description %}<circle data-target=".nexus__right_to_left_description" class="nexus__st9 nexus__shapefill nexus__right_to_left nexus__clickable" cx="278.11" cy="432.18"{% endif %}
+                        r="10.5"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="col-md-6 nexus__description_wrapper">
+          <div class="nexus__description">
+            <ul class="nexus__stories">
+              <li class="nexus__top_description">
+                <h2 class="nexus__story_name">{{ self.top_title }}</h2>
+                {{ self.top_description }}
+              </li>
+              <li class="nexus__right_description">
+                <div class="nexus__description_item">
+                  <h2 class="nexus__story_name">{{ self.right_title }}</h2>
+                  {{ self.top_description }}
+                </div>
+              </li>
+              <li class="nexus__left_description">
+                <div class="nexus__description_item">
+                  <h2 class="nexus__story_name">{{ self.left_title }}</h2>
+                  {{ self.left_description }}
+                </div>
+              </li>
+
+              <li class="nexus__top_to_right_description">
+                <div class="nexus__description_item">
+                  <h2 class="nexus__story_name">{{ self.top_title }} &rarr; {{ self.right_title }}</h2>
+                  {{ self.top_to_right_description }}
+                </div>
+                <div class="nexus__description_item">
+                  <h2 class="nexus__story_name">{{ self.right_title }} &rarr; {{ self.top_title }}</h2>
+                  {{ self.right_to_top_description }}
+                </div>
+              </li>
+              <li class="nexus__right_to_left_description">
+                <div class="nexus__description_item">
+                  <h2 class="nexus__story_name">{{ self.right_title }} &rarr; {{ self.left_title }}</h2>
+                  {{ self.right_to_left_description }}
+                </div>
+                <div class="nexus__description_item">
+                  <h2 class="nexus__story_name">{{ self.left_title }} &rarr; {{ self.right_title }}</h2>
+                  {{ self.left_to_right_description }}
+                </div>
+              </li>
+              <li class="nexus__left_to_top_description">
+                <div class="nexus__description_item">
+                  <h2 class="nexus__story_name">{{ self.left_title }} &rarr; {{ self.top_title }}</h2>
+                  {{ self.left_to_top_description }}
+                </div>
+                <div class="nexus__description_item">
+                  <h2 class="nexus__story_name">{{ self.top_title }} &rarr; {{ self.left_title }}</h2>
+                  {{ self.top_to_left_description }}
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    {% include_block self.read_more_button %}
+
+
+  </div>
+</div>

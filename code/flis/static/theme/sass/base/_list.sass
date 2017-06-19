@@ -1,0 +1,55 @@
+// Lists
+//
+// Markup: html/list.html
+//
+// Styleguide 1.2.4
+
+$listing-items-padding: 8px
+
+// Ordered/Unordered list
+ul:not([class]),
+ol:not([class])
+  margin: 0 0 $paragraphs-margin
+  font-size: $font-size-large
+  line-height: $paragraphs-line-height
+  li:not([class])
+    padding: $listing-items-padding 0
+    ul,
+    ol
+      margin: $listing-items-padding 0 0
+
+// Unordered list
+ul:not([class])
+  li:not([class])
+    position: relative
+    padding-left: 30px
+    &:before
+      content: "\2022"
+      color: $text-color
+      font-size: 2em
+      position: absolute
+      top: $listing-items-padding/3
+      left: 0
+    ul li:before
+        content: "\25E6"
+ul li
+  list-style: none
+
+//Ordered list
+ol:not([class])
+  -webkit-padding-start: 30px
+
+// Description list
+dl
+  margin: 0 0 $paragraphs-margin
+  dt,
+  dd
+    padding: $line-height-computed/6 0
+  dt
+    float: left
+    clear: left
+    width: 20%
+    font-weight: $font-weight-bold
+  dd
+    width: 80%
+    margin-left: 20%

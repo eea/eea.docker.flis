@@ -1,0 +1,84 @@
+// Dictionary item
+//
+// Listing item of Other dictionarys section
+
+// Block
+// --------------------------------------------------
+.dictionary-item
+  margin: 0 0 50px 30px
+  border-left: 40px #fff solid
+  padding: 40px 0 15px 30px
+  position: relative
+  display: block
+  color: $text-color
+  +breakpoint(tablet)
+    border-left-width: 70px
+    margin: 0 20px 105px 45px
+    padding-left: 30px
+  +breakpoint(desktop)
+    margin-right: 110px
+a.dictionary-item:hover
+  color: $text-color
+  background-color: $almost-white
+  border-color: $gray-lightest
+
+// Elements
+// --------------------------------------------------
+.dictionary-item__letter
+  position: absolute
+  top: 55px
+  left: -55px
+  font:
+    family: $headings-font-family
+    size: 50px
+    weight: $font-weight-semibold
+  +breakpoint(tablet)
+    left: -85px
+
+.dictionary-item__title
+  position: relative
+  font-family: $font-family-sans-serif
+  font-size: 16px
+  font-weight: $font-weight-bold
+  text-transform: uppercase
+  line-height: 30px
+  padding-bottom: 25px
+  margin-bottom: 20px
+  &:not(:last-child)::after
+    content: ''
+    position: absolute
+    left: 0
+    bottom: 0
+    display: block
+    width: 70px
+    height: 2px
+    background-color: $text-color
+  a
+    color: $text-color
+    &:hover
+      color: $text-color
+      text-decoration: underline
+
+.dictionary-item__description
+  margin-bottom: 30px
+  p
+    font-size: inherit
+    line-height: inherit
+  a
+    font-weight: $font-weight-bold
+  ol a
+    color: $text-color
+    &:hover
+      text-decoration: underline
+
+// Modifiers
+// --------------------------------------------------
+.dictionary-item--variation
+  border-color: $body-bg
+  margin: 50px 0 0 10px
+  +breakpoint(tablet)
+    margin: 50px 20px 0 45px
+  +breakpoint(desktop)
+    margin: 50px 280px 0 200px
+  &:last-of-type
+    margin-bottom: 50px

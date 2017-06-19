@@ -1,0 +1,50 @@
+// Products item first
+//
+// First listing item of products section
+
+// Block
+// --------------------------------------------------
+.products-item-first
+  text-align: center
+  color: $text-color
+  margin-bottom: 60px
+  display: block
+  &:hover
+    color: $text-color
+
+// Elements
+// --------------------------------------------------
+.products-item-first__image
+  width: 100%
+  overflow: hidden
+  margin-bottom: 23px
+  img
+    width: 100%
+    transition: 100ms transform ease-in-out
+
+.products-item-first__title
+  text-transform: uppercase
+  font-size: 16px
+  line-height: 23px
+  margin: 0 0 15px
+  text-align: center
+  &::after
+    content: ''
+    display: block
+    width: 70px
+    height: 2px
+    margin: 20px auto 0
+    background-color: $text-color
+
+.products-item-first:hover
+  .products-item-first__image img
+    transform: scale(1.02)
+  .products-item-first__title
+    text-decoration: underline
+
+.products-item-first__date
+  font-weight: $font-weight-bold
+  letter-spacing: 0.04em
+
+.products-item-first__category
+  letter-spacing: 0.05em

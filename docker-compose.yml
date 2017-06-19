@@ -1,0 +1,38 @@
+version: '2'
+
+volumes:
+  postgres_data: {}
+  postgres_backup: {}
+  media_data: {}
+
+services:
+  postgres:
+    build: ./compose/postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - postgres_backup:/backups
+      - ./compose/postgres/postgresql.conf:/etc/postgresql.conf
+    env_file: .env
+
+  django:
+    build:
+      context: .
+      dockerfile: ./compose/django/Dockerfile
+    volumes:
+      - media_data:/app/media
+      - /app/staticfiles
+    user: django
+    depends_on:
+      - postgres
+      - redis
+    env_file: .env
+
+  nginx:
+    build: ./compose/nginx
+    depends_on:
+      - django
+    volumes_from:
+      - django
+
+  redis:
+    image: redis:alpine

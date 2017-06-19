@@ -1,0 +1,104 @@
+// About item
+//
+// Listing item of about section
+
+// Block
+// --------------------------------------------------
+.cover
+  position: relative
+  margin-bottom: 60px
+  padding-top: 55px
+
+// Elements
+// --------------------------------------------------
+.cover__image-container
+  position: absolute
+  z-index: -1
+  width: 100%
+  top: 0
+  bottom: 40px
+  overflow: hidden
+.cover__image
+  width: 100%
+
+.cover__box
+  margin: 0 auto
+  width: 430px
+  max-width: 90%
+  padding: 25px 20px 35px
+  box-sizing: border-box
+  background-color: $gray-light
+  text-align: center
+  color: #fff
+
+.cover__text
+  margin-bottom: 40px
+  +breakpoint(tablet)
+    min-height: 390px
+  &--no-min-height
+    min-height: 0
+
+.cover__pretitle
+  font-size: 12px
+  text-transform: uppercase
+
+.cover__title
+  font-size: 36px
+  line-height: 46px
+  color: #fff
+  letter-spacing: 0.05em
+  margin: 15px 0 20px
+  +breakpoint(tablet)
+    font-size: 50px
+    line-height: 75px
+    margin: 0 0 25px
+
+.cover__icon
+  display: block
+  font-size: 30px
+  margin-bottom: 20px
+  +breakpoint(tablet)
+    margin-bottom: 44px
+
+.cover__description
+  max-width: 320px
+  margin: 0 auto
+  letter-spacing: 0.04em
+
+// Modifiers
+// --------------------------------------------------
+.cover--orange
+  .cover__box
+    background-color: $orange
+
+.cover--lime
+  .cover__box
+    background-color: $lime
+
+.cover--cherry
+  .cover__box
+    background-color: $cherry
+  .cover__title
+    letter-spacing: 0
+
+.cover--purple
+  margin-bottom: 35px
+  .cover__box
+    background-color: $purple
+
+.cover--red
+  .cover__box
+    background-color: $red
+
+.cover--aqua
+  .cover__box
+    background-color: $aqua
+    width: 565px
+
+.cover--black
+  .cover__box
+    background-color: $gray-base
+
+.cover--short
+  .cover__text
+    min-height: 240px

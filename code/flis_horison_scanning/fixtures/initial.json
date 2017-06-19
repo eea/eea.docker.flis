@@ -1,0 +1,191 @@
+[
+{
+  "model": "flis_horison_scanning.originofsignal",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "title": "Environmental Change",
+    "description": "This category includes all signals originating from natural phenomena, including space \u2013 e.g. major asteroid earth strike, solar storm, volcanism, lack of pollinators in Europe, etc."
+  }
+},
+{
+  "model": "flis_horison_scanning.originofsignal",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "title": "Social Change",
+    "description": "This category includes all signals that find their origin in human and social behaviours. Signals can be changes in geopolitics, economic paradigms, consumer preferences, production patterns, etc. - e.g. disintegration of EU, insects as food, zero waste society, etc."
+  }
+},
+{
+  "model": "flis_horison_scanning.originofsignal",
+  "pk": 3,
+  "fields": {
+    "sort_order": 0,
+    "title": "Technological Change",
+    "description": "This category include all signals originating strictly from technological developments - e.g. 3D printing in households, Thorium reactors, modification of human genome, etc."
+  }
+},
+{
+  "model": "flis_horison_scanning.overallimpact",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "title": "Most likely positive",
+    "description": "Overall influence of signal is generally viewed as positive \u2013 e.g. zero waste society, etc."
+  }
+},
+{
+  "model": "flis_horison_scanning.overallimpact",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "title": "Most likely negative",
+    "description": "Overall influence of signal is generally viewed as negative \u2013 e.g. lack of pollinators in Europe, GMOs impact on ecosystems, etc"
+  }
+},
+{
+  "model": "flis_horison_scanning.overallimpact",
+  "pk": 3,
+  "fields": {
+    "sort_order": 2,
+    "title": "Mixed",
+    "description": "Overall influence of signal is viewed as both positive and negative \u2013 e.g. 3D  printing in households, etc"
+  }
+},
+{
+  "model": "flis_horison_scanning.overallimpact",
+  "pk": 4,
+  "fields": {
+    "sort_order": 3,
+    "title": "Very uncertain",
+    "description": "There is not enough information to assess possible impacts of the signal"
+  }
+},
+{
+  "model": "flis_horison_scanning.timehorizon",
+  "pk": 7,
+  "fields": {
+    "sort_order": 0,
+    "title": "Short-term",
+    "description": "In a few years"
+  }
+},
+{
+  "model": "flis_horison_scanning.timehorizon",
+  "pk": 8,
+  "fields": {
+    "sort_order": 1,
+    "title": "Mid-term",
+    "description": "Mid-term"
+  }
+},
+{
+  "model": "flis_horison_scanning.timehorizon",
+  "pk": 9,
+  "fields": {
+    "sort_order": 2,
+    "title": "Long-term",
+    "description": "In a generation or more"
+  }
+},
+{
+  "model": "flis_horison_scanning.timehorizon",
+  "pk": 10,
+  "fields": {
+    "sort_order": 3,
+    "title": "Unspecified",
+    "description": "Impossible to assess"
+  }
+},
+{
+  "model": "flis_horison_scanning.geographicalscope",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "title": "Global",
+    "description": "Global influence \u2013 e.g. megatrends"
+  }
+},
+{
+  "model": "flis_horison_scanning.geographicalscope",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "title": "European",
+    "description": "Europe-wide influence \u2013 e.g. lack of pollinators in Europe"
+  }
+},
+{
+  "model": "flis_horison_scanning.geographicalscope",
+  "pk": 3,
+  "fields": {
+    "sort_order": 2,
+    "title": "National",
+    "description": "Influence on one or a few EU member states"
+  }
+},
+{
+  "model": "flis_horison_scanning.geographicalscope",
+  "pk": 4,
+  "fields": {
+    "sort_order": 3,
+    "title": "Regional",
+    "description": "Influence on one or a few regions in the EU \u2013 e.g. Danube river basin"
+  }
+},
+{
+  "model": "flis_horison_scanning.geographicalscope",
+  "pk": 5,
+  "fields": {
+    "sort_order": 4,
+    "title": "Local",
+    "description": "Influence on limited location only \u2013 e.g. specific industrial hazards"
+  }
+},
+{
+  "model": "flis_horison_scanning.typeofsignal",
+  "pk": "megatrends",
+  "fields": {
+    "sort_order": 0,
+    "title": "Megatrends",
+    "description": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.typeofsignal",
+  "pk": "others",
+  "fields": {
+    "sort_order": 4,
+    "title": "Others",
+    "description": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.typeofsignal",
+  "pk": "trends",
+  "fields": {
+    "sort_order": 1,
+    "title": "Trends",
+    "description": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.typeofsignal",
+  "pk": "weak-signals",
+  "fields": {
+    "sort_order": 2,
+    "title": "Weak Signals",
+    "description": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.typeofsignal",
+  "pk": "wild-cards",
+  "fields": {
+    "sort_order": 3,
+    "title": "Wild Cards",
+    "description": ""
+  }
+}
+]

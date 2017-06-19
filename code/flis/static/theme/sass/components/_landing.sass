@@ -1,0 +1,215 @@
+// Landing set
+//
+// Main welcome component placed on frontpage
+
+
+// Block
+// --------------------------------------------------
+.landing
+  position: relative
+  border-top: 80px solid #fff
+  &::after
+    content: ''
+    display: block
+    +clearfix
+  +breakpoint(tablet)
+    height: 700px
+    margin-top: 4px
+    border: none
+  +breakpoint(lg-desktop)
+    height: 540px
+
+// Elements
+// --------------------------------------------------
+.landing__text
+  padding: 0 20px 40px
+  display: none
+  margin: 0 auto
+  max-width: 400px
+  text-align: center
+  +breakpoint(tablet)
+    width: 35%
+    top: 70px
+    left: 30px
+    position: relative
+    border-left: 2px solid $text-color
+    padding-left: 4%
+    margin: 0
+    text-align: left
+    max-width: none
+    &::before
+      content: ''
+      width: 20%
+      height: 2px
+      position: absolute
+      top: 50%
+      left: -30%
+      background-color: $text-color
+  +breakpoint(desktop)
+    left: 15%
+
+.landing__title
+  font-size: 30px
+  font-weight: $font-weight-semibold
+  line-height: 40px
+  transform: translate(0, -22px)
+  margin-bottom: -8px
+  +breakpoint(tablet)
+    font-size: $font-size-h1
+    font-weight: $headings-font-weight
+    line-height: 75px
+
+.landing__polygon
+  display: inline-block
+  width: 14vw
+  transform: translate(0, -60px)
+  text-align: center
+  position: relative
+  padding-bottom: 15px
+  &::after
+    content: ''
+    display: block
+    position: absolute
+    width: 50%
+    height: 3px
+    bottom: 0
+    left: 25%
+    background-color: $text-color
+  &:first-of-type
+    margin-left: 5.5vw
+  +breakpoint(tablet)
+    padding: 0
+    position: absolute
+    margin: 0
+    transform: translate(60px, 0px)
+    &::after
+      content: none
+  +breakpoint(lg-desktop)
+    transform: translate(0 -60px)
+
+.landing__polygon-inner
+  font-size: 26px
+  cursor: pointer
+  +breakpoint(tablet)
+    color: #fff
+    transition: 250ms background-color ease-in
+    font-size: 50px
+    box-sizing: border-box
+    +hexagon(90px, true)
+    transition: 100ms transform ease-in
+    .icon
+      top: 65px
+    &:hover
+      transform: scale(1.05)
+      z-index: 10
+
+.landing__polygon-input
+  // Visually hide radio buttons
+  position: absolute
+  opacity: 0
+  display: none
+
+// Modifiers
+// --------------------------------------------------
+.landing__polygon--1
+  &::after
+    background-color: $orange
+  +breakpoint(tablet)
+    top: 0
+    right: 23.3%
+    .landing__polygon-inner
+      background-color: $orange
+      &:hover
+        background-color: $orange !important
+.landing__polygon--2
+  &::after
+    background-color: $lime
+  +breakpoint(tablet)
+    top: 155px
+    right: 23.3%
+    .landing__polygon-inner
+      background-color: $lime
+      &:hover
+        background-color: $lime !important
+.landing__polygon--3
+  +breakpoint(tablet)
+    top: 235px
+    right: 12.7%
+    .landing__polygon-inner
+      background-color: $purple
+      &:hover
+        background-color: $purple !important
+.landing__polygon--4
+  &::after
+    background-color: $cherry
+  +breakpoint(tablet)
+    top: 389px
+    right: 12.7%
+    .landing__polygon-inner
+      background-color: $cherry
+      &:hover
+        background-color: $cherry !important
+.landing__polygon--5
+  &::after
+    background-color: $red
+  +breakpoint(tablet)
+    top: 467px
+    right: 23.3%
+    .landing__polygon-inner
+      background-color: $red
+      &:hover
+        background-color: $red !important
+.landing__polygon--6
+  &::after
+    background-color: $aqua
+  +breakpoint(tablet)
+    top: 389px
+    right: 34%
+    .landing__polygon-inner
+      background-color: $aqua
+      &:hover
+        background-color: $aqua !important
+
++breakpoint(tablet)
+  .landing__polygon:hover ~ .landing__polygon .landing__polygon-inner
+    background-color: $gray-lightest
+
+.landing__text--1
+  border-color: $orange
+  &::before
+    background-color: $orange
+.landing__text--2
+  border-color: $lime
+  &::before
+    background-color: $lime
+.landing__text--3
+  border-color: $purple
+  &::before
+    background-color: $purple
+.landing__text--4
+  border-color: $cherry
+  &::before
+    background-color: $cherry
+.landing__text--5
+  border-color: $red
+  &::before
+    background-color: $red
+.landing__text--6
+  border-color: $aqua
+  &::before
+    background-color: $aqua
+
+// States
+// --------------------------------------------------
+#polygon-toggle-1:checked ~ .landing__text--1
+  display: block
+#polygon-toggle-2:checked ~ .landing__text--2
+  display: block
+#polygon-toggle-3:checked ~ .landing__text--3
+  display: block
+#polygon-toggle-4:checked ~ .landing__text--4
+  display: block
+#polygon-toggle-5:checked ~ .landing__text--5
+  display: block
+#polygon-toggle-6:checked ~ .landing__text--6
+  display: block

@@ -1,0 +1,7 @@
+{% load wagtailcore_tags %}
+{% if self.page and self.label %}
+<div class="text-center clearfix">
+  <br/>
+  <a href="{% pageurl self.page %}" class="btn {% if style == 'light' %}btn--light{% endif %}">{{ self.label }}</a>
+</div>
+{% endif %}

@@ -1,0 +1,18 @@
+{% load static wagtailimages_tags %}
+<div class="cover cover--{{ background_color }}">
+    <div class="cover__image-container">
+      {% image cover_image width-1260 as temp_image %}
+      <img src="{{ temp_image.url }}" alt="" class="cover__image">
+    </div>
+    <div class="cover__box">
+      {% if subtitle %}<div class="cover__text cover__text--no-min-height">{% endif %}
+        <div class="cover__pretitle">{% if slogan %}{{ slogan }}{% else %}Platform for forward looking information{% endif %}</div>
+        <h2 class="cover__title">{{ title }}</h2>
+        <i class="cover__icon icon icon--{{ icon }}"></i>
+        {% if subtitle %}
+          <div class="cover__description">{{ subtitle }}</div>
+        {% endif %}
+      {% if subtitle %}</div>{% endif %}
+      <i data-header-scroll class="icon icon--arrow-bottom"></i>
+    </div>
+</div>

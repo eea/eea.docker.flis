@@ -1,0 +1,40 @@
+{% extends 'pages/static_page.html' %}
+{% load static wagtailcore_tags page_tags %}
+
+{% block content %}
+  <div class="block">
+    <!--
+      BACKEND NOTE:
+      Split array of fetched dicrionary items in two and render each half in
+      one collumn.
+    -->
+    <div class="row">
+
+
+        {% regroup words|dictsort:"word" by word|slice:":1" as word_list %}
+
+        {% for letter in word_list %}
+          <div class="col-xs-12 col-sm-6">
+            <div class="dictionary-item">
+              <div class="dictionary-item__letter">{{ letter.grouper }}</div>
+
+              {% for word in letter.list %}
+              <h3 class="dictionary-item__title">{{ word.word }}</h3>
+              <div class="dictionary-item__description">
+                {{ word.description|richtext }}
+                {% if word.sources %}<b>Sources:</b><br/>
+                  <em>{{ word.sources|richtext }}</em>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+
+
+
+      <div class="col-xs-12 col-sm-6">
+      </div>
+    </div>
+  </div>
+{% endblock %}

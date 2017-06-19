@@ -1,0 +1,756 @@
+[
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 40,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "World population projections",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-12T11:29:16.972Z",
+    "theme": 24,
+    "start_date": "1950-01-01",
+    "end_date": "2100-01-01",
+    "assessment": "Today the world population is continuing to grow, although much\r\nmore slowly than in the recent past. It has more than doubled since\r\nthe 1960s but is very unlikely to double again during the current\r\ncentury (IIASA, 2007). Instead, it is expected to peak at approximately\r\nnine billion by around 2050 (UN Population Division, 2009) or 2070\r\n(IIASA, 2007). There is a less than 10 % chance that in 2100 there will\r\nbe fewer people than today, or that the total will exceed 11 billion\r\n(Lutz et al., 2008).\r\nConsiderable differences exist, however, in terms of projected regional\r\npopulation growth. A major decline is forecast in eastern Europe (1),\r\nwhere the population is expected to be less than half today's level by\r\n2100. Contrastingly, in many African countries the population is likely\r\nto have doubled by 2100 (IIASA, 2007).\r\n(1) The IIASA grouping for eastern Europe comprises Albania, Belarus,\r\nBosnia and Herzegovina, Bulgaria, Croatia, Czech Republic, the former Yugoslav\r\nRepublic of Macedonia, Hungary, Moldova, Montenegro, Poland, Romania,\r\nSerbia, the Slovak Republic, Slovenia, Russia and Ukraine.\r\nFrom 2020\u20132030 onwards, declining populations are also expected in\r\nsome developing countries, especially in Asia. Most of the countries\r\nof North America and western Europe (2) are still growing despite\r\nageing, mostly due to migration (3). However, it is expected that they\r\nwill also register declines if policies are not introduced to compensate\r\nfor the impacts of advanced ageing, for example measures to attract\r\nmigrants.",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 45,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Regional shares of the global population ",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-12T11:47:56.412Z",
+    "theme": 24,
+    "start_date": "1800-01-01",
+    "end_date": "2150-01-01",
+    "assessment": "China can expect a dramatic demographic transformation with a\r\nmassive shift in age structure. China's population is projected to\r\nstart declining around 2030 and the working age population, which\r\ncurrently provides one of the biggest drivers of economic growth,\r\nwill decline rapidly both in absolute terms and as a proportion of the\r\ntotal population. After initially increasing, by mid-century China's\r\npopulation will have fallen to its size in 2000 and by the end of the\r\ncentury it may have halved from the 2000 level. China's trends are\r\nqualified, however, by considerable uncertainty over expected fertility\r\nrates, gender balance (the relative number of baby girls born is\r\ndeclining due to the one-child policy), the population's age structure\r\nand the current size of the population (IIASA, 2007).",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 46,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Population pyramids for Europe and Africa for 2000 and 2050 by age, sex and educational attainment",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-12T11:49:38.701Z",
+    "theme": 24,
+    "start_date": "2000-01-01",
+    "end_date": "2050-01-01",
+    "assessment": "In contrast to the marked ageing of many developed world\r\npopulations, many developing country populations will have\r\nsubstantial 'youth bulges' (disproportionate concentrations of people\r\nin the 15\u201329 year-old age group) until 2025. Several of the countries\r\nwith the largest bulges are located in in sub-Saharan Africa and the\r\nMiddle East and are among the world's most unstable (or potentially\r\nunstable) states. Figures 1.4a and 1.4b illustrate among others the\r\ngrowing disparity between the age structure of the European Union\r\nand Africa.",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 53,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Urban population trends",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T12:45:33.574Z",
+    "theme": 23,
+    "start_date": "1950-01-01",
+    "end_date": "2050-01-01",
+    "assessment": "For the first time in history more than 50 % of the world's population\r\nlive in urban areas. By 2050, about 70 % of people are likely to be\r\ncity dwellers, compared with less than 30 % in 1950 (UN Population\r\nDivision, 2010).\r\nDemographers estimate that Asia will be home to more than\r\n50 % of the global urban population by 2050, while Europe's urban\r\npopulation as a percentage of the global total is likely to have\r\nshrunk considerably. Although many emerging and developing\r\neconomies may not have reached the same level of urbanisation as\r\ntoday's developed countries by 2050, the speed and scope of the\r\nurban transition in the developed world is far greater today than it\r\nwas just half a century ago (UN Population Division, 2010). Cities\r\nare also reaching unprecedented sizes and the rising number of\r\nmegacities across the globe, putting enormous strain on their natural\r\nresource support systems. But the even faster growth in small- and\r\nmedium-sized cities could be more important from an environmental\r\nperspective.",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 54,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Slowing urban growth",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T12:49:53.843Z",
+    "theme": 23,
+    "start_date": "1950-01-01",
+    "end_date": "2050-01-01",
+    "assessment": "Cities concentrate investment and employment opportunities,\r\npromoting economic growth and increasing productivity. They\r\nprovide higher-income jobs, as well as greater access to goods,\r\nservices and facilities, bringing improved health, literacy and quality\r\nof life. These conditions tempt rural residents to search for a better life\r\nand higher income in urban areas. People in the countryside tend to\r\nhave lower average incomes and more conservative spending habits\r\n(EEA, 2010b).",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 55,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Projected car ownership",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T12:54:02.161Z",
+    "theme": 23,
+    "start_date": "2000-01-01",
+    "end_date": "2050-01-01",
+    "assessment": "At the same time, economic growth has increased the affluence of\r\na broad section of the urban middle-income population. Globally,\r\nurban households are becoming smaller but more energy intensive.\r\nLifestyles increasingly reflect energy- and resource-intensive\r\nconsumption patterns that produce growing amounts of waste.\r\nExpanding transport demands and poor public transport planning\r\nencourage car ownership. In the absence of major policy changes,\r\nmotorised personal vehicle ownership rates are expected to increase\r\nsignificantly (WBCSD, 2004a) (Figure 2.4). One assessment foresees\r\nannual sales of highway vehicles in China of 42\u201359 million by 2050,\r\nwhich is about 10 times the level today (Wang et al., 2006).",
+    "assessment_author": "",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 81,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "World refugees, asylum\u2011seekers, returnees, internally displaced and stateless persons",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T14:36:51.846Z",
+    "theme": 8,
+    "start_date": "2000-01-01",
+    "end_date": "2013-06-01",
+    "assessment": "Migration will also affect global health trends (see\r\nGMT 1 and 2). The number of migrants between\r\ncountries increased from 155 million in 1990 to\r\n214 million in 2010. Since 1990, migration flows have\r\nbecome increasingly diverse, with growing migration\r\namong developing countries (UN ECOSOC, 2013). Most\r\nmigration occurs within countries, however, in particular\r\nfrom rural to urban areas.\r\nBox 3.1 Intensive livestock raising and risks to human health and environment\r\nRecent studies indicate that more than three-quarters of communicable human diseases are zoonotic in origin\r\n(Woolhouse et al., 2005).\r\nIn coming decades, intensive livestock is expected to expand around the globe to meet the rising demands\r\nof the world's growing urban middle classes, in particular in developing countries, creating many health risks\r\nand environmental impacts. By one estimate, intensive methods already produce about 70% of the world's\r\npoultry and eggs (Liverani et al, 2013). In China, intensive production supplies half of the nation's pork.\r\nThe co-existence of both small-scale, traditional livestock methods and industrial production in developing\r\ncountries, together with the conversion of wild areas to agricultural land, can exacerbate the risks of disease\r\ntransmission from wildlife to livestock and then to humans (Liverani et al., 2013).\r\nIntensive livestock raising creates several health risks, including pandemics. Humans share many infectious\r\ndiseases, such as influenza, with animals (transmitted from animals to humans or from humans to animals).\r\nWhile this link has always existed, the spread of intensive livestock raising threatens to increase the health\r\nrisks. Moreover, intensive methods concentrate large numbers of animals in confined units, providing\r\npotential 'incubators' for existing and new diseases; the most intensive operations use antibiotics against these\r\nthreats and also to boost production, a practice that contributes to worrying drug resistance; and the transport\r\nof increasing numbers of livestock can also spread disease. Wastes from livestock are also a growing risk to\r\nhuman health and the environment. Already, according to WHO, the world's poultry generate as much faecal\r\npollution as humans, and cattle produce four times as much (Dufour et al. (WHO), 2012).\r\nMigration can enable people access to higher incomes,\r\nbetter health care and improved health outcomes. But\r\nmigration can also increase risks of increased transfer\r\nof infectious diseases. A further concern is that many\r\nhealth professionals migrate to take advantage of\r\nopportunities in higher income countries, and in doing\r\nso leave a labour shortage in the health care systems of\r\ntheir home countries (IOM, 2013b).\r\nA particular concern is the forced displacement of\r\npeople due to war and disaster, which reached almost\r\n40 million globally in 2013 (Figure 3.5). Many refugees\r\nface mental and physical stress, poor living conditions\r\nand lack of health care, and are particularly vulnerable to\r\ndisease (IOM, 2013).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 82,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Trends in non-communicable disease, 2008 to 2030",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T14:39:35.742Z",
+    "theme": 8,
+    "start_date": "2000-01-01",
+    "end_date": "2030-01-01",
+    "assessment": "Non-communicable diseases (NCDs), also known as\r\nchronic diseases, constitute one of the major challenges\r\nfor development in the twenty-first century. NCDs\r\ncannot be passed from person to person and are\r\ngenerally of long duration and slow progression. The\r\nfour main types of non\u2011communicable diseases are\r\ncardiovascular disease (such as heart attacks and\r\nstroke), cancers, chronic respiratory diseases (such as\r\nasthma and chronic obstructed pulmonary disease) and\r\ndiabetes.\r\nAccording to projections by the World Health\r\nOrganization, the total annual number of deaths from\r\nNCDs will increase from 36 million in 2008 to 55 million\r\nby 2030 if current trends continue (WHO, 2013). The\r\nfour main types of non\u2011communicable diseases today\r\naccount for 60% of deaths worldwide, and their impact\r\nis projected to grow in coming decades (Figure 3.7\r\nand Box 3.1). These trends reflect a shift away from\r\ntraditional health risks such as inadequate nutrition or\r\nunsafe water and sanitation, which particularly influence\r\ncommunicable diseases in children, towards unhealthy\r\nlifestyles, which increase risks such as obesity and early\r\ndeaths, particularly in adults (Lim et al., 2012; Lozano\r\net al., 2012).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 83,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "HIV infections and AIDS deaths, 2001\u20132012",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T14:42:29.277Z",
+    "theme": 8,
+    "start_date": "1990-01-01",
+    "end_date": "2012-01-01",
+    "assessment": "At the end of 2012, there were 35.3 million people\r\nliving with HIV/AIDS worldwide (0.8% of the population\r\naged 15\u201349). In that year, 1.7 million people died of\r\nAIDS\u2011related illnesses, including 230 000 children\r\n(UNAIDS, 2012). The burden of this disease varies\r\nconsiderably between countries and regions.\r\nSub\u2011Saharan Africa is the most affected region, with\r\nnearly 1 in every 20 adults living with HIV today\r\n(UNAIDS, 2012).\r\nDue to a 40-fold increase in access to anti-retroviral\r\ntherapy, the number of new HIV infections and deaths\r\ndue to AIDS is decreasing globally, while the number of\r\npeople living with HIV is increasing due to better access\r\nto anti-viral therapy (Figure 3.9).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 86,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Patent registration trends",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:04:07.098Z",
+    "theme": 10,
+    "start_date": "1950-01-01",
+    "end_date": "2009-01-01",
+    "assessment": "A digital and technology divide is likely to remain between developed\r\nand many currently developing countries. One reason is that many\r\ncutting-edge technologies in ICT still depend on infrastructures\r\nbased on older technologies, for example functioning electricity\r\ngrids (Kegley and Raymond, 2006). However, more and more often\r\nemerging economies are starting to challenge developed economies in\r\n4 Accelerating technological\r\nchange: racing into the\r\nunknown\r\nthe core areas of their competitive advantage, namely high-technology\r\ndevelopments. Competitive pressures will increase as many emerging\r\neconomies step up their general research and innovation capacities.\r\nIncreasingly, EU-27 multinationals are competing with technologybased\r\ncompanies from emerging economies in high-end technology\r\nmarkets. Growth rates in patent filings in some Asian economies are\r\nbeyond the level of several western OECD economies (WIPO, 2009)\r\n(Figure 4.2).",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 87,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "The declining cost of computer memory",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:17:48.052Z",
+    "theme": 10,
+    "start_date": "1958-01-01",
+    "end_date": "2015-01-01",
+    "assessment": "Information and communication technology (ICT) has\r\nbecome pervasive around the world, as the central\r\n'functions' of ICT \u2014 processing, storing and transferring\r\ninformation \u2014 have all shown dramatic increases in\r\nperformance, accompanied an exponential fall in costs.\r\nFor example, one megabyte of computer memory cost\r\nalmost USD 1 million in 1970, but it fell to well under\r\nUSD 100 in 1990 and then to about USD 0.01 in 2010\r\n(Figure 4.3).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 88,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "The declining cost of solar photovoltaic systems",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:21:16.541Z",
+    "theme": 10,
+    "start_date": "2007-01-01",
+    "end_date": "2022-01-01",
+    "assessment": "Emerging technologies can also reduce the costs of\r\nrenewable energy. In the area of power generation,\r\ntechnological advances have brought down the price\r\nof wind and solar renewable energy. One example\r\nis the costs of photovoltaic cells: the price of their\r\nelectricity fell by over 60% from 1998 to 2008 (Jacobs,\r\n2013). In the immediately coming years, further\r\ndecreases are expected (Figure 4.5).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 97,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Global gross domestic product since 1700",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:49:04.086Z",
+    "theme": 24,
+    "start_date": "1700-01-01",
+    "end_date": "2000-01-01",
+    "assessment": "Rapid economic growth is a comparatively recent\r\nphenomenon. Productivity increases were negligible\r\nbefore 1700, implying that economic output rose\r\nno faster than the very modest rate of population\r\ngrowth \u2014 about 0.1% annually. In the 18th century,\r\nhowever, the agricultural and industrial revolutions in\r\nwestern Europe caused a fundamental shift, initiating\r\na steady acceleration of economic growth. By the\r\nfirst half of the 20th century, average annual global\r\nGDP growth had reached 2% and this rose to 4% in\r\nthe period 1950\u20132008 (Figure 5.1). As a result, world\r\neconomic output increased 25-fold in the period\r\n1900\u20132008 (Maddison, 2013).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 98,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Gross domestic product growth since the financial crisis in the EU, the US and the BRIICS economies",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:53:45.446Z",
+    "theme": 24,
+    "start_date": "2007-01-01",
+    "end_date": "2013-01-01",
+    "assessment": "Major economies in developing regions, including\r\nBrazil, Russia and South Africa, also endured\r\nrecessions, while others \u2014 notably China, India\r\nand Indonesia \u2014 faced an appreciable slow-down\r\nin growth. Nevertheless, these economies have\r\nsince proven to be remarkably resilient, sustaining\r\nglobal growth despite stagnation is most advanced\r\neconomies (Figure 5.2). In 2007\u20132013, India's GDP\r\nincreased by 46 % and China's by 68% (World\r\nBank, 2015a). As a result, the financial crisis greatly\r\nadvanced the rebalancing of economic production\r\nacross the world (GMT 6).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 99,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Global gross domestic product is projected to triple by 2050",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-15T15:56:12.562Z",
+    "theme": 24,
+    "start_date": "1996-01-01",
+    "end_date": "2050-01-01",
+    "assessment": "Although annual growth rates are likely to remain\r\nvolatile and uncertain, the broad direction of global\r\ngrowth appears clearer in the medium and long term.\r\nWorld economic growth is projected to remain robust\r\nin coming decades as investment in human, social and\r\nmanufactured capital enable developing countries\r\nto follow in China's footsteps. The Organisation for\r\nEconomic Co-operation and Development (OECD)\r\nprojects that global GDP will almost triple in the years\r\n2010\u20132050 (Figure 5.3).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 107,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Structural breakdown of economic output in selected regions, 1970 and 2012",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T14:55:47.418Z",
+    "theme": 20,
+    "start_date": "1970-01-01",
+    "end_date": "2012-01-01",
+    "assessment": "Due to contrasting rates of growth, developing regions\r\nare gaining in importance and developed regions are\r\nbecoming less dominant. These trends are linked\r\nto the process of structural economic development:\r\nthe transition from agrarian societies, through\r\nindustrialisation to service-based and knowledge\r\neconomies.\r\nIn developed regions, industrialisation in the 19th and\r\n20th centuries brought an unprecedented increase in\r\neconomic output (GMT 5). Today, developing regions\r\nare undergoing the same transition but at much faster\r\nrates because they have been able to import and adapt\r\nexisting technologies and production methods. In some\r\ncountries, the process is already advanced; in 2012,\r\nthe economic structure of East Asia and the Pacific was\r\nsimilar to the EU's in 1970 (Figure 6.1).\r\nIn contrast to the rapid growth in developing regions,\r\nstructural and demographic factors have slowed\r\ngrowth in the advanced economies. The increasing\r\ncontribution of services to economic output is\r\nimportant, since many branches of the service sector\r\ndeliver modest productivity growth (Marota-Sanchez\r\nand Cuadrado-Roura, 2011). At the same time, lower\r\nbirth rates mean that populations in many developed\r\ncountries have stopped growing or started contracting,\r\nand labour forces are expected to decline further as the\r\npopulation ages (GMT 1).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 108,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Structural breakdown of economic output in selected regions",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T14:56:10.469Z",
+    "theme": 20,
+    "start_date": "1970-01-01",
+    "end_date": "2012-01-01",
+    "assessment": "Due to contrasting rates of growth, developing regions\r\nare gaining in importance and developed regions are\r\nbecoming less dominant. These trends are linked\r\nto the process of structural economic development:\r\nthe transition from agrarian societies, through\r\nindustrialisation to service-based and knowledge\r\neconomies.\r\nIn developed regions, industrialisation in the 19th and\r\n20th centuries brought an unprecedented increase in\r\neconomic output (GMT 5). Today, developing regions\r\nare undergoing the same transition but at much faster\r\nrates because they have been able to import and adapt\r\nexisting technologies and production methods. In some\r\ncountries, the process is already advanced; in 2012,\r\nthe economic structure of East Asia and the Pacific was\r\nsimilar to the EU's in 1970 (Figure 6.1).\r\nIn contrast to the rapid growth in developing regions,\r\nstructural and demographic factors have slowed\r\ngrowth in the advanced economies. The increasing\r\ncontribution of services to economic output is\r\nimportant, since many branches of the service sector\r\ndeliver modest productivity growth (Marota-Sanchez\r\nand Cuadrado-Roura, 2011). At the same time, lower\r\nbirth rates mean that populations in many developed\r\ncountries have stopped growing or started contracting,\r\nand labour forces are expected to decline further as the\r\npopulation ages (GMT 1).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 109,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Structural breakdown of economic output in selected regions",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T14:56:42.448Z",
+    "theme": 20,
+    "start_date": "1970-01-01",
+    "end_date": "2012-01-01",
+    "assessment": "Due to contrasting rates of growth, developing regions\r\nare gaining in importance and developed regions are\r\nbecoming less dominant. These trends are linked\r\nto the process of structural economic development:\r\nthe transition from agrarian societies, through\r\nindustrialisation to service-based and knowledge\r\neconomies.\r\nIn developed regions, industrialisation in the 19th and\r\n20th centuries brought an unprecedented increase in\r\neconomic output (GMT 5). Today, developing regions\r\nare undergoing the same transition but at much faster\r\nrates because they have been able to import and adapt\r\nexisting technologies and production methods. In some\r\ncountries, the process is already advanced; in 2012,\r\nthe economic structure of East Asia and the Pacific was\r\nsimilar to the EU's in 1970 (Figure 6.1).\r\nIn contrast to the rapid growth in developing regions,\r\nstructural and demographic factors have slowed\r\ngrowth in the advanced economies. The increasing\r\ncontribution of services to economic output is\r\nimportant, since many branches of the service sector\r\ndeliver modest productivity growth (Marota-Sanchez\r\nand Cuadrado-Roura, 2011). At the same time, lower\r\nbirth rates mean that populations in many developed\r\ncountries have stopped growing or started contracting,\r\nand labour forces are expected to decline further as the\r\npopulation ages (GMT 1).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 110,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Contribution of major economies to global GDP, 1996\u20132050",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:00:22.916Z",
+    "theme": 24,
+    "start_date": "1996-01-01",
+    "end_date": "2050-01-01",
+    "assessment": "Projections of global GDP underline the increased\r\neconomic significance of today's developing and\r\nemerging economies. In 2000, the Organisation for\r\nEconomic Co-operation and Development (OECD)\r\nmember countries accounted for less than 20% of the\r\nglobal population but 77% of world economic output,\r\nbut this share is projected to fall to 50% in 2030 and\r\n42% in 2050 (Figure 6.2). The EU's share is projected\r\nto drop by around half between 2000 and 2050, falling\r\nfrom 28% to 14% (OECD, 2014).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 111,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "National or regional exports as a percentage of total global exports (current USD and",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:02:53.107Z",
+    "theme": 24,
+    "start_date": "1948-01-01",
+    "end_date": "2011-01-01",
+    "assessment": "The advanced economies have become less dominant\r\nin world trade, with China in particular emerging as\r\na major exporter since the mid-1980s (Figure 6.3).\r\nDespite declining in recent decades, the EU still\r\naccounted for almost a third of international trade\r\nin 2013, although a substantial proportion of that\r\nconstituted intra-EU trade.",
+    "assessment_author": "",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 112,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Imports and exports of selected countries and regions, 2013",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:05:42.579Z",
+    "theme": 24,
+    "start_date": "2013-01-01",
+    "end_date": "2015-12-31",
+    "assessment": "Excluding intra-EU trade, the EU accounted for 14.8%\r\nof global merchandise imports in 2013 and 15.3% of\r\nexports (WTO, 2015). As illustrated in Figure 6.4, these\r\nnumbers were comparable to the contributions of the\r\nUS (12.3% of imports and 8.4% of exports) and China\r\n(10.3% of imports and 11.7% of exports.",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 118,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Global total material use by resource type, 1900\u20132009",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:24:03.458Z",
+    "theme": 24,
+    "start_date": "1900-01-01",
+    "end_date": "2009-01-01",
+    "assessment": "As illustrated in Figure 7.1, global materials use is\r\nestimated to have increased almost ten-fold since 1900,\r\naccelerating from annual growth of 1.3% in 1900\u20131949,\r\nto 2.6% in 1950\u20131999, and 3.6% annually in 2000\u20132009\r\n(Krausmann et al., 2009).\r\nDeveloping regions account for an increasing\r\nproportion of global resource use. Whereas Europe\r\nwas responsible for 19% of total resource extraction\r\nin 1980 and the US accounted for 18%, by 2009 both\r\nhad fallen to 10%. Asia's share increased from 41% to\r\n57% over the same period.",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 119,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Percentage of global resource extraction by world regions, 1980\u20132009",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:27:06.202Z",
+    "theme": 16,
+    "start_date": "1980-01-01",
+    "end_date": "2009-01-01",
+    "assessment": "Resource use tends to rise as countries develop\r\neconomically. However, there is evidence that\r\ngrowth slows or ceases at high income levels, as a\r\nconsequence of reduced investment in infrastructure,\r\nstructural economic change, efficiency improvements,\r\nand the relocation of some manufacturing to\r\ncountries with lower labour costs.\r\nInternational Monetary Fund analysis, for example,\r\nindicates that consumption of base metals and steel\r\nrises in step with per person gross domestic product\r\n(GDP) but reaches a saturation point at USD 15 000\u2013\r\n20 000 (2000 PPP), except in countries, such as South\r\nKorea, where industrial production and construction\r\ncontinue to play a major role in economic growth\r\n(IMF, 2006). D\u00f6hrn and Kr\u00e4tschell (2014) likewise find\r\nthat steel demand increases during an initial stage of\r\neconomic development and declines after economies\r\nhave reached a certain level of per capita income.",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 120,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Past and projected world energy consumption by fuel (Mtoe), 1965\u20132035",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:29:55.201Z",
+    "theme": 7,
+    "start_date": "1965-01-01",
+    "end_date": "2035-01-01",
+    "assessment": "Despite rapid growth in recent years, however,\r\nrenewable technologies have yet to reduce the relative\r\ncontribution of fossil fuels to total energy supply.\r\nTogether, coal, gas and oil accounted for 87% of global\r\nenergy output in 2013 \u2014 the same level as in 2000.\r\nTheir contribution is projected to decline only slightly\r\nto 81% in 2035, with each fossil fuel accounting for\r\napproximately a third of that total (Figure 7.6).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 124,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Changing area of farmland",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:51:30.925Z",
+    "theme": 1,
+    "start_date": "1980-01-01",
+    "end_date": "2030-01-01",
+    "assessment": "The significant growth of the world's population in coming decades\r\nand the shift in diets from cereals to meat as wealth increases may\r\ncause demand for agricultural production to rise steeply. According to the United Nations Food and Agriculture Organization (FAO),\r\ndemand for food, feed and fibres could grow by 70 % by 2050\r\n(FAO, 2009).\r\nThis growth in demand for agricultural output would have\r\nconsiderable implications for land use and natural ecosystems.\r\nA projected population increase of 27 % and a wealth increase of\r\n83 % by 2030 would imply a demand for agricultural production\r\nthat is 50 % higher than today's. Even if agricultural productivity\r\nincreases at current rates, it would be necessary to expand the global\r\nagricultural area by roughly 10 % to meet demand (PBL, 2008;\r\nOECD, 2008, see also Figure 8.1).",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 125,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Loss of species diversity in the world biomes",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-21T15:55:10.650Z",
+    "theme": 3,
+    "start_date": "1700-01-01",
+    "end_date": "2050-01-01",
+    "assessment": "Overexploitation of natural resources and associated land use change\r\nultimately leads to ecosystem degradation and loss of biodiversity.\r\nHabitat loss and species declines are projected to occur in most\r\nregions, most notably in the tropics (Figures 8.2 and 8.3).",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 136,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Change in total global CO2 emissions from fossil fuel combustion",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-28T17:01:22.487Z",
+    "theme": 2,
+    "start_date": "1971-01-01",
+    "end_date": "2010-01-01",
+    "assessment": "Population growth and current patterns of consumption\r\nand production are the most important drivers of\r\nincreasing global CO2 emissions, as seen from an analysis\r\nof the change in global CO2 emissions from fossil fuel\r\ncombustion for 1971\u20132010 (Figure 9.2). While the\r\ncontribution of population growth remained at similar\r\nlevels over the 40-year period, however, the contribution\r\nof current patterns of consumption and production\r\n(dark blue in Figure 9.2) rose sharply in 2001\u20132010.",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 137,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Total annual anthropogenic greenhouse gas emissions, 1970-2010",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-28T17:03:52.954Z",
+    "theme": 2,
+    "start_date": "1970-01-01",
+    "end_date": "2010-01-01",
+    "assessment": "Measurements of CO2 in the atmosphere and from air\r\ntrapped in ice show that atmospheric concentrations\r\nhave increased by about 40% since 1800, with most of the increase happening since the 1970s when\r\nglobal energy consumption started to rise strongly.\r\nFurthermore, measurements from ice cores suggest that\r\ncurrent CO2 concentrations are higher than at any time in\r\nthe last 800 000 years (NAS and RS, 2014).\r\nDespite a growing number of climate mitigation\r\nmeasures, total global anthropogenic GHG emissions\r\nhave grown continuously over the period 1970\u20132010,\r\nreaching their highest level in human history in the\r\nmost recent decade, 2000\u20132010 (Figure 9.1). Of the total\r\nanthropogenic GHG emissions in 2010, CO2 accounted\r\nfor 76% (65% related to fossil fuel combustion and\r\nindustrial processes and 11% related to such land use\r\nand land-use change as agriculture and deforestation),\r\nwhile 16% came from CH4, 6% from N2O oxide and 2%\r\nfrom fluorinated gases (IPCC, 2014b).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 138,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Total anthropogenic greenhouse gas emissions in 1970, 1990 and 2010 by economic sector and country income groups",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-28T17:07:13.533Z",
+    "theme": 14,
+    "start_date": "1970-01-01",
+    "end_date": "2010-01-01",
+    "assessment": "A breakdown by country income group reveals that\r\nCO2 emissions from upper-mid-income countries, such as China and South Africa, doubled between 1990 and\r\n2010, and have almost reached the level of high-income\r\ncountries, US and most EU countries, although per\r\nperson emissions are still much lower in the former\r\ngroup. Over the same period, lower\u2011mid\u2011income\r\ncountries, such as India and Indonesia, also\r\nexperienced substantial increases in national CO2\r\nemissions (Figure 9.3; IPCC, 2014b).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 148,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Global carbon emissions form combustion of fossil fuels (1990\u2013 2011) and IPCC projected emission scenarios (2000\u20132015)",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-28T17:35:22.263Z",
+    "theme": 2,
+    "start_date": "1990-01-01",
+    "end_date": "2015-01-01",
+    "assessment": "Fossil fuel combustion (related to industrial production\r\nand transport) is a key source of pollutant emissions,\r\nin particular for air pollution. As shown in Figure 10.1,\r\nannual global greenhouse gas emissions from fossil\r\nfuels have risen by 50% from around 6 billion tonnes in\r\n1990 to almost 9 billion tonnes in 2010, in accordance\r\nwith the most pessimistic Intergovernmental Panel on\r\nClimate Change (IPCC) scenario (A1FI) in that year (IPCC,\r\n2000).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 149,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Intensity of fertiliser use on arable land in selected world regions and countries, 2002\u20132010",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-28T17:37:45.447Z",
+    "theme": 19,
+    "start_date": "2002-01-01",
+    "end_date": "2010-01-01",
+    "assessment": "Fertiliser use varies across countries and world regions,\r\nwith particularly intensive use in China (Figure 10.2).\r\nIndia and China have sharply increased synthetic\r\nfertiliser input per unit of agricultural land over the\r\nlast decade, whereas the rate has remained stable in\r\nother world regions such as the USA and the EU-27.\r\nCountries within Europe show mixed trends, however.\r\nMany eastern European countries have increased\r\ntheir fertiliser use markedly over the last decade, while\r\nmost southern European countries have considerably\r\nreduced fertiliser inputs (EEA, 2013c).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 151,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Chemicals production by world region (in sales), 2000\u20132050",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T13:35:40.496Z",
+    "theme": 4,
+    "start_date": "2000-01-01",
+    "end_date": "2050-01-01",
+    "assessment": "Chemicals released into the environment are\r\nanother concern. In Europe alone, more than\r\n100 000 commercially available chemical substances\r\nare registered in the European Inventory of Existing\r\nCommercial Chemical Substances (EINECS), and the\r\nnumber of new substances introduced to the global\r\nmarket is increasing rapidly. Annual global sales from\r\nthe chemical industry sector doubled between 2000\r\nand 2009, with increases in all world regions (OECD,\r\n2012). Chemicals production is projected to continue\r\ngrowing. Particularly large increases are anticipated\r\nin BRIICS countries and output there may surpass\r\naggregate OECD chemicals production by 2050\r\n(Figure 10.3). Of particular concern are persistent,\r\nbioaccumulative and toxic substances that remain in\r\nthe environment for a long time (Box 10.1).",
+    "assessment_author": "EEA",
+    "sources": [
+      35
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 160,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "International environmental agreements since 1900",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T13:57:00.341Z",
+    "theme": 18,
+    "start_date": "1900-01-01",
+    "end_date": "2010-01-01",
+    "assessment": "The proliferation of multilateral environmental agreements has been a\r\nkey trend of recent decades (Figure 11.1). The 1990s saw a peak in the number of multilateral organisations and treaties agreed, including\r\nthe World Trade Organization (1994), the Kyoto Protocol (1997),\r\nthe International Criminal Court (1998) and the UN Millennium\r\nDeclaration (2000). However, this drive has eased since then. Global\r\nnegotiation processes such as the Doha Development Round of the\r\nWTO and talks on a follow-up to the Kyoto Protocol have become\r\nmore complex. There has, however, been some progress towards\r\ncloser cooperation in many regions, most notably east Asia. Countries\r\nincreasingly collaborate to bring down trade barriers, harmonise\r\nproduct standards and to equalise production requirements such as\r\nenvironmental regulations (Crawford and Fiorino, 2005) (Figure 11.2).\r\nThis is likely to continue. The EU continues to be the first mover,\r\nfollowed by blocs such as NAFTA and ASEAN plus three (APT).",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 161,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "International spread of environmental policies across 43 OECD and Central and Eastern European countries",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T14:00:04.206Z",
+    "theme": 18,
+    "start_date": "1945-01-01",
+    "end_date": "2005-01-01",
+    "assessment": "The proliferation of multilateral environmental agreements has been a\r\nkey trend of recent decades (Figure 11.1). The 1990s saw a peak in the number of multilateral organisations and treaties agreed, including\r\nthe World Trade Organization (1994), the Kyoto Protocol (1997),\r\nthe International Criminal Court (1998) and the UN Millennium\r\nDeclaration (2000). However, this drive has eased since then. Global\r\nnegotiation processes such as the Doha Development Round of the\r\nWTO and talks on a follow-up to the Kyoto Protocol have become\r\nmore complex. There has, however, been some progress towards\r\ncloser cooperation in many regions, most notably east Asia. Countries\r\nincreasingly collaborate to bring down trade barriers, harmonise\r\nproduct standards and to equalise production requirements such as\r\nenvironmental regulations (Crawford and Fiorino, 2005) (Figure 11.2).\r\nThis is likely to continue. The EU continues to be the first mover,\r\nfollowed by blocs such as NAFTA and ASEAN plus three (APT).",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 162,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "Growing relevance of non-state actors",
+    "geographical_scope": 5,
+    "country": null,
+    "url": null,
+    "created": "2015-10-29T14:04:08.096Z",
+    "theme": 18,
+    "start_date": "1948-01-01",
+    "end_date": "2008-01-01",
+    "assessment": "Principles of good governance are widely accepted across the\r\nworld, both in public and corporate settings, and many have been\r\ninformed by environmental law. Norms and standards can be highly\r\neffective even if they are non-binding. These 'softer' versions of policy\r\ncoordination are increasingly complemented by bilateral policy\r\nlearning and voluntary action. Diffusion of best regulatory practice\r\nbetween nation states is gaining speed as a consequence (Busch and\r\nJoergens, 2005). More often than not it leads to increasing convergence\r\nof policies and standards at the national level, despite worries about\r\nthe absence of progress in international negotiations. International policy processes are increasingly influenced by private\r\nactors, such as transnational corporations or non-governmental\r\norganisations, which represent essential sources of information and\r\nknowledge. While the nation state is likely to remain the overall\r\ndominant source of political power and authority, making and\r\nimplementing transnational norms and rules is increasingly shared with\r\nnon-state actors \u2014 a process terms 'co-regulation' (Falkner, 2008).",
+    "assessment_author": "EEA",
+    "sources": [
+      47
+    ]
+  }
+},
+{
+  "model": "flis_horison_scanning.indicator",
+  "pk": 166,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "f",
+    "geographical_scope": 1,
+    "country": "bg",
+    "url": null,
+    "created": "2015-11-05T11:02:46.324Z",
+    "theme": 2,
+    "start_date": null,
+    "end_date": "2015-11-18",
+    "assessment": "",
+    "assessment_author": "",
+    "sources": []
+  }
+}
+]

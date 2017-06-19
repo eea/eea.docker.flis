@@ -1,0 +1,100 @@
+// Horizontal navigation
+//
+// Inline navigation used for example for footer links
+//
+// Markup: html/nav-horizontal.html
+//
+// Styleguide 2.nav-horizontal
+
+
+// Block
+// --------------------------------------------------
+.nav-horizontal
+  text-transform: uppercase
+  font-size: 13px
+  letter-spacing: 0.1em
+  font-weight: $font-weight-semibold
+  margin: 0 20px
+  box-sizing: border-box
+  +breakpoint(desktop)
+    text-align: center
+    display: table
+    table-layout: fixed
+
+// Elements
+// --------------------------------------------------
+.nav-horizontal__link,
+.nav-horizontal__submenu,
+.nav-horizontal__arrow
+  padding: 12px 0
+  line-height: 24px
+  color: $text-color
+  border-bottom: 3px solid transparent
+  display: block
+  width: 100%
+  +breakpoint(desktop)
+    width: auto
+    padding: 12px 5px 15px
+    display: table-cell
+.nav-horizontal__link
+  +breakpoint(desktop)
+    min-width: 80px
+    max-width: 185px
+  &.is-active,
+  &:hover
+    border-color: $gray-light
+    color: $text-color
+.nav-horizontal__arrow
+  min-width: 80px
+  +breakpoint(phone, tablet)
+    display: none
+
+.nav-horizontal__submenu
+  +breakpoint(phone, tablet)
+    padding: 0 0 0 20px
+    text-transform: none
+
+
+// Modifiers
+// --------------------------------------------------
+.nav-horizontal__link--orange
+  &.is-active,
+  &:hover
+    border-color: $orange
+
+.nav-horizontal__link--lime
+  &.is-active,
+  &:hover
+    border-color: $lime
+
+.nav-horizontal__link--purple
+  &.is-active,
+  &:hover
+    border-color: $purple
+
+.nav-horizontal__link--cherry
+  &.is-active,
+  &:hover
+    border-color: $cherry
+
+.nav-horizontal__link--red
+  &.is-active,
+  &:hover
+    border-color: $red
+
+.nav-horizontal__link--aqua
+  &.is-active,
+  &:hover
+    border-color: $aqua
+
+.nav-horizontal__link--black
+  &.is-active,
+  &:hover
+    border-color: $gray-base
+
+.nav-horizontal__link--right
+  +breakpoint(desktop)
+    position: absolute
+    right: 30px
+    top: 12px
+    max-width: 90px

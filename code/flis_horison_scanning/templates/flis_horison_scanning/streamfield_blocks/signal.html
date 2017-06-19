@@ -1,0 +1,14 @@
+{% load wagtailcore_tags wagtailimages_tags %}
+<div class="layout--default-narrow">
+  <div class="block">
+    <h2 class="block__title">Signals of change</h2>
+    <div class="block__content">
+      <div class="row">
+        {% for signal in signals %}
+          {% include 'flis_horison_scanning/partials/_signal_item.html' %}
+        {% endfor %}
+      </div>
+      {% include_block self.all_drivers_page %}
+    </div>
+  </div>
+</div>

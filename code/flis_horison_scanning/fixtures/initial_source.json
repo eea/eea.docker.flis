@@ -1,0 +1,254 @@
+[
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 4,
+  "fields": {
+    "live": false,
+    "short_title": "GMT1",
+    "title": "Increasing GDP",
+    "geographical_scope": 5,
+    "country": null,
+    "url": "http://forum.eionet.europa.eu/nrc-flis/library/countries-contributions/hungary/blossom-2013/",
+    "created": "2014-09-22T13:36:29.639Z",
+    "title_original": "Inout to UN population model - data from national statistics",
+    "published_year": "2005",
+    "author": "UNSTAT",
+    "legacy_file": "files/sources/se_f02_graph2_2008.eps.400dpi.png",
+    "summary": "United Nations population divisions"
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 5,
+  "fields": {
+    "live": false,
+    "short_title": "soil",
+    "title": "Soil degradation and damaged fertility",
+    "geographical_scope": 5,
+    "country": null,
+    "url": "",
+    "created": "2014-10-02T09:49:17.062Z",
+    "title_original": "iKnow platform",
+    "published_year": "2014",
+    "author": "EU Commission project",
+    "legacy_file": "files/sources/Placeholder_file.docx",
+    "summary": "iKnow is the Innovation, Foresight & Horizon Scanning Community"
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 6,
+  "fields": {
+    "live": false,
+    "short_title": "Outlook 042",
+    "title": "Total population - outlook from UNSTAT (Outlook 042) - Assessment published Jun 2009",
+    "geographical_scope": null,
+    "country": null,
+    "url": "http://www.eea.europa.eu/data-and-maps/indicators/total-population-outlook-from-unstat/total-population-outlook-from-unstat-1",
+    "created": "2014-10-02T09:53:59.042Z",
+    "title_original": "The global distribution of income in 2050",
+    "published_year": "2008",
+    "author": "Hillebrand, Evan",
+    "legacy_file": "files/sources/Hillebrand_2008_World-Development(1)(1).pdf",
+    "summary": "The global distribution of income in 2050"
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 7,
+  "fields": {
+    "live": false,
+    "short_title": "GM microorganisms \"sold\" as key soil solution",
+    "title": "GM microorganisms \"sold\" as key soil solution",
+    "geographical_scope": 5,
+    "country": null,
+    "url": "http://wiwe.iknowfutures.eu/bank/wild-card/view/gm-microorganisms-sold-as-key-soil-solution-1/",
+    "created": "2014-10-02T09:57:26.300Z",
+    "title_original": "Refugees",
+    "published_year": "2014",
+    "author": "UN",
+    "legacy_file": "files/sources/Placeholder_file_1.docx",
+    "summary": "A peaceful and prosperous world is one in which people can feel safe and secure in their homes, with their families and in their communities.  It is a world in which they can feel confident in their country, their culture and in the family of nations and peoples on our common planet."
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 8,
+  "fields": {
+    "live": true,
+    "short_title": "Live styles",
+    "title": "Global live styles",
+    "geographical_scope": 2,
+    "country": null,
+    "url": "",
+    "created": "2014-11-05T13:25:56.605Z",
+    "title_original": "Analysis of global long-term economic megatrends shaping Europe\u2019s future environment",
+    "published_year": "2010",
+    "author": "EEA",
+    "legacy_file": "files/sources/Placeholder_file_2.docx",
+    "summary": "Analysis of global long-term economic megatrends shaping Europe\u2019s\r\nfuture environment, Background document for SOER part A"
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 9,
+  "fields": {
+    "live": false,
+    "short_title": "Wellbeing",
+    "title": "Wellbeing/equity",
+    "geographical_scope": 2,
+    "country": null,
+    "url": "",
+    "created": "2014-11-05T13:34:37.942Z",
+    "title_original": "Resource efficiency in Europe \u2014 Policies and approaches in 31 EEA member and cooperating countries",
+    "published_year": "2011",
+    "author": "EEA",
+    "legacy_file": "files/sources/Placeholder_file_3.docx",
+    "summary": "This report provides an overview of resource efficiency policies and instruments in 31 member and cooperating countries of the European Environment Agency network (Eionet). A detailed survey was conducted during the first half of 2011 to collect, analyse and disseminate information about national experiences in developing and implementing resource efficiency policies, and to facilitate sharing of experiences and good practice. The report reviews national approaches to resource efficiency and explores similarities and differences in policies, strategies, indicators and targets, policy drivers and institutional setup and information gaps. It concludes with some EEA considerations for future policies on resource efficiency which could be considered in developing future resource efficiency policies at the EU and country levels. The analysis is illustrated with short examples of policy initiatives in the countries, described in more detail in the country profile documents available below."
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 10,
+  "fields": {
+    "live": false,
+    "short_title": "Awareness of resource scarcity",
+    "title": "KNOWLEDGE/AWARENESS OF/ABOUT RECOURSE EFFICIENCY/RESOURCE SCARCITY/ENVIRONMENTAL DEGRADATION",
+    "geographical_scope": 2,
+    "country": null,
+    "url": "",
+    "created": "2014-11-05T13:37:03.006Z",
+    "title_original": "source deux",
+    "published_year": "5720",
+    "author": "me",
+    "legacy_file": "files/sources/yellow.png",
+    "summary": "efwefq"
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 35,
+  "fields": {
+    "live": true,
+    "short_title": "",
+    "title": "EEA Technical Report - Global megatrends assessment - extended background analysis",
+    "geographical_scope": null,
+    "country": null,
+    "url": "http://www.eea.europa.eu/publications/global-megatrends-assessment-extended-background-analysis",
+    "created": "2015-10-02T09:46:46.158Z",
+    "title_original": "Global megatrends assessment - Extended background analysis complementing the SOER 2015 'Assessment of global megatrends'",
+    "published_year": "2015",
+    "author": "EEA",
+    "legacy_file": "files/sources/Global_megatrends_assessment_-_extended_background_analysis.pdf",
+    "summary": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 47,
+  "fields": {
+    "live": true,
+    "short_title": "",
+    "title": "EEA SOER 2010 \u2014 assessment of global megatrends PINK",
+    "geographical_scope": null,
+    "country": null,
+    "url": "http://www.eea.europa.eu/soer/europe-and-the-world/megatrends",
+    "created": "2015-10-14T15:42:17.036Z",
+    "title_original": "EEA - The European environment \u2014 state and outlook 2010: assessment of global megatrends",
+    "published_year": "2010",
+    "author": "EEA",
+    "legacy_file": "files/sources/SOER_Global_megatrends_PINK.pdf",
+    "summary": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 56,
+  "fields": {
+    "live": true,
+    "short_title": "",
+    "title": "EEA  Assessment of global megatrends 2014 2014 update Chp 1 -1",
+    "geographical_scope": null,
+    "country": null,
+    "url": "",
+    "created": "2015-10-15T13:06:11.017Z",
+    "title_original": "Assessment of global megatrends \u2014 an update - Global megatrend 1: Diverging global population trends",
+    "published_year": "2014",
+    "author": "EEA",
+    "legacy_file": "files/sources/Assessment_of_global_megatrends_2014_2014_update_Chp_1_-1.pdf",
+    "summary": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 57,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "EEA Assessment of global megatrends 2014 2014 update Chp 2",
+    "geographical_scope": 5,
+    "country": null,
+    "url": "",
+    "created": "2015-10-15T13:20:09.781Z",
+    "title_original": "Assessment of global megatrends \u2014 an update - Global megatrend 2: Towards a more urban world",
+    "published_year": "2014",
+    "author": "EEA",
+    "legacy_file": "files/sources/Assessment_of_global_megatrends_2014_2014_update_Chp_2.pdf",
+    "summary": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 84,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "EEA Assessment of global megatrends 2014 2014 update Chp 3",
+    "geographical_scope": 5,
+    "country": null,
+    "url": "",
+    "created": "2015-10-15T14:46:55.798Z",
+    "title_original": "Assessment of global megatrends \u2014 an update - Global megatrend 3: Changing disease burdens and risks of pandemics",
+    "published_year": "2014",
+    "author": "EEA",
+    "legacy_file": "files/sources/Assessment_of_global_megatrends_2014_2014_update_Chp_3.pdf",
+    "summary": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 89,
+  "fields": {
+    "live": false,
+    "short_title": "",
+    "title": "EEA Assessment of global megatrends 2014 update Chp 4",
+    "geographical_scope": 5,
+    "country": null,
+    "url": "",
+    "created": "2015-10-15T15:24:07.050Z",
+    "title_original": "Assessment of global megatrends \u2014 an update - Global megatrend 4: Accelerating technological change",
+    "published_year": "2014",
+    "author": "EEA",
+    "legacy_file": "files/sources/Assessment_of_global_megatrends_2014_update_Chp_4.pdf",
+    "summary": ""
+  }
+},
+{
+  "model": "flis_horison_scanning.source",
+  "pk": 152,
+  "fields": {
+    "live": true,
+    "short_title": "",
+    "title": "EEA Assessment of global megatrends 2014 2014 update Chp 10",
+    "geographical_scope": null,
+    "country": null,
+    "url": "",
+    "created": "2015-10-29T13:40:37.694Z",
+    "title_original": "Assessment of global megatrends \u2014 an update - Global megatrend 10: Increasing environmental pollution",
+    "published_year": "2014",
+    "author": "EEA",
+    "legacy_file": "files/sources/Assessment_of_global_megatrends_2014_2014_update_Chp_10.pdf",
+    "summary": ""
+  }
+}
+]

@@ -1,0 +1,70 @@
+// Section header
+// --------------------------------------------------
+.layout--header
+  padding: 0
+  background-color: $body-bg
+  width: 100%
+  box-sizing: border-box
+  +breakpoint(tablet)
+    display: table
+  +breakpoint(desktop)
+    padding: 40px 45px
+
+// Global
+.layout--header__logo,
+.layout--header__menu,
+.layout--header__user
+  vertical-align: top
+  position: relative
+  display: block
+  box-sizing: border-box
+  +breakpoint(desktop)
+    display: table-cell
+
+// Logo
+.layout--header__logo
+  margin: 10px 20px
+  +breakpoint(tablet)
+    margin: 20px 30px
+  +breakpoint(desktop)
+    width: 72px
+    margin: 0
+
+// Main menu collapsible on mobile
+.layout--header__menu
+  background-color: lighten($gray-light, 7%)
+  +breakpoint(desktop)
+    background-color: transparent
+    margin: 0 0 20px
+  .layout--header__menu-input
+    // Visually hide checkbox button
+    position: absolute
+    opacity: 0
+  .layout--header__menu-label
+    font-size: 30px
+    position: absolute
+    right: 15px
+    top: -50px
+    cursor: pointer
+    +breakpoint(tablet)
+      top: -70px
+  .nav-horizontal
+    display: none
+    +breakpoint(desktop)
+      max-width: 760px
+      display: block !important
+  .layout--header__menu-input:checked ~ .nav-horizontal
+    display: block
+  // Prevent closing element when clicking inside.
+  .nav-horizontal:hover
+      display: block !important
+
+// User menu
+.layout--header__user
+  position: absolute
+  right: 80px
+  top: 35px
+  +breakpoint(desktop)
+    position: static
+  .dropdown__inner
+    left: auto

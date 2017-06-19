@@ -1,0 +1,286 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HTML prototype</title>
+    <meta name="description" content="Bootsmacss page's HTML prototype">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+  </head>
+
+  <body>
+<div class="wrapper container-fluid">
+  <header class="layout--header">
+    <div class="layout--header__logo">
+      <a href="index.html" class="logo" title="Home"></a>
+    </div>
+    <div class="layout--header__menu">
+      <input class="layout--header__menu-input" id="dropdown-toggle" type="checkbox" name="dropdown" />
+      <label class="layout--header__menu-label hidden-md hidden-lg" for="dropdown-toggle" title="Toggle menu">
+        <i class="icon icon--menu"></i>
+      </label>
+      <nav class="nav-horizontal">
+        <a class="nav-horizontal__link nav-horizontal__link--orange" id="topics" href="topics.html">FLIS Topics</a>
+        <a class="nav-horizontal__link nav-horizontal__link--lime" id="community" href="community.html">FLIS Community</a>
+        <a class="nav-horizontal__link nav-horizontal__link--purple" id="dictionary" href="dictionary.html">FORESIGHT DICTIONARY</a>
+        <a class="nav-horizontal__link nav-horizontal__link--cherry" id="uses" href="uses.html">Uses of Foresight in Policy Making</a>
+        <a class="nav-horizontal__link nav-horizontal__link--red" id="horison-scanning" href="horison-scanning.html">Horison Scanning</a>
+        <a class="nav-horizontal__link nav-horizontal__link--aqua" id="methods" href="methods.html">Methods & Methodologies</a>
+        <a class="nav-horizontal__link nav-horizontal__link--aqua" id="products" href="#">Products & Reports</a>
+      </nav>
+    </div>
+    <div class="layout--header__user">
+      <div class="dropdown hidden-md hidden-lg">
+        <input class="dropdown__input" id="menu-toggle" type="checkbox" name="dropdown" />
+        <label class="dropdown__label" for="menu-toggle"  title="Toggle user menu">
+          <i class="icon icon--user"></i>
+        </label>
+        <div class="dropdown__inner">
+          <nav class="dropdown__nav">
+            <a href="#" class="nav-vertical__link">Login</a>
+            <a href="#" class="nav-vertical__link">Administration</a>
+            <a href="#" class="nav-vertical__link">Search</a>
+          </nav>
+        </div>
+      </div>
+      <nav class="nav-vertical visible-md visible-lg">
+        <a href="#" class="nav-vertical__link">Login</a>
+        <a href="#" class="nav-vertical__link">Administration</a>
+        <a href="#" class="nav-vertical__link">Search</a>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<main class="wrapper container-fluid">
+  <div class="cover cover--purple">
+    <div class="cover__image-container">
+      <img src="../images/jpg/dictionary.jpg" alt="" class="cover__image">
+    </div>
+    <div class="cover__box">
+      <div class="cover__text">
+        <div class="cover__pretitle">Platform for forward looking information</div>
+        <h2 class="cover__title">Foresight dictionary</h2>
+        <i class="cover__icon icon icon--book"></i>
+        <div class="cover__description">This webpage provides an overview of key terms and definitions related to foresight and other forward-looking approaches. It was co-created by the EIONET FLIS network coordinated by the EEA.</div>
+      </div>
+      <a href="#" class="btn">Find out more</a>
+    </div>
+  </div>
+
+  <div class="block">
+    <!--
+      BACKEND NOTE:
+      Split array of fetched dicrionary items in two and render each half in
+      one collumn.
+    -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+
+        <div class="dictionary-item">
+          <div class="dictionary-item__letter">B</div>
+
+          <h3 class="dictionary-item__title">Backcasting</h3>
+          <div class="dictionary-item__description">
+            Backcasting is a method for relating future visions, such as scenarios, with present day issues and policy-making agendas.  It usually starts with defining a desirable future and... <a href="#">&rsaquo; Read more</a>
+          </div>
+
+          <h3 class="dictionary-item__title">Brainstorming</h3>
+          <div class="dictionary-item__description">
+            Brainstorming is a method for collecting ideas without judgment or filtering. It involves spontaneous contributions of ideas, encouraging wild and unconstrained suggestions... <a href="#">&rsaquo; Read more</a>
+          </div>
+        </div>
+
+        <div class="dictionary-item">
+          <div class="dictionary-item__letter">D</div>
+
+          <h3 class="dictionary-item__title">Delphi</h3>
+          <div class="dictionary-item__description">
+            Delphi is a method for conducting an expert survey in two or more 'rounds'. In the second and lsubsequent rounds of a survey, the results of the previous round(s) are given as feedback... <a href="#">&rsaquo; Read more</a>
+          </div>
+
+          <h3 class="dictionary-item__title">Designing</h3>
+          <div class="dictionary-item__description">
+            Designing is a method for visualising parts of a horizon scan or a scenario study in order to better communicate the results. This can be done by making maps, manipulated photographs... <a href="#">&rsaquo; Read more</a>
+          </div>
+
+          <h3 class="dictionary-item__title">Driver of change analysis</h3>
+          <div class="dictionary-item__description">
+            Driver of change analysis is a method aimed at identifying drivers of change, their mutual relationships and their impacts on the system under study. In addition, it aims to explore the... <a href="#">&rsaquo; Read more</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-xs-12 col-sm-6">
+
+        <div class="dictionary-item">
+          <div class="dictionary-item__letter">P</div>
+
+          <h3 class="dictionary-item__title">Policy messages</h3>
+          <div class="dictionary-item__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tincidunt risus. Etiam fermentum, felis vitae volutpat accumsan, nisl leo consectetur lacus, vel, maximus eros lorem quis tellus... <a href="#">&rsaquo; Read more</a>
+          </div>
+
+          <h3 class="dictionary-item__title">Prediction</h3>
+          <div class="dictionary-item__description">
+            Praesent hendrerit diam risus, eu egestas massa convallis id. Aliquam magna nibh, imperdiet et fermentum at, tincidunt sed felis. Vestibulum porta eu enim ut auctor... <a href="#">&rsaquo; Read more</a>
+          </div>
+
+          <h3 class="dictionary-item__title">Projection </h3>
+          <div class="dictionary-item__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tincidunt risus. Etiam fermentum, felis vitae volutpat accumsan, nisl leo consectetur lacus, vel, maximus eros lorem quis tellus... <a href="#">&rsaquo; Read more</a>
+          </div>
+        </div>
+
+        <div class="dictionary-item">
+          <div class="dictionary-item__letter">R</div>
+
+          <h3 class="dictionary-item__title">Risk Assessment</h3>
+          <div class="dictionary-item__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tincidunt risus. Etiam fermentum, felis vitae volutpat accumsan, nisl leo consectetur lacus, vel, maximus eros lorem quis tellus... <a href="#">&rsaquo; Read more</a>
+          </div>
+
+          <h3 class="dictionary-item__title">Road mapping</h3>
+          <div class="dictionary-item__description">
+            Praesent hendrerit diam risus, eu egestas massa convallis id. Aliquam magna nibh, imperdiet et fermentum at, tincidunt sed felis. Vestibulum porta eu enim ut auctor... <a href="#">&rsaquo; Read more</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</main>
+
+<div class="designs designs--dictionary"></div>
+
+<footer class="layout--footer">
+  <div class="wrapper container-fluid text-center">
+    <div class="row">
+      <div class="col-xs-12 col-sm-7"><div class="box">
+        <div class="block">
+          <h2 class="block__title">Subscribe</h2>
+          <div class="block__content">
+            <form>
+              <div class="row">
+                <div class="col-xs-6 col-lg-7"><div class="box">
+                  <div class="form-item">
+                    <input name="textInput" type="text" placeholder="e-mail">
+                  </div>
+                </div></div>
+                <div class="col-xs-6 col-lg-4 col-lg-offset-1"><div class="box">
+                  <input type="submit" class="btn btn--block" value="Subscribe">
+                </div></div>
+              </div>
+            </form>
+          </div>
+        </div></div>
+        <div class="row">
+          <div class="col-xs-12 col-lg-5"><div class="box">
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Flis topics</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Water</a>
+                  <a class="nav-vertical__link" href="#">Food</a>
+                  <a class="nav-vertical__link" href="#">Energy</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Foresight dictionary</h2></a>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Horison Scanning</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Drivers of change</a>
+                  <a class="nav-vertical__link" href="#">Reports</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Products & Reports</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Lorem ipsum</a>
+                </nav>
+              </div>
+            </div>
+
+          </div></div>
+          <div class="col-xs-12 col-lg-7"><div class="box">
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Flis community</h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Who we are</a>
+                  <a class="nav-vertical__link" href="#">What we do</a>
+                  <a class="nav-vertical__link" href="#">How we work</a>
+                  <a class="nav-vertical__link" href="#">Stakeholders</a>
+                  <a class="nav-vertical__link" href="#">Links to other institutions</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Uses of Foresight in Policy Making   </h2></a>
+              <div class="block__content">
+                <nav class="nav-vertical nav-vertical--simple">
+                  <a class="nav-vertical__link" href="#">Added value of foresight</a>
+                  <a class="nav-vertical__link" href="#">Foresight in Policy Cycle</a>
+                  <a class="nav-vertical__link" href="#">Assessments of uses</a>
+                </nav>
+              </div>
+            </div>
+
+            <div class="block block--small">
+              <a href="#"><h2 class="block__title">Methods & Methodologies</h2></a>
+            </div>
+
+          </div></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-5 col-md-4 col-md-offset-1"><div class="box">
+        <div class="layout--contact-block">
+          <div class="block">
+            <h2 class="block__title">Contact us</h2>
+            <div class="block__content">
+              <p>Nunc sit amet dolor lobortis, sodales diam sed, facilisis mauris. Aenean in commodo mauris.</p>
+              <form>
+                <div class="form-item">
+                  <input name="name" type="text" placeholder="Name">
+                </div>
+                <div class="form-item">
+                  <input name="email" type="email" placeholder="E-mail">
+                </div>
+                <div class="form-item">
+                  <textarea name="message" rows="5" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center">
+                  <input type="submit" class="btn" value="Send message">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+  </div>
+</footer>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script>
+      // Add class to active primary navigation item
+      var url = window.location.pathname;
+      var filename = url.substring(url.lastIndexOf('/')+1).slice(0, -5);
+      document.getElementById(filename).className += " is-active";
+    </script>
+  </body>
+</html>

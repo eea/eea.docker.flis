@@ -1,0 +1,27 @@
+{% extends 'pages/static_page.html' %}
+{% load static page_tags %}
+
+{% block header %}
+  {% page_header page.title page.subtitle 'counter' 'aqua' 'theme/images/jpg/methods.jpg' %}
+
+  <div class="layout--white">
+    <div class="block">
+      <h2 class="block__title">Mapping Europes<br>Environmental Future –<br>Method Flow Chart</h2>
+      <div class="block__content">
+        <div class="narrow-container">
+          <br>
+          <img src="{% static 'theme/images/png/methodology.png' %}" class="full-width" alt="Methodology">
+          <br>
+          <br>
+          <br>
+        </div>
+        <div class="text-center">
+          <a href="#" class="btn">Find out more</a>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
+

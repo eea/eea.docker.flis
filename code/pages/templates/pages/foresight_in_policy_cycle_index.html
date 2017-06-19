@@ -1,0 +1,30 @@
+{% extends 'pages/static_page.html' %}
+{% load static wagtailcore_tags page_tags %}
+
+{% block content %}
+  <div class="layout--default-narrow">
+  <div class="block">
+    <h2 class="block__title">{{ self.title }}</h2>
+    <div class="block__content">
+      <div class="row">
+        {% for policy in foresight_in_policy_cycle %}
+          <a href="{% pageurl policy %}" class="doc-item">
+            <div class="doc-item__icon">
+              <i class="icon icon--clusters"></i>
+            </div>
+            <h3 class="doc-item__title">{{ policy.title|truncatewords:9 }}</h3>
+            <div class="doc-item__description">
+              {{ policy.lead_author|truncatewords:17 }}
+            </div>
+            <div class="doc-item__footer">
+              {% if policy.geographical_scope %}<span class="label">{{ policy.geographical_scope.title }}</span>{% endif %}
+              {% for country in policy.countries.all %}<span class="label">{{ country.name }}</span>{% endfor %}
+              {% if policy.environmental_themes.all.0 %}<span class="label">{{ policy.environmental_themes.all.0.title }}</span>{% endif %}
+            </div>
+          </a>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

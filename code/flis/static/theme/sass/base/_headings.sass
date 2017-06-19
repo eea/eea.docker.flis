@@ -1,0 +1,57 @@
+// Headings
+//
+// Markup: html/headings.html
+//
+// Styleguide 1.2.1
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4
+  color: $gray-base
+  margin: 0 0 12px
+  line-height: normal
+  font-family: $headings-font-family
+  font-weight: $headings-font-weight
+  small,
+  .small
+    font-size: 55%
+
+h1, .h1
+  font-size: $font-size-h1
+  font-weight: $font-weight-bold
+
+h2, .h2
+  font-size: $font-size-h2 - 6
+  text-transform: uppercase
+  letter-spacing: 0.2em
+  line-height: 36px
+  +breakpoint(tablet)
+    font-size: $font-size-h2
+    line-height: 48px
+
+h3, .h3
+  font-size: $font-size-h3 - 3
+  line-height: $paragraphs-line-height
+  font-weight: $font-weight-bold
+  text-align: left
+  +breakpoint(tablet)
+    font-size: $font-size-h3
+
+h4, .h4
+  font-size: $font-size-h4
+  font-family: $font-family-sans-serif
+  font-weight: $font-weight-bold
+  text-transform: uppercase
+  letter-spacing: 0.05em
+  margin: -5px 0 15px
+  line-height: 28px
+  & ~ h4
+    margin-top: 85px
+  &::after
+    content: ''
+    display: block
+    width: 70px
+    height: 2px
+    margin: 20px auto 0
+    background-color: $text-color

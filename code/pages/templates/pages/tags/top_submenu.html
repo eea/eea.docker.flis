@@ -1,0 +1,13 @@
+{% load page_tags wagtailcore_tags %}
+<nav class="nav-horizontal">
+  <a class="nav-horizontal__link nav-horizontal__link--orange" href="{% pageurl parent %}">{{ parent.title }}</a>
+  <div class="nav-horizontal__submenu">
+    <div class="nav-horizontal__arrow"><i class="icon icon--vector"></i></div>
+    {% for menuitem in menuitems %}
+      <a class="nav-horizontal__link nav-horizontal__link--{% if menuitem.header_color %}{{ menuitem.header_color }}{% else %}{{ menuitem.color }}{% endif %}{% if calling_page.url == menuitem.url %} is-active{% endif %}" href="{% pageurl menuitem %}">
+        {{ menuitem.title|strip_word:"Story" }}
+      </a>
+    {% endfor %}
+  </div>
+  <a class="nav-horizontal__link nav-horizontal__link--right" href="/">FlIS platform</a>
+</nav>

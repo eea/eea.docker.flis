@@ -1,0 +1,63 @@
+// Team item
+//
+// Listing item of team section
+
+// Block
+// --------------------------------------------------
+.team-item
+  text-align: center
+  margin-bottom: 30px
+
+// Elements
+// --------------------------------------------------
+.team-item__mask
+  width: 170px
+  margin: 0 0 20px
+  display: inline-block
+  overflow: hidden
+  +hexagon-clip-path
+
+.team-item__portrait
+  width: 100%
+
+.team-item__quotation-marks
+  font-size: 30px
+  margin: 0 0 30px
+  i:last-child
+    top: 15px
+
+.team-item__description
+  color: #fff
+  margin: 0 0 32px
+  min-height: 252px
+
+.team-item__name
+  font-size: 16px
+  font-weight: $font-weight-bold
+  text-transform: uppercase
+  letter-spacing: 0.04em
+
+.team-item__subname
+  font-weight: $font-weight-thin
+  text-transform: none
+
+// Modifiers
+// --------------------------------------------------
+.team-item--community
+  margin-bottom: 40px
+
+  .team-item__mask
+    margin-bottom: 40px
+
+  .team-item__name
+    margin-bottom: 15px
+    &::after
+      content: ''
+      display: block
+      width: 70px
+      height: 2px
+      margin: 15px auto 0
+      background-color: #fff
+
+  .team-item__description
+    min-height: 56px
