@@ -36,7 +36,7 @@ NOTE: Before following these steps, make sure that containers have been launched
     docker-compose -f docker-composer.prod.yml up -d
 
 ##### Import initial media files:
-1. Untar contents of media.tar.gz files into any location (<initial_media_dir_path>) on your docker host:
+1. Unzip contents of media.tar.gz files into any location (<initial_media_dir_path>) on your docker host:
 
        tar vfxz <initial_media_dir_path>/media.tar.gz
 
@@ -45,14 +45,14 @@ NOTE: Before following these steps, make sure that containers have been launched
        docker cp <initial_media_dir_path>/media <django_container_id>:/app/media
  
 ##### Import initial database:
-1. Copy database.tar.gz into any location (<initial_db_file_path>) on your docker host and then copy its contents
+1. Copy database.pqsl.gz into any location (<initial_db_file_path>) on your docker host and then copy its contents
 into running postgres container:
 
-        docker cp <initial_db_file_path>/database.tar.gz <postgres_container_id>:/backups
+        docker cp <initial_db_file_path>/database.pqsl.gz <postgres_container_id>:/backups
 
 2. Restore database from backup file:
 
-        docker-compose run postgres restore database.tar.gz
+        docker-compose run postgres restore database.psql.gz
     
 ### Running backups
     
@@ -66,7 +66,7 @@ To list backups, run:
 
 To restore a backup, run:
 
-        docker-compose run postgres restore filename.sql
+        docker-compose run postgres restore database.psql.gz
     
 To copy the files from the running Postgres container to the host system:
 
