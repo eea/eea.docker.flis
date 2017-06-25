@@ -1,9 +1,11 @@
 FROM python:3.6
 #
 # Dockerfile for automated production builds that doesn't copy the .env file to the image.
+# HOWEVER, THE IMAGE IS STILL BUILT WITH SECRETS INSIDE. MUST BE FIXED BEFORE PRODUCTION.
 #
 
-ENV PYTHONUNBUFFERED=1 DJANGO_READ_DOT_ENV_FILE=False
+ENV PYTHONUNBUFFERED=1 DJANGO_READ_DOT_ENV_FILE=False \
+    POSTGRES_DB=postgres POSTGRES_USER=postgres  POSTGRES_PASSWORD=changeit POSTGRES_HOST=postgres
 
 # Install postgres-client-9.5 so Django could use pg_dump for DB backups.
 RUN set -ex; \
