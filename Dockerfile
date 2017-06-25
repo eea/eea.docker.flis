@@ -1,6 +1,9 @@
 FROM python:3.6
+#
+# Dockerfile for automated production builds that doesn't copy the .env file to the image.
+#
 
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONUNBUFFERED=1 DJANGO_READ_DOT_ENV_FILE=False
 
 # Install postgres-client-9.5 so Django could use pg_dump for DB backups.
 RUN set -ex; \
@@ -37,7 +40,7 @@ RUN chmod +x /entrypoint.sh \
 COPY ./code /app
 
 # Copy env variables file
-COPY .env /app/.env
+#COPY .env /app/.env
 
 # Set project dir as working directory
 WORKDIR /app
