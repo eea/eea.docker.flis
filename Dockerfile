@@ -1,11 +1,6 @@
 FROM python:3.6
-#
-# Dockerfile for automated production builds that doesn't copy the .env file to the image.
-# HOWEVER, THE IMAGE IS STILL BUILT WITH SECRETS INSIDE. MUST BE FIXED BEFORE PRODUCTION.
-#
 
-ENV PYTHONUNBUFFERED=1 DJANGO_READ_DOT_ENV_FILE=False \
-    POSTGRES_DB=postgres POSTGRES_USER=postgres  POSTGRES_PASSWORD=changeit POSTGRES_HOST=postgres
+ENV PYTHONUNBUFFERED 1
 
 # Install postgres-client-9.5 so Django could use pg_dump for DB backups.
 RUN set -ex; \
@@ -41,12 +36,17 @@ RUN chmod +x /entrypoint.sh \
 # Setup Django project and its dependencies
 COPY ./code /app
 
-# Copy env variables file
-#COPY .env /app/.env
-
 # Set project dir as working directory
 WORKDIR /app
 
+# Add stub env variables to allow manage.py commands run later
+ENV DJANGO_READ_DOT_ENV_FILE=False \
+DJANGO_SECRET_KEY='stub' \
+DJANGO_ALLOWED_HOSTS='stub' \
+POSTGRES_DB='stub' \
+POSTGRES_USER='stub' \
+POSTGRES_PASSWORD='stub' \
+POSTGRES_HOST='stub'
 # Make sure statifiles dir exists, collect and compress static files and set Django as project owner
 RUN mkdir -p ./staticfiles && python ./manage.py collectstatic --no-input && python ./manage.py compress --force && chown -R django:django .
 

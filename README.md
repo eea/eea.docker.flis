@@ -11,7 +11,7 @@ FLIS is a website based on Django (http://djangoproject.com) and Wagtail CMS (ht
 Clone the repository
 
     $ cd /var/local/deploy
-    $ git clone https://github.com/eea/flis
+    $ git clone https://github.com/eea/eea.docker.flis.git
     $ cd flis
 
 During the first time deployment, create the secret environment file
@@ -31,24 +31,31 @@ Start Flis services as a daemon:
 #### Import existing data
 If you already have a Flis installation than follow the steps below to import the media files and postgres db into the data containers.
 
-NOTE: Before following these steps, make sure that containers have been launched via 
+NOTE: Before following these steps, make sure that containers have been launched via:
     
     docker-compose -f docker-composer.prod.yml up -d
 
+Then you will need container ids for django and postgres services, you can get them easily by running:
+    
+    docker-compose ps
+
+Your output may differ but in our case we got: djflis_django_1 as a Django container name (django_container_name) and djflis_postgres_1
+as a Postgres container name (postgres_container_name).
+
 ##### Import initial media files:
 1. Unzip contents of media.tar.gz files into any location (<initial_media_dir_path>) on your docker host:
-
-       tar vfxz <initial_media_dir_path>/media.tar.gz
+      
+       mkdir media && tar vfxz media.tar.gz -C media
 
 2. Copy its contents into running django container:
 
-       docker cp <initial_media_dir_path>/media <django_container_id>:/app/media
+       docker cp media <django_container_name>:/app/media
  
 ##### Import initial database:
 1. Copy database.pqsl.gz into any location (<initial_db_file_path>) on your docker host and then copy its contents
 into running postgres container:
 
-        docker cp <initial_db_file_path>/database.pqsl.gz <postgres_container_id>:/backups
+        docker cp database.pqsl.gz <postgres_container_name>:/backups
 
 2. Restore database from backup file:
 
@@ -71,7 +78,3 @@ To restore a backup, run:
 To copy the files from the running Postgres container to the host system:
 
         docker cp <containerId>:/backups /host/path/target
-
-where <containerId> is the ID of the Postgres container. To get it, run:
-
-       docker ps

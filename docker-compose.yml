@@ -15,9 +15,7 @@ services:
     env_file: .env
 
   django:
-    build:
-      context: .
-      dockerfile: ./compose/django/Dockerfile
+    build: .
     volumes:
       - media_data:/app/media
       - /app/staticfiles
