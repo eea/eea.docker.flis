@@ -78,3 +78,13 @@ To restore a backup, run:
 To copy the files from the running Postgres container to the host system:
 
         docker cp <containerId>:/backups /host/path/target
+
+## Build for production
+
+The image you need for production is built automatically at https://hub.docker.com/r/eeacms/flis-django/ when a change is
+pushed to GitHub. To ensure that you always have an immutable build for produuction you create a new tag in GitHub.
+
+    $ version=1.0.0
+    $ git tag -a $version -m "Release $version"
+    $ git push origin $version
+
