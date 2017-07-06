@@ -79,6 +79,22 @@ To copy the files from the running Postgres container to the host system:
 
         docker cp <containerId>:/backups /host/path/target
 
+### Email setup
+
+The CMS uses email server for three main tasks:
+ - Exceptions reporting
+ - Password reset messages
+ - Contact form messages
+ 
+Email server settings can be defined via the following environment variables:
+ - EMAIL_HOST, set it to your SMTP server address, default value is "localhost"
+ - EMAIL_PORT, set it to your SMTP server port, default value is "25"
+ - DEFAULT_FROM_EMAIL, set it to your "no-reply" email address, default is "no-reply@localhost"
+
+#### Contact form recipients list
+In order to get emails sent through the contact form you need to set a recipient for such emails. To do so, log in admin panel and
+go to Settings > Contact form settings and input a single or a comma-separated list of email addresses.
+
 ## Build for production
 
 The image you need for production is built automatically at https://hub.docker.com/r/eeacms/flis-django/ when a change is
