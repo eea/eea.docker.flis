@@ -180,6 +180,8 @@ DBBACKUP_STORAGE_OPTIONS = {
 # EMAIL CONFIGURATION
 # ------------------------------------------------------------------------------
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = env('EMAIL_HOST', default='localhost')
+EMAIL_PORT = env('EMAIL_PORT', default=25)
 
 # MANAGER CONFIGURATION
 # ------------------------------------------------------------------------------
