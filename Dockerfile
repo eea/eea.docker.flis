@@ -48,7 +48,7 @@ POSTGRES_USER='stub' \
 POSTGRES_PASSWORD='stub' \
 POSTGRES_HOST='stub'
 # Make sure statifiles dir exists, collect and compress static files and set Django as project owner
-RUN mkdir -p ./staticfiles && python ./manage.py collectstatic --no-input && python ./manage.py compress --force && chown -R django:django .
+RUN mkdir -p ./staticfiles && python ./manage.py collectstatic -i node_modules --no-input && python ./manage.py compress --force && chown -R django:django .
 
 # Act as Django from now on
 USER django
